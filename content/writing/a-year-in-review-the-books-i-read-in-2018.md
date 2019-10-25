@@ -2,7 +2,7 @@
 title: 'Personal - A Year in Review: The Books I Read in 2018'
 date: Thu, 25 Jul 2019 21:16:37 +0000
 draft: false
-tags: ['Personal']
+tags: ['Books']
 ---
 
 * * *
@@ -23,85 +23,85 @@ I read 38 books by 34 different authors. 11 of those authors were female, 7 of t
 
 * * *
 
-**_The Opposite of Loneliness_ — Marina Keegan**
+#### *The Opposite of Loneliness — Marina Keegan*
 
 Thoughts on why so many people do consulting post-graduation:
 
 > “What bothers me is this idea of validation, of rationalization. The notion that some of us (regardless of what we tell ourselves) are doing this because we’re not sure what else to do and it’s easy to apply to and it will pay us decently and it will make us feel like we’re still successful. I just haven’t met that many people who sound genuinely excited about these jobs. That’s super depressing! I don’t understand why no one is talking about it.”
 
-**_Ender’s Game and Ender’s Shadow_ — Orson Scott Card**
+#### *Ender’s Game and Ender’s Shadow — Orson Scott Card*
 
 > “Human beings may be miserable specimens, in the main, but we can learn, and, through learning, become decent people.”
 
 > “You, however, understand the profound truth that you must reveal your stupidity openly. To hold your stupidity inside you is to embrace it, to cling to it, to protect it …. But when you expose your stupidity, you give yourself the chance to have it caught, corrected, and replaced with wisdom”
 
-**_Between the World and Me_ — Ta-Nehisi Coates**
+#### *Between the World and Me — Ta-Nehisi Coates*
 
 > “I have raised you to respect every human being as singular, and you must extend that same respect into the past. Slavery is not an indefinable mass of flesh. It is a particular, specific enslaved woman, whose mind is active as your own, whose range of feeling is as vast as your own; who prefers the way the light falls in one particular spot in the woods, who enjoys fishing where the water eddies in a nearby stream, who loves her mother in her own complicated way, thinks her sister talks too loud, has a favorite cousin, a favorite season, who excels at dressmaking and knows, inside herself, that she is as intelligent and capable as anyone.”
 
 > “My work is to give you what I know of my own particular path while allowing you to walk your own”
 
-**_The Fire Next Time _— James Baldwin**
+#### *The Fire Next Time — James Baldwin*
 
 > “This is because white Americans have supposed “Europe” and “civilization” to be synonyms — which they are not — and have been distrustful of other standards and other sources of vitality, especially those produced in America itself, and have attempted to behave in all matters as though what was east for Europe was also east for them.”
 
-**_Tinkers_ — Paul Harding**
+#### *Tinkers — Paul Harding*
 
 > “He resented his resentment because it was a sign of his own limitations of spirit and humility”
 
-**_Slaughterhouse-Five_ — Kurt Vonnegut**
+#### *Slaughterhouse-Five — Kurt Vonnegut*
 
 > “But she did look back, and I love her for that, because it was so human”
 
-**_Kindred_ — Octavia Butler**
+#### *Kindred — Octavia Butler*
 
 > “I realized that I knew less about loneliness than I had thought — and much less than I would know when he went away”
 
-**_The Wind’s Twelve Quarter’s & The Left Hand of Darkness _— Ursula K. Le Guin**
+#### *The Wind’s Twelve Quarter’s & The Left Hand of Darkness — Ursula K. Le Guin*
 
 > “To learn which questions are unanswerable, and not to answer them: this skill is most needful in times of stress and darkness”
 
 > “No, I don’t mean love, when I say patriotism. I mean fear. The fear of the other. And its expressions are political, not poetical: hate, rivalry, aggression. It grows in us, that fear. It grows in us year by year”
 
-**_Annihilation, Authority & Acceptance _— Jeff VanderMeer**
+#### *Annihilation, Authority & Acceptance — Jeff VanderMeer*
 
 > “Because our minds process information almost solely through analogy and categorization, we are often defeated when presented with something that fits no category and lies outside of the realm of our analogies”
 
-**_Secular Buddhism_ — Stephan Batchelor**
+#### *Secular Buddhism — Stephan Batchelor*
 
-**_Pachinko_ — Min Jin Lee**
+#### *Pachinko — Min Jin Lee*
 
 > “That to live without forgiveness was a kind of death with breathing and movement”
 
-**_Dreams from My Father _— Barack Obama**
+#### *Dreams from My Father — Barack Obama*
 
 > “For me, it’s been a relatively quiet period, less a time of discovery than of consolidation, of doing the things that we tell ourselves we finally must do to grow up”
 
-**_The Alchemist_ — Paulo Coehlo**
+#### *The Alchemist — Paulo Coehlo*
 
 > “The story of one person is the story of everyone”
 
-**_Hillbilly Elegy_ — J.D. Vance**
+#### *Hillbilly Elegy_ — J.D. Vance*
 
 > “The best way to look at this might be to recognize that you probably can’t fix these things. They’ll always be around. But maybe you can put your thumb on the scale a little for the people at the margins.”
 
-**_Us vs. Them: The Failure of Globalism_ — Ian Bremmer**
+#### *Us vs. Them: The Failure of Globalism — Ian Bremmer*
 
 > “Social media allows us to follow those we agree with and ignore those we don’t, enabling us to deprive ourselves of opportunities to deepen our thinking and change our minds”
 
-**_Bad Feminist_ — Roxanne Gay**
+#### *Bad Feminist — Roxanne Gay*
 
-**_Factfulness_ — Hans Rosling**
+#### *Factfulness — Hans Rosling*
 
-**_The Best We Could Do_ — Thi Bui**
+#### *The Best We Could Do — Thi Bui*
 
-**_Are You My Mother?_ — Allison Bechdel**
+#### *Are You My Mother? — Allison Bechdel*
 
-**_The Remains of The Day_ — Kazuo Ishiguro**
+#### *The Remains of The Day — Kazuo Ishiguro*
 
-**_One Hundred Year’s of Solitude_ — Gabriel Garcia Marquez**
+#### *One Hundred Year’s of Solitude — Gabriel Garcia Marquez*
 
-**_The Forest Unseen_ — David George Haskell**
+#### *The Forest Unseen_ — David George Haskell*
 
 > “Our cultural and scientific memories of what a “normal” forest should look like arose at a peculiar moment in history”
 
@@ -109,9 +109,9 @@ Thoughts on why so many people do consulting post-graduation:
 
 > “The snails’ hermaphroditic embrace, seemingly so alien to most humans, is a reminder that sexuality in nature is more malleable and diverse than we might at first suppose”
 
-**_Artemis_ — Andy Weir**
+#### *Artemis — Andy Weir*
 
-**_The Inevitable_ — Kevin Kelly**
+#### *The Inevitable — Kevin Kelly*
 
 > This circular expansion of both problems and solutions hides a steady accumulation of small net benefits over time.
 
@@ -119,13 +119,13 @@ Thoughts on why so many people do consulting post-graduation:
 
 > In other words, science is a method that chiefly expands our ignorance rather than our knowledge.
 
-**_When Breath Becomes Air_ — Paul Kalanthi**
+#### *When Breath Becomes Air — Paul Kalanthi*
 
-**_Little Fires Everywhere _— Celeste Ng**
+#### *Little Fires Everywhere — Celeste Ng*
 
 > “What made someone a mother? Was it biology alone, or was it love?”
 
-**_Radical Markets_ — Eric Posner & Glen Weyl**
+#### *Radical Markets — Eric Posner & Glen Weyl*
 
 > “Open markets embody the idea that by cooperating as broadly as possible, we can all benefit from each other”
 
@@ -133,27 +133,27 @@ Thoughts on why so many people do consulting post-graduation:
 
 > “Failing to recognize data as labor could thus create what Lanier calls “fake unemployment,” where jobs dry up not because humans are not useful but because the valuable inputs they supply are treated as byproducts of entertainment rather than as socially valued work”
 
-**_What We Were Promised_ — Lucy Tan**
+#### *What We Were Promised — Lucy Tan*
 
 > “Why do our minds fixate on the kinds of love we’re not getting instead of the kinds of love we are? We expect it to be the thing we want it to be. And we’re blind to every other form of it.”
 
 > “It frightened her, the ease with which she could arrive in a place without any obvious intention”
 
-**_White Tears _— Hari Kunzru**
+#### *White Tears — Hari Kunzru*
 
 > “There is no clear border between life and non-life. Once you realize that, so much else unravels”
 
-**_The Fifth Season_ — N.K. Jemisin**
+#### *The Fifth Season — N.K. Jemisin*
 
 > “Survival doesn’t mean rightness”
 
 > “It’s a gift if it makes us better. It’s a curse if we let it destroy us. You decide that — not the instructors, or the Guardians, or anyone else.”
 
-**_Surely Your Joking Mr Feynman_ — Richard Feynman**
+#### *Surely Your Joking Mr Feynman — Richard Feynman*
 
 > “You have no responsibility to live up to what other people think you ought to accomplish. I have no responsibility to be like they expect me to be. It’s their mistake, not my failing”
 
-**_Becoming _— Michelle Obama**
+#### *Becoming — Michelle Obama*
 
 > “As if growing up is finite. As if at some point you become something and that’s the end”
 
@@ -165,10 +165,10 @@ Thoughts on why so many people do consulting post-graduation:
 
 > “It was similar to when the Sidwell mom had asked Malia if she feared for her life at tennis practice. What can you do, really, but go out and hit another ball?”
 
-**_Killing Commendatore _— Haruki Murakami**
+#### *Killing Commendatore — Haruki Murakami*
 
 > “Thelonious Monk did not get those unusual chords as a result of logic or theory. He opened his eyes wide, and scooped those chords out from the darkness of his consciousness.”
 
 > “Namely, to determine to ‘stop thinking’ about something is itself a thought — as long as one follows that path, that something continues to exist. In the end, to stop thinking about something means to stop thinking about stopping thinking.”
 
-**_Information, Incentives and Education Policy_ — Derek A. Neal**
+#### *Information, Incentives and Education Policy — Derek A. Neal*
