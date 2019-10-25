@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome</title>
-    <link>judahgnewman.com/</link>
-    <description>Recent content on Welcome</description>
+    <title>Writings on Welcome</title>
+    <link>judahgnewman.com/writing/</link>
+    <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2019 19:48:27 +0000</lastBuildDate>
     
-	<atom:link href="judahgnewman.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="judahgnewman.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -91,26 +91,6 @@ Summary This paper by two attorneys at Bronx Defenders argues that quick, decisi
     </item>
     
     <item>
-      <title>Work Projects</title>
-      <link>judahgnewman.com/work-projects/</link>
-      <pubDate>Thu, 25 Jul 2019 21:51:28 +0000</pubDate>
-      
-      <guid>judahgnewman.com/work-projects/</guid>
-      <description>Nielsen  My first job after completing undergrad is as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I am a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. Below is a description of all of my rotations, what I accomplished during them, and what I learned from each rotation.</description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>judahgnewman.com/reading/</link>
-      <pubDate>Thu, 25 Jul 2019 21:23:30 +0000</pubDate>
-      
-      <guid>judahgnewman.com/reading/</guid>
-      <description> 
-What I am Currently Reading Books Recently Read 
-Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Wait but Why: Tim Urban Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Nesta Newsletter Sidewalks Labs Newsletter Roots of Progress: Jason Crawford  </description>
-    </item>
-    
-    <item>
       <title>A Year in Review: The Books I Read in 2018</title>
       <link>judahgnewman.com/writing/a-year-in-review-the-books-i-read-in-2018/</link>
       <pubDate>Thu, 25 Jul 2019 21:16:37 +0000</pubDate>
@@ -118,24 +98,6 @@ Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman W
       <guid>judahgnewman.com/writing/a-year-in-review-the-books-i-read-in-2018/</guid>
       <description>It is that time of year again when every website is publishing some piece of content trying to sum up 2018. Whether it is Facebook, posting a video that is your year in review, or a march madness style bracket to determine what person, place, or thing won 2018, everybody is attempting to summarize the past year.
 A lot has happened over the past year. In 2018, I graduated college and started my first full time job.</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>judahgnewman.com/research/</link>
-      <pubDate>Thu, 25 Jul 2019 18:34:24 +0000</pubDate>
-      
-      <guid>judahgnewman.com/research/</guid>
-      <description>Research Interests  applied AI and ML tech regulation the structure of intelligence climate change, inequality / poverty / health  Paper Reading A necessary part of producing quality research is reading lots of other research. Any piece of research is not done in isolation but in dialogue with what came before it. It is not only important to read the research but think about it critically and relate it to your own thoughts.</description>
-    </item>
-    
-    <item>
-      <title>Judah Newman</title>
-      <link>judahgnewman.com/about/</link>
-      <pubDate>Thu, 25 Jul 2019 18:30:51 +0000</pubDate>
-      
-      <guid>judahgnewman.com/about/</guid>
-      <description>I am a builder, problem solver, and a friend. I push myself and those around me to think differently, to challenge the status quo and to focus on personal growth. I currently work as a Data Scientist at Change Research where we are improving american democracy through better public opinion insight. I grew up in New York City, went to College in Chicago where I studied computer science and economics and I now reside in the Bay Area.</description>
     </item>
     
   </channel>

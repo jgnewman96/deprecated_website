@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome</title>
-    <link>judahgnewman.com/</link>
-    <description>Recent content on Welcome</description>
+    <title>Interdisciplinary Papers on Welcome</title>
+    <link>judahgnewman.com/tags/interdisciplinary-papers/</link>
+    <description>Recent content in Interdisciplinary Papers on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2019 19:48:27 +0000</lastBuildDate>
     
-	<atom:link href="judahgnewman.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="judahgnewman.com/tags/interdisciplinary-papers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -39,15 +39,6 @@ Summary The authors of this paper use interviews of 14 data scientists to charac
       <guid>judahgnewman.com/writing/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</guid>
       <description>By Mary Beth Kery, Bonnie E. John, Patrick O’Flaherty, and Amber Horvath, Brad A. Myers
 Summary The authors of the paper present a juypter lab extension called verdant that keeps track of notebook history. The goal of verdant is to to help data scientists answer questions about their research process even if they have not documented everything along the way. The need for this tool is motivated by how messy and non-linear the data scientist process is.</description>
-    </item>
-    
-    <item>
-      <title>Planning for the Offseason</title>
-      <link>judahgnewman.com/writing/personal-planning-for-the-offseason/</link>
-      <pubDate>Mon, 07 Oct 2019 22:03:08 +0000</pubDate>
-      
-      <guid>judahgnewman.com/writing/personal-planning-for-the-offseason/</guid>
-      <description>One of my friends and teammates asked me for some feedback about what he should be working on during the frisbee off-season. I wrote him an email explaining about how I think about getting better in the off-season before sending him some personal feedback. I thought sending this email would help contextualize how I think about getting better and reaching our goals. Some of the information in here, can be applied to really any skill, not just getting better at frisbee.</description>
     </item>
     
     <item>
@@ -88,54 +79,6 @@ Summary This paper creates a model of how scientific researchers make progress t
       <guid>judahgnewman.com/writing/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</guid>
       <description>By Jessica Horan-Block &amp;amp; Elizabeth Tuttle Newman
 Summary This paper by two attorneys at Bronx Defenders argues that quick, decisive, and aggressive action can return children to parents after abuse allegations much faster than traditional approaches. The authors outline how minority and low income parents are more frequently accused of abuse. Parents will bring their children to the Emergency Room in response to accidental injuries or strange physical developments. When the parents explanation for how the injury occurred is not deemed sufficient by the physician, they will be accused of abuse.</description>
-    </item>
-    
-    <item>
-      <title>Work Projects</title>
-      <link>judahgnewman.com/work-projects/</link>
-      <pubDate>Thu, 25 Jul 2019 21:51:28 +0000</pubDate>
-      
-      <guid>judahgnewman.com/work-projects/</guid>
-      <description>Nielsen  My first job after completing undergrad is as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I am a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. Below is a description of all of my rotations, what I accomplished during them, and what I learned from each rotation.</description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>judahgnewman.com/reading/</link>
-      <pubDate>Thu, 25 Jul 2019 21:23:30 +0000</pubDate>
-      
-      <guid>judahgnewman.com/reading/</guid>
-      <description> 
-What I am Currently Reading Books Recently Read 
-Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Wait but Why: Tim Urban Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Nesta Newsletter Sidewalks Labs Newsletter Roots of Progress: Jason Crawford  </description>
-    </item>
-    
-    <item>
-      <title>A Year in Review: The Books I Read in 2018</title>
-      <link>judahgnewman.com/writing/a-year-in-review-the-books-i-read-in-2018/</link>
-      <pubDate>Thu, 25 Jul 2019 21:16:37 +0000</pubDate>
-      
-      <guid>judahgnewman.com/writing/a-year-in-review-the-books-i-read-in-2018/</guid>
-      <description>It is that time of year again when every website is publishing some piece of content trying to sum up 2018. Whether it is Facebook, posting a video that is your year in review, or a march madness style bracket to determine what person, place, or thing won 2018, everybody is attempting to summarize the past year.
-A lot has happened over the past year. In 2018, I graduated college and started my first full time job.</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>judahgnewman.com/research/</link>
-      <pubDate>Thu, 25 Jul 2019 18:34:24 +0000</pubDate>
-      
-      <guid>judahgnewman.com/research/</guid>
-      <description>Research Interests  applied AI and ML tech regulation the structure of intelligence climate change, inequality / poverty / health  Paper Reading A necessary part of producing quality research is reading lots of other research. Any piece of research is not done in isolation but in dialogue with what came before it. It is not only important to read the research but think about it critically and relate it to your own thoughts.</description>
-    </item>
-    
-    <item>
-      <title>Judah Newman</title>
-      <link>judahgnewman.com/about/</link>
-      <pubDate>Thu, 25 Jul 2019 18:30:51 +0000</pubDate>
-      
-      <guid>judahgnewman.com/about/</guid>
-      <description>I am a builder, problem solver, and a friend. I push myself and those around me to think differently, to challenge the status quo and to focus on personal growth. I currently work as a Data Scientist at Change Research where we are improving american democracy through better public opinion insight. I grew up in New York City, went to College in Chicago where I studied computer science and economics and I now reside in the Bay Area.</description>
     </item>
     
   </channel>
