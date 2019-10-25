@@ -1,5 +1,5 @@
 ---
-title: 'Paper - Towards Effective Foraging by Data Scientists to Find Past Analysis Choices'
+title: 'Towards Effective Foraging by Data Scientists to Find Past Analysis Choices'
 date: Tue, 08 Oct 2019 16:23:38 +0000
 draft: false
 tags: ['Interdisciplinary Papers']
@@ -7,8 +7,7 @@ tags: ['Interdisciplinary Papers']
 
 [By Mary Beth Kery, Bonnie E. John, Patrick O’Flaherty, and Amber Horvath, Brad A. Myers](https://marybethkery.com/projects/Verdant/Towards_effective_foraging_by_data_scientists.pdf)
 
-Summary 
-========
+## Summary
 
 The authors of the paper present a juypter lab extension called verdant that keeps track of notebook history. The goal of verdant is to to help data scientists answer questions about their research process even if they have not documented everything along the way. The need for this tool is motivated by how messy and non-linear the data scientist process is. Through out the data science process many different things are tried out and it is impossible to record everything. Verdant makes it possible for users to look back through what they did and answer key questions. 
 
@@ -16,8 +15,7 @@ The authors of the paper focus a lot on building an interface that makes informa
 
 The authors evaluate their tool through a set of 15 user interactions with data scientists ay JuypterCon. From this set of interactions the authors verify that their tool helps with information retrieval and get feedback about how to make the tool even better. The authors show that by keeping this history and making it accesible to the data scientist they are able to answer questions about their process which they would not have been able to otherwise.   
 
-Thoughts 
-=========
+## Thoughts
 
 *   This is another example of bringing best practices from other fields. Bringing learnings from another field is always powerful and shows how problems field's face are often quite similar. While the actual task might be quite different, we can learn from how other fields have successfully solved essentially the same problem.
 *   Defining a hierarchical structure for the different parts of a data scientists workflow gives the authors a systematic way to structure information. Identifying this underlying structure and then leveraging it is the real key to their paper. Finding this underlying structure is easier when we limit our scope to just notebooks. Notebooks have a defined structure of cells and only a limited number of actions can happen. Finding/defining this underlying structure for a more general purpose data science workflow is a difficult task.
