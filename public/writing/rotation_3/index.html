@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rotation 3: Digital Pipeline Development</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: lightyellow;
+    }
+
+    :root {
+        --accent: darkblue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Rotation 3: Digital Pipeline Development</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Rotation 3: Digital Pipeline Development</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.com/tags/nielsen"><kbd class="item-tag">Nielsen</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h3 id="project-description">Project Description</h3>
+
+<p>Nielsen is in the process of transforming how we build our products. We are a ninety five year old company that is not technologically native. We are working on building products that are more maintainable and reducing the amount of work that we duplicate. Data science in particular is undergoing a large transformation within Nielsen. </p>
+
+<p>Previously, Data Science sat very far away from the final product and a large portion of the data science organization did not have the technical skills to build reliable technical products. The data science organization was very much seen as the place where research happened, but then technology would actually build products. There also would be very minimal day-to-day interactions between data science and technology. Data science would work on a project for a long time and then throw it over the wall to technology. </p>
+
+<p>Software development is never going to be Data Science&rsquo;s strong suit. The people who are in Data Science have different skill sets and have strengths in a different field. But we can work to develop better engineering skills within Data Science and have data science writing code that goes into production systems. I am working to improve how data science contributes products for the digital and advanced tv team. </p>
+
+<p>Moving data scientists closer to the product involves changing how we work on a couple of different fronts. One part of it is working with data scientists to improve their engineering skills. Another part of it is creating internal systems that better facilitate development. Another part is working with tech to figure out the best division of labor between the two separate organizations. There will not be a singular panacea that solves everything, but rather we have to work with lots of different individuals to figure out how we can put them in the best situations to succeed. </p>
+
+<h3 id="my-contribution">My Contribution</h3>
+
+<ul>
+<li>One of my big contributions this rotation is rewriting and automating our digital adjustment factors process. Digital adjustment factors is a process for how we adjust our digital numbers based on some known biases in our data. This process used to be highly manual with all of the code being stored in notebooks and someone having to run it manually. I have done all of the following things with the code in an effort to improve this process: 
+
+<ul>
+<li>Taken large SQL queries and turned them into modular testable PySpark </li>
+<li>Written both unit and integration tests for all of our code </li>
+<li>Orchestrated the code using Airflow </li>
+<li>The process is now callable through an API</li>
+</ul></li>
+<li>While re-writing the adjustment factor process is a nice win, a large focus has been on using this process to develop learnings that can be used for future projects. I have written extensive documentation about how I automated this process and what best practices would be for future developers. While I was working on this project the beginning was quite slow as I was learning a fair amount. After that I was able to develop quite quickly. The hope is that by using my documentation other developers will be able to have a high velocity in their projects from the beginning. </li>
+<li>During this rotation I have also identified that there is a large gap in how we document and track models. I believe that is gap exists across the entire data science industry and not just within Nielsen. All models involve the data scientists making many different assumptions and decisions. We should make the data science process one that is a lot more transparent and accessible to all. I have been working with Nielsen to develop better practices documenting our data science work. </li>
+</ul>
+
+<h3 id="what-i-learned">What I Learned</h3>
+
+<ul>
+<li>This rotation was the first time I had to write code that was directly going into one of our existing products. I have had a fair amount of experience writing code with tests, but most of previous experience was writing unit tests. This rotation I learned how to identify and write integration tests. I learned how to incorporate system monitoring into what I am building and how to build something that you can easily debug and identify what is causing issues. </li>
+<li>In this rotation it was very important for me to take what I was learning from one process and identify how it could be applied to many different process. I had to continually push myself to think outside of the scope of my project and focus on larger structures. I found that doing this big picture thinking was very helpful in doing better work locally. Connecting my work to larger processes helped me better understand the context of my work and make me more motivated. </li>
+<li>I had previously tried to take aspects of agile and incorporate them into my day-to-day but this was the first time I truly worked in an agile framework with sprints and the agile ceremonies. One of the places I see people failing the most with agile is too closely trying to follow the letter of the law. Agile is much more a way of thinking about work and planning rather than an exact script to follow. It is not about doing everything by the book but finding which parts of agile help you the most. </li>
+<li>A large part of this rotation has been working with many different teams across both data science and tech. I have had to understand how different people have found their own ideal workflows and identify the commonalities between them. It can be really easy to look at how different people do different things and recognize all the differences. While there will be lots of differences and those are important, we want to let teams and individuals locally optimize, it is just as important to identify the commonalities.  The places where we find a common structure are the places where we can use tools or a structure to help people focus their time. We want people focus their time not on the commonalities but the nuisances and uniqueness of their individual space. </li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
