@@ -1,0 +1,60 @@
+baseURL = "judahgnewman.com"
+languageCode = "en-us"
+title = "HELLO"
+theme = "minimal"
+disqusShortname = "username" # delete this to disable disqus comments
+
+
+[params]
+    author = "Judah Newman"
+    description = "A place for reading and writing"
+    githubUsername = "jgnewman96"
+    accent = "darkblue"
+    showBorder = true
+    backgroundColor = "lightyellow"
+    font = "Ubuntu" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/writing/"
+    name = "Writing"
+    weight = 3
+
+[[menu.main]]
+    url = "/reading/"
+    name = "Reading"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:judah.newman@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/jgnewman96/"
+    name = "github"
+    weight = 2
+
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/jgnewman96/"
+    name = "linkedin"
+    weight = 4
+
+
