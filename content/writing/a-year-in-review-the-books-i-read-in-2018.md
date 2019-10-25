@@ -1,5 +1,5 @@
 ---
-title: 'Personal - A Year in Review: The Books I Read in 2018'
+title: 'A Year in Review: The Books I Read in 2018'
 date: Thu, 25 Jul 2019 21:16:37 +0000
 draft: false
 tags: ['Books']
