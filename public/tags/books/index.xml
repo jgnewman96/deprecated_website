@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Welcome</title>
+    <link>judahgnewman.com/tags/books/</link>
+    <description>Recent content in Books on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jul 2019 21:16:37 +0000</lastBuildDate>
+    
+	<atom:link href="judahgnewman.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Year in Review: The Books I Read in 2018</title>
+      <link>judahgnewman.com/writing/a-year-in-review-the-books-i-read-in-2018/</link>
+      <pubDate>Thu, 25 Jul 2019 21:16:37 +0000</pubDate>
+      
+      <guid>judahgnewman.com/writing/a-year-in-review-the-books-i-read-in-2018/</guid>
+      <description>It is that time of year again when every website is publishing some piece of content trying to sum up 2018. Whether it is Facebook, posting a video that is your year in review, or a march madness style bracket to determine what person, place, or thing won 2018, everybody is attempting to summarize the past year.
+A lot has happened over the past year. In 2018, I graduated college and started my first full time job.</description>
+    </item>
+    
+  </channel>
+</rss>
