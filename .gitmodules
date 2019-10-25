@@ -1,3 +1,7 @@
 [submodule "themes/minimal"]
 	path = themes/minimal
 	url = https://github.com/calintat/minimal.git
+[submodule "new"]
+	path = public
+	url = https://github.com/jgnewman96/jgnewman96.github.io.git
+	branch = master
