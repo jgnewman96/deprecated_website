@@ -1,13 +1,13 @@
 baseURL = "judahgnewman.com"
 languageCode = "en-us"
-title = "HELLO"
+title = "Welcome"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 
 
 [params]
     author = "Judah Newman"
-    description = "A place for reading and writing"
+    description = '''A place for me (Judah Newman) to chronicle my journey'''
     githubUsername = "jgnewman96"
     accent = "darkblue"
     showBorder = true

@@ -22,6 +22,6 @@ Here are some specific posts where my thoughts about the paper touch on some mor
 * The necessity of an interdisciplinary approach
 * Academia and Industry
 * [Bayesian View of Research] (
-                {{< ref  "/writing/paper-scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity.md"  >}} )
+                {{< ref  "/writing/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity.md"  >}} )
 
 ### Previous Research
