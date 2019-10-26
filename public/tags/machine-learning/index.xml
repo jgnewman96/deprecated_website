@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Welcome</title>
+    <link>https://judahgnewman.netlify.com/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Oct 2019 16:44:33 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How do you Solve for Biased Data?</title>
+      <link>https://judahgnewman.netlify.com/writing/biased_data_hawk/</link>
+      <pubDate>Fri, 25 Oct 2019 16:44:33 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/biased_data_hawk/</guid>
+      <description>My friend Hawkins recently sent me the following question:
+ How do you work around biased data sets to produce non discriminatory results in ML?
+ I ended up writing him a fair amount while I wan on a plane. My response to him is replicated here in full.
+Hey Hawk,
+Thanks for asking this question. It is a really important one and it is always nice to think about these problems in a fair amount of depth.</description>
+    </item>
+    
+    <item>
+      <title>Green AI</title>
+      <link>https://judahgnewman.netlify.com/writing/green-ai/</link>
+      <pubDate>Mon, 30 Sep 2019 03:40:49 +0000</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/green-ai/</guid>
+      <description>By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
+Summary The authors of this post argue that a large percentage of machine learning research focuses on Red AI and make a call for more research to be centered on Green AI. The authors define Red AI and Green AI as follows:  Red AI: research that makes small improvements on the state of the art by leveraging more computation resources Green AI: research that focuses on diminishing the amount of computation necessary to reach a result.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nielsen on Welcome</title>
-    <link>https://judahgnewman.com/tags/nielsen/</link>
+    <link>https://judahgnewman.netlify.com/tags/nielsen/</link>
     <description>Recent content in Nielsen on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Oct 2019 13:40:46 -0700</lastBuildDate>
     
-	<atom:link href="https://judahgnewman.com/tags/nielsen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://judahgnewman.netlify.com/tags/nielsen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Machine Learning Community of Practice</title>
-      <link>https://judahgnewman.com/writing/ml_cop/</link>
+      <link>https://judahgnewman.netlify.com/writing/ml_cop/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.com/writing/ml_cop/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/ml_cop/</guid>
       <description> Project Description  group to help bring machine learning, learnings to all parts of the organization  hosts webinars, and really just be a first point of contant for all things machine learning  website with resources, experts, guides   My Contribution  study groups &amp;ndash;&amp;gt; wanted to facilitate learnings across the org, this was my biggest thing  coding club for leaders in the org, putting together presentations for them to know technical things  What I Learned  How to stay motivated even when it seems like things are not happening  How to recognize that there are different users with different needs  You do not have to do everything yourself it is important to partner  The importance of setting direction  </description>
     </item>
     
     <item>
       <title>My Time At Nielsen</title>
-      <link>https://judahgnewman.com/writing/my_time_at_nielsen/</link>
+      <link>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.com/writing/my_time_at_nielsen/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</guid>
       <description>Nielsen  My first job after completing undergrad was as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I was a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. During my time at Nielsen I wrote about what I worked on and what I was learning.</description>
     </item>
     
     <item>
       <title>Rotation 1: Non-coop estimation</title>
-      <link>https://judahgnewman.com/writing/rotation_1/</link>
+      <link>https://judahgnewman.netlify.com/writing/rotation_1/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.com/writing/rotation_1/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/rotation_1/</guid>
       <description>Project Description Nielsen receives data from retailers about all of the items they sell. For example, Walmart sends Nielsen all of the products sold at each store in the past week. Brands, such as Johnson &amp;amp; Johnson, use this information to see how much of their product is being bought. Some retailers do not send Nielsen their data. We will refer to these retailers as non-cooperators. Non-cooperators do not send Nielsen their data because the majority of the items they sell are from their own brand.</description>
     </item>
     
     <item>
       <title>Rotation 2: Bayesian Inference for Ratings</title>
-      <link>https://judahgnewman.com/writing/rotation_2/</link>
+      <link>https://judahgnewman.netlify.com/writing/rotation_2/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.com/writing/rotation_2/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/rotation_2/</guid>
       <description>Project Description Nielsen is best known for their linear television ratings which estimate the number of people who were watching a channel at any time. This information is estimated using a representative panel of households all across the United States. Households in Nielsen&amp;rsquo;s Panel report all of the television that they watch. Each household&amp;rsquo;s viewing is weight based on its demographics to ensure that the viewing is representative of the population.</description>
     </item>
     
     <item>
       <title>Rotation 3: Digital Pipeline Development</title>
-      <link>https://judahgnewman.com/writing/rotation_3/</link>
+      <link>https://judahgnewman.netlify.com/writing/rotation_3/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.com/writing/rotation_3/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/rotation_3/</guid>
       <description>Project Description Nielsen is in the process of transforming how we build our products. We are a ninety five year old company that is not technologically native. We are working on building products that are more maintainable and reducing the amount of work that we duplicate. Data science in particular is undergoing a large transformation within Nielsen. Previously, Data Science sat very far away from the final product and a large portion of the data science organization did not have the technical skills to build reliable technical products.</description>
     </item>
     
