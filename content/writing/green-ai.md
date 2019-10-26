@@ -2,7 +2,7 @@
 title: 'Green AI'
 date: Mon, 30 Sep 2019 03:40:49 +0000
 draft: false
-tags: ['Interdisciplinary Papers']
+tags: ['Machine Learning','Interdisciplinary Papers']
 ---
 
 [By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni](https://arxiv.org/abs/1907.10597)

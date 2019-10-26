@@ -2,7 +2,7 @@
 title: 'Planning for the Offseason'
 date: Mon, 07 Oct 2019 22:03:08 +0000
 draft: false
-tags: ['Personal']
+tags: ['Frisbee', 'Letters']
 ---
 
 *One of my friends and teammates asked me for some feedback about what he should be working on during the frisbee off-season. I wrote him an email explaining about how I think about getting better in the off-season before sending him some personal feedback. I thought sending this email would help contextualize how I think about getting better and reaching our goals. Some of the information in here, can be applied to really any skill, not just getting better at frisbee. The full email is below*
