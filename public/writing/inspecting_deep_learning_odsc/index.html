@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/odsc"><kbd class="item-tag">ODSC</kbd></a>
+
+<a href="https://judahgnewman.netlify.com/tags/deep-learning"><kbd class="item-tag">Deep Learning</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<p>Talk given by <a href="https://www.stat.berkeley.edu/~mmahoney/">Michael Mahoney</a> and <a href="https://www.linkedin.com/in/charlesmartin14">Charles H. Martin</a></p>
+
+<p>Talk <a href="https://www.stat.berkeley.edu/~mmahoney/talks/dnn_kdd19_fin.pdf">Slides</a></p>
+
+<p><a href="https://github.com/CalculatedContent/WeightWatcher">Github</a></p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>What most practitioners of deep learning do is train models. Training models that do something is the easy part. The hard part is actually evaluating and testing those models. Most people evaluate their models by tieing them to a certain set of data and seeing the accuracy on that data. This has problem because it is tied to a given set of data and the potential problems with that data.</p>
+
+<p>The speakers explain a new approach of directly inspecting the weight matrices in deep learning algorithms. Looking directly at this weight matrices could also help with problems of reproducibility. We can analyze these weight matrices to understand what makes a model start of the art and what makes a model generalize well.</p>
+
+<p>Ideally we could develop some sort of theory about these weight matrices that we could use to guide us. We also want to be able to use that theory to help in practice with creating these deep learning models.</p>
+
+<h2 id="methods">Methods</h2>
+
+<p>The speakers demonstrate their approach by examining the weights in state of the art pre-trained models that have been released to the public. We can look at how the weight matrices have changed over time.</p>
+
+<p>the speakers argue for looking at the singular value density for the weight matrices of the matrices. We can examine these histograms of the singular values using Random Matrix Theory (RMT). At the beginning of training we should see a certain pattern that corresponds to a random matrix. As the model gets trained though we see a different pattern emerge.</p>
+
+<p>We see the entropy of this matrix go down over time. This makes sense because maximum entropy means we have a completely random matrix. As the entropy decrease this corresponds to a move away from random structure.</p>
+
+<p>The speakers than examined different models and saw how models changed to develop a theory of what made a good model. What can we see in VGG 19 that makes it better than VGG 11?</p>
+
+<p>Deep learning systems that display longer tails in this singular value histogram also known as empirical spectral density have better performance and are better able to generalize. When we have alphas that are closer to 2 the better the model performs.</p>
+
+<p>Alpha is a parameter value in the <a href="https://en.wikipedia.org/wiki/Marchenko%E2%80%93Pastur_distribution">Marchenko-Pastur</a> bulk decay which is a formula for long tailed random matrices. The speakers have created a tool that examines the singular values and gives a heuristic using this alpka to get a sense if the model is performing well.</p>
+
+<p>The speakers than presented a graph with test accuracy plotted correlated with the alphas and they show the lower the alpha the better the test accuracy.</p>
+
+<h2 id="my-thoughts">My Thoughts</h2>
+
+<p>This talk was really cool and raised a lot of interesting ideas. My notes do not do it justice. I highly recommend checking it out.</p>
+
+<p>One of the things that was cool is both of the speakers come from a none deep learning background. They took what they learned from other backgrounds and applied it here. Having people from other fields and having them apply their knowledge is so helpful. Physics is essentially everything tbh.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

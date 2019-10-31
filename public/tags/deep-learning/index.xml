@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Welcome</title>
+    <link>https://judahgnewman.netlify.com/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Oct 2019 13:55:58 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</title>
+      <link>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 13:55:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</guid>
+      <description>Talk given by Michael Mahoney and Charles H. Martin
+Talk Slides
+Github
+Motivation What most practitioners of deep learning do is train models. Training models that do something is the easy part. The hard part is actually evaluating and testing those models. Most people evaluate their models by tieing them to a certain set of data and seeing the accuracy on that data. This has problem because it is tied to a given set of data and the potential problems with that data.</description>
+    </item>
+    
+    <item>
+      <title>Implict Deep Learning </title>
+      <link>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 08:33:02 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</guid>
+      <description>Talk given by Laurent El Ghaoui : Professor at BAIR and chief scientist at Sumup Analytics
+This talk was about a new area of Deep Learning research that is still very much theory. In this approach rather than specifying the architecture of a given model, the data tells us the structure of our model. This approach provides for new notation and new conceptual ways for us to think about deep learning.</description>
+    </item>
+    
+  </channel>
+</rss>

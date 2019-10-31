@@ -6,10 +6,31 @@
     <description>Recent content in Machine Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Oct 2019 16:44:33 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 15:58:02 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tackling Climate Change with Machine Learning</title>
+      <link>https://judahgnewman.netlify.com/writing/climate_change_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 15:58:02 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/climate_change_odsc/</guid>
+      <description>Talk given by David Rolnick University of Pennsylvania and founder of Climate Change AI
+Motivation Climate change as an important issues does not need that much motivation. We have all seen what has been happening California recently with the wild fires. There has been increasingly severe impacts from human influence on our climate system.
+One thing that is important to recognize about climate change is that different parts of the world are impacted differently.</description>
+    </item>
+    
+    <item>
+      <title>Towards a Blend of Machine Learning and Microeconomics</title>
+      <link>https://judahgnewman.netlify.com/writing/ml_microecon/</link>
+      <pubDate>Wed, 30 Oct 2019 09:51:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/ml_microecon/</guid>
+      <description>Talk given by Michael I Jordan
+What is Machine Learning? The talk started by Professor Jordan defining what Machine Learning is. He said that machine learning is not some new field of research but it is rather the engineering extension of statistics. He calls back to how there was chemistry for a long time before there was chemical engineering. There was physics and electrical theory before there was electrical engineering.</description>
+    </item>
     
     <item>
       <title>How do you Solve for Biased Data?</title>

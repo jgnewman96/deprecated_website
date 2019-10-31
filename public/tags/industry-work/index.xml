@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industry Work on Welcome</title>
+    <link>https://judahgnewman.netlify.com/tags/industry-work/</link>
+    <description>Recent content in Industry Work on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Oct 2019 13:40:46 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/tags/industry-work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Time At Nielsen</title>
+      <link>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</link>
+      <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</guid>
+      <description>What I Did at Nielsen My first job after completing undergrad was as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I was a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. During my time at Nielsen I wrote about what I worked on and what I was learning.</description>
+    </item>
+    
+  </channel>
+</rss>

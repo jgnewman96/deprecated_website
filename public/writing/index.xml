@@ -6,10 +6,78 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:53:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 15:58:02 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tackling Climate Change with Machine Learning</title>
+      <link>https://judahgnewman.netlify.com/writing/climate_change_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 15:58:02 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/climate_change_odsc/</guid>
+      <description>Talk given by David Rolnick University of Pennsylvania and founder of Climate Change AI
+Motivation Climate change as an important issues does not need that much motivation. We have all seen what has been happening California recently with the wild fires. There has been increasingly severe impacts from human influence on our climate system.
+One thing that is important to recognize about climate change is that different parts of the world are impacted differently.</description>
+    </item>
+    
+    <item>
+      <title>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</title>
+      <link>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 13:55:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</guid>
+      <description>Talk given by Michael Mahoney and Charles H. Martin
+Talk Slides
+Github
+Motivation What most practitioners of deep learning do is train models. Training models that do something is the easy part. The hard part is actually evaluating and testing those models. Most people evaluate their models by tieing them to a certain set of data and seeing the accuracy on that data. This has problem because it is tied to a given set of data and the potential problems with that data.</description>
+    </item>
+    
+    <item>
+      <title>ODSC</title>
+      <link>https://judahgnewman.netlify.com/writing/odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 12:17:01 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/odsc/</guid>
+      <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
+Day 1, Tuesday October 29, 2019 Interpretable Knowledge Discovery Reinforced by Visual Methods
+User-Centric Design for Data Scientists
+ML Flow: Platform for Complete Machine Learning Life Cycle
+Day 2, Wednesday October 30, 2019 Implict Deep Learning
+Towards a Blend of Machine Learning and Microeconomics</description>
+    </item>
+    
+    <item>
+      <title>Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</title>
+      <link>https://judahgnewman.netlify.com/writing/agents_language_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 10:50:20 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/agents_language_odsc/</guid>
+      <description>Talk given by Jacob Andreas
+Motivation Ideally we have systems that understand us in our natural language and can do things. We are beginning to have autonomous agents in the world around us. Both agents in the virtual world such a personal assistants and agents in the physical world like Roombas. We want to build automated agents that can take actions based on natural language
+How do we design agents?</description>
+    </item>
+    
+    <item>
+      <title>Towards a Blend of Machine Learning and Microeconomics</title>
+      <link>https://judahgnewman.netlify.com/writing/ml_microecon/</link>
+      <pubDate>Wed, 30 Oct 2019 09:51:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/ml_microecon/</guid>
+      <description>Talk given by Michael I Jordan
+What is Machine Learning? The talk started by Professor Jordan defining what Machine Learning is. He said that machine learning is not some new field of research but it is rather the engineering extension of statistics. He calls back to how there was chemistry for a long time before there was chemical engineering. There was physics and electrical theory before there was electrical engineering.</description>
+    </item>
+    
+    <item>
+      <title>Implict Deep Learning </title>
+      <link>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</link>
+      <pubDate>Wed, 30 Oct 2019 08:33:02 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</guid>
+      <description>Talk given by Laurent El Ghaoui : Professor at BAIR and chief scientist at Sumup Analytics
+This talk was about a new area of Deep Learning research that is still very much theory. In this approach rather than specifying the architecture of a given model, the data tells us the structure of our model. This approach provides for new notation and new conceptual ways for us to think about deep learning.</description>
+    </item>
     
     <item>
       <title>ML Flow: Platform for Complete Machine Learning Life Cycle</title>
@@ -22,19 +90,6 @@ Motivation Machine learning development is complex. This is not due to the under
 Here are the differences between traditional software and machine learning
 Traditional Software:
  Meet a functional specification Quality depends on the code One software stack  Machine Learning</description>
-    </item>
-    
-    <item>
-      <title>ODSC</title>
-      <link>https://judahgnewman.netlify.com/writing/odsc/</link>
-      <pubDate>Tue, 29 Oct 2019 12:17:01 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/odsc/</guid>
-      <description> I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
-Day 1 Interpretable Knowledge Discovery Reinforced by Visual Methods
-User-Centric Design for Data Scientists
-ML Flow: Platform for Complete Machine Learning Life Cycle
-Day 2 Day 3 Day 4 </description>
     </item>
     
     <item>
@@ -75,8 +130,8 @@ He highlighted that the problem with each of these analytical approaches is that
       <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/writing/professors/</guid>
-      <description>This is list of professors who arte doing really cool work:
-Cynthia Rudin Andrew Gelman</description>
+      <description>This is list of professors who are doing really cool work:
+Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas]</description>
     </item>
     
     <item>
@@ -107,7 +162,7 @@ Thanks for asking this question. It is a really important one and it is always n
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</guid>
-      <description>Nielsen  My first job after completing undergrad was as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I was a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. During my time at Nielsen I wrote about what I worked on and what I was learning.</description>
+      <description>What I Did at Nielsen My first job after completing undergrad was as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I was a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. During my time at Nielsen I wrote about what I worked on and what I was learning.</description>
     </item>
     
     <item>
