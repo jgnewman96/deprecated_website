@@ -52,16 +52,6 @@ Summary The authors propose that machine learning models should be accompanied b
     </item>
     
     <item>
-      <title>Green AI</title>
-      <link>https://judahgnewman.netlify.com/writing/green-ai/</link>
-      <pubDate>Mon, 30 Sep 2019 03:40:49 +0000</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/green-ai/</guid>
-      <description>By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
-Summary The authors of this post argue that a large percentage of machine learning research focuses on Red AI and make a call for more research to be centered on Green AI. The authors define Red AI and Green AI as follows:  Red AI: research that makes small improvements on the state of the art by leveraging more computation resources Green AI: research that focuses on diminishing the amount of computation necessary to reach a result.</description>
-    </item>
-    
-    <item>
       <title>Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity</title>
       <link>https://judahgnewman.netlify.com/writing/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
       <pubDate>Sun, 29 Sep 2019 22:04:54 +0000</pubDate>

@@ -1,7 +1,7 @@
 baseURL = "https://judahgnewman.netlify.com/"
 languageCode = "en-us"
 title = "Welcome"
-theme = "minimal"
+theme = "minimal_update"
 disqusShortname = "username" # delete this to disable disqus comments
 
 

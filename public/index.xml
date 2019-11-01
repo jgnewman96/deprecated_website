@@ -6,10 +6,44 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 15:58:02 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 12:17:01 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ODSC</title>
+      <link>https://judahgnewman.netlify.com/writing/odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 12:17:01 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/odsc/</guid>
+      <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
+Day 1, Tuesday October 29, 2019 Interpretable Knowledge Discovery Reinforced by Visual Methods
+User-Centric Design for Data Scientists
+ML Flow: Platform for Complete Machine Learning Life Cycle
+Day 2, Wednesday October 30, 2019 Implict Deep Learning
+Towards a Blend of Machine Learning and Microeconomics</description>
+    </item>
+    
+    <item>
+      <title>Thursday Keynotes</title>
+      <link>https://judahgnewman.netlify.com/writing/keynotes_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 08:22:50 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/keynotes_odsc/</guid>
+      <description>AI Lifecycle Model Management: Monitoring for Risk, Bias and Fairness Talk given by Sepideh Seifzadeh
+Why do we care about data regulation?
+ increased collection of data low cost storage Machine Learning capabilities have increased &amp;ndash;&amp;gt; doing more things , more unintended consequences or harms  Why is there going to be AI regulation - how is it going to protect us from harm - could regulation be bad, could it stifle innovation, regulation has some harms and some nefits - should we incremental make laws or make a new set of rules</description>
+    </item>
+    
+    <item>
+      <title>A Wizard from Earthsea</title>
+      <link>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</link>
+      <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</guid>
+      <description>I read this book because of a recommendation from my friend Hawkins. I had previously read a couple of other books by Ursula Le Guin. I absolutely loved both Left Hand of Darkness and The Dispossessed. Both were sci-fi books that were actually commentaries on human society. I cannot get enough of books like that. Hawk had mentioned that this book was about a communist society and what that would look like.</description>
+    </item>
     
     <item>
       <title>Tackling Climate Change with Machine Learning</title>
@@ -32,20 +66,6 @@ One thing that is important to recognize about climate change is that different 
 Talk Slides
 Github
 Motivation What most practitioners of deep learning do is train models. Training models that do something is the easy part. The hard part is actually evaluating and testing those models. Most people evaluate their models by tieing them to a certain set of data and seeing the accuracy on that data. This has problem because it is tied to a given set of data and the potential problems with that data.</description>
-    </item>
-    
-    <item>
-      <title>ODSC</title>
-      <link>https://judahgnewman.netlify.com/writing/odsc/</link>
-      <pubDate>Wed, 30 Oct 2019 12:17:01 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/odsc/</guid>
-      <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
-Day 1, Tuesday October 29, 2019 Interpretable Knowledge Discovery Reinforced by Visual Methods
-User-Centric Design for Data Scientists
-ML Flow: Platform for Complete Machine Learning Life Cycle
-Day 2, Wednesday October 30, 2019 Implict Deep Learning
-Towards a Blend of Machine Learning and Microeconomics</description>
     </item>
     
     <item>
@@ -116,22 +136,13 @@ He highlighted that the problem with each of these analytical approaches is that
     </item>
     
     <item>
-      <title>A Wizard from Earthsea</title>
-      <link>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</link>
-      <pubDate>Tue, 29 Oct 2019 08:02:37 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Professors</title>
       <link>https://judahgnewman.netlify.com/writing/professors/</link>
       <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/writing/professors/</guid>
       <description>This is list of professors who are doing really cool work:
-Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas]</description>
+Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas] [Rachel Thomas]</description>
     </item>
     
     <item>
@@ -279,7 +290,7 @@ Summary This paper by two attorneys at Bronx Defenders argues that quick, decisi
       <guid>https://judahgnewman.netlify.com/reading/</guid>
       <description> 
 What I am Currently Reading Books Recently Read 
-Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Wait but Why: Tim Urban Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Nesta Newsletter Sidewalks Labs Newsletter Roots of Progress: Jason Crawford  </description>
+Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Nesta Newsletter Sidewalks Labs Newsletter Roots of Progress: Jason Crawford  </description>
     </item>
     
     <item>

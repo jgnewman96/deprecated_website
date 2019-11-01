@@ -28,6 +28,7 @@ Regular Internet Reading 
 
 * [Stratechery](https://stratechery.com/): Ben Thompson
 * [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
+* [Fast AI](https://www.fast.ai/) : Rachel Thomas & Jeremy Howard
 * [Wait but Why](https://waitbutwhy.com/): Tim Urban
 * [Exponential View](https://www.exponentialview.co/): Azeem Azhar
 * [Import AI](https://jack-clark.net/) : Jack Clark

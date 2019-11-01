@@ -6,10 +6,21 @@
     <description>Recent content in Machine Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 15:58:02 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 08:22:50 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Thursday Keynotes</title>
+      <link>https://judahgnewman.netlify.com/writing/keynotes_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 08:22:50 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/keynotes_odsc/</guid>
+      <description>AI Lifecycle Model Management: Monitoring for Risk, Bias and Fairness Talk given by Sepideh Seifzadeh
+Why do we care about data regulation?
+ increased collection of data low cost storage Machine Learning capabilities have increased &amp;ndash;&amp;gt; doing more things , more unintended consequences or harms  Why is there going to be AI regulation - how is it going to protect us from harm - could regulation be bad, could it stifle innovation, regulation has some harms and some nefits - should we incremental make laws or make a new set of rules</description>
+    </item>
     
     <item>
       <title>Tackling Climate Change with Machine Learning</title>
@@ -43,16 +54,6 @@ What is Machine Learning? The talk started by Professor Jordan defining what Mac
  I ended up writing him a fair amount while I wan on a plane. My response to him is replicated here in full.
 Hey Hawk,
 Thanks for asking this question. It is a really important one and it is always nice to think about these problems in a fair amount of depth.</description>
-    </item>
-    
-    <item>
-      <title>Green AI</title>
-      <link>https://judahgnewman.netlify.com/writing/green-ai/</link>
-      <pubDate>Mon, 30 Sep 2019 03:40:49 +0000</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/green-ai/</guid>
-      <description>By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
-Summary The authors of this post argue that a large percentage of machine learning research focuses on Red AI and make a call for more research to be centered on Green AI. The authors define Red AI and Green AI as follows:  Red AI: research that makes small improvements on the state of the art by leveraging more computation resources Green AI: research that focuses on diminishing the amount of computation necessary to reach a result.</description>
     </item>
     
   </channel>

@@ -1,6 +1,6 @@
 ---
 title: "ODSC"
-date: 2019-10-30T12:17:01-07:00
+date: 2019-10-31T12:17:01-07:00
 draft: false
 tags: ['Conferences' , 'ODSC']
 ---
@@ -45,6 +45,11 @@ I attended ODSC (Open Data Science Conference) West in October 2019. Here are th
 
 ## Day 3, Thursday October 31, 2019
 
+[Key Notes]
+(
+{{< ref  "/writing/keynotes_ODSC.md"  >}} )
+
+
 ## Day 4, Friday November 1, 2019
 
 ## General thoughts 
@@ -56,3 +61,8 @@ also there is so many different things and how do I specilize
 having a long career and pursuing my interests 
 
 what makes a good talk 
+- move through slides quickly 
+- mostly illustration do not actually need to read anything 
+- shorter talk is generally easier or better 
+
+
