@@ -1,0 +1,3 @@
+{{ range .Params.categories }}
+<a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}"><kbd class="item-category">{{ . }}</kbd></a>
+{{ end }}
