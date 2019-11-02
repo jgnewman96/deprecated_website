@@ -42,13 +42,15 @@ I attended ODSC (Open Data Science Conference) West in October 2019. Here are th
 
 [Tackling Climate Change with Machine Learning]
 (
-{{< ref  "/writing/Talks/ODSC/climate_change_ODSC.md"  >}} )
+{{< ref  "/writing/talks/odsc/climate_change_ODSC.md"  >}} )
 
 ## Day 3, Thursday October 31, 2019
 
 [Key Notes]
 (
 {{< ref  "/writing/talks/odsc/keynotes_ODSC.md"  >}} )
+
+
 
 
 ## Day 4, Friday November 1, 2019
