@@ -6,9 +6,64 @@
     <description>Recent content in Categories on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 31 Oct 2019 12:17:01 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Talks</title>
+      <link>https://judahgnewman.netlify.com/categories/talks/</link>
+      <pubDate>Thu, 31 Oct 2019 12:17:01 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://judahgnewman.netlify.com/categories/books/</link>
+      <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academia</title>
+      <link>https://judahgnewman.netlify.com/categories/academia/</link>
+      <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://judahgnewman.netlify.com/categories/personal/</link>
+      <pubDate>Fri, 25 Oct 2019 16:44:33 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry</title>
+      <link>https://judahgnewman.netlify.com/categories/industry/</link>
+      <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/industry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Papers</title>
+      <link>https://judahgnewman.netlify.com/categories/papers/</link>
+      <pubDate>Mon, 21 Oct 2019 19:48:27 +0000</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/papers/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

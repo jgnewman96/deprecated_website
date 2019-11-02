@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Welcome</title>
+    <link>https://judahgnewman.netlify.com/categories/personal/</link>
+    <description>Recent content in Personal on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Oct 2019 16:44:33 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How do you Solve for Biased Data?</title>
+      <link>https://judahgnewman.netlify.com/writing/personal/biased_data_hawk/</link>
+      <pubDate>Fri, 25 Oct 2019 16:44:33 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/personal/biased_data_hawk/</guid>
+      <description>My friend Hawkins recently sent me the following question:
+ How do you work around biased data sets to produce non discriminatory results in ML?
+ I ended up writing him a fair amount while I wan on a plane. My response to him is replicated here in full.
+Hey Hawk,
+Thanks for asking this question. It is a really important one and it is always nice to think about these problems in a fair amount of depth.</description>
+    </item>
+    
+    <item>
+      <title>Planning for the Offseason</title>
+      <link>https://judahgnewman.netlify.com/writing/personal/personal-planning-for-the-offseason/</link>
+      <pubDate>Mon, 07 Oct 2019 22:03:08 +0000</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/personal/personal-planning-for-the-offseason/</guid>
+      <description>One of my friends and teammates asked me for some feedback about what he should be working on during the frisbee off-season. I wrote him an email explaining about how I think about getting better in the off-season before sending him some personal feedback. I thought sending this email would help contextualize how I think about getting better and reaching our goals. Some of the information in here, can be applied to really any skill, not just getting better at frisbee.</description>
+    </item>
+    
+  </channel>
+</rss>

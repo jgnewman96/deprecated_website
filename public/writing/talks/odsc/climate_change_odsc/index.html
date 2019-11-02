@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tackling Climate Change with Machine Learning</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Tackling Climate Change with Machine Learning</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Tackling Climate Change with Machine Learning</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/machine-learning"><kbd class="item-tag">Machine Learning</kbd></a>
+
+<a href="https://judahgnewman.netlify.com/tags/climate-change"><kbd class="item-tag">Climate Change</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<p>Talk given by <a href="http://www.davidrolnick.com/">David Rolnick</a> University of Pennsylvania and founder of <a href="https://www.climatechange.ai/index.html">Climate Change AI</a></p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>Climate change as an important issues does not need that much motivation. We have all seen what has been happening California recently with the wild fires. There has been increasingly severe impacts from human influence on our climate system.</p>
+
+<p>One thing that is important to recognize about climate change is that different parts of the world are impacted differently. When we talk about climate change in aggregate we often lose sight of how hard it is going to hit certain parts of the world.</p>
+
+<p>Climate change is part of a large system. Because it is part of a large system it is not just going to get worse linearly. There will actually be feedback loops and it will start getting worse at a quicker rate. The warmer it gets, the faster it will get warmer.</p>
+
+<p>So what does it mean to tackle climate change? It is not like there is an on/off switch. People often ask the question is it too late. That is a silly question because of course it is too late. We can already see the impact. We do get to decide though how bad it gets.</p>
+
+<p>There are two separate approaches to fighting climate change. There is mitigation which means reducing the affect that we are having. The other approach is adaption which means increasing our resiliency to changing conditions.</p>
+
+<p>But how does machine learning relate? Machine learning allows us to take advantage of large data sets to do better planning and make our systems have less of an impact on the climate system. Machine Learning is really just a tool. It can be used to make climate change worse, or it can be used to make climate change better.</p>
+
+<p>They have founded Climate Change AI which is a group of volunteers from academia and industry trying to facilitate applications of machine learning to address climate change. The following <a href="https://arxiv.org/abs/1906.05433">paper</a> is essentially their manifesto.</p>
+
+<p>The rest of the talk mostly just covers the paper which I plan to read so look for my write up on the paper at some point.</p>
+
+<p>Below are some example opportunities of place where ML can be applied and then how to get involved.</p>
+
+<h2 id="example-opportunuities">Example Opportunuities</h2>
+
+<p>We can apply Machine Learning systems to improve our electrical systems. Our electrical systems are very complicated and involve systems generating electricity, system transmitting electricity and then systems using electricity.</p>
+
+<p>One way to improve our electrical systems is if we can better forecast supply and demand. We are currently really bad at storing energy in batteries. Forecasts of how much electricity we are going to supply and how much electricity is going to be demanded would be very helpful.</p>
+
+<p>Transportation is another sector where we could us ML. We could use ML to help with freight routing and consolidation. We could use ML to reduce freight emissions by optimizing bundling and shipment. There are also many problems where ML can be used related to electric vehicles.</p>
+
+<p>In the talk he mentioned lots of other examples. I decided not to write them all out here.</p>
+
+<p>You can get involved through their website.</p>
+
+<h2 id="my-thoughts">My Thoughts</h2>
+
+<p>I was kind of disappointed by this talk. I am not sure what I expected out of it, but it was essentially just a laundry list of all the different ways ML can help with Climate Change. I would love to work on combating climate change but it is daunting to just start a problem from complete scratch. The website and project is clearly new so I am excited to see how it develops and how the community forms.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

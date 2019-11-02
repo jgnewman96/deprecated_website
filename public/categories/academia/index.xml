@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academia on Welcome</title>
+    <link>https://judahgnewman.netlify.com/categories/academia/</link>
+    <description>Recent content in Academia on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 07:58:23 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/categories/academia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Professors</title>
+      <link>https://judahgnewman.netlify.com/writing/academia/professors/</link>
+      <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/academia/professors/</guid>
+      <description>This is list of professors who are doing really cool work:
+Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas] [Rachel Thomas]</description>
+    </item>
+    
+  </channel>
+</rss>

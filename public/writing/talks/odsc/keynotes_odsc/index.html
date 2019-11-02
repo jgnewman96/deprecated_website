@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ODSC Keynotes</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ODSC Keynotes</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>ODSC Keynotes</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/machine-learning"><kbd class="item-tag">Machine Learning</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<h2 id="ai-lifecycle-model-management-monitoring-for-risk-bias-and-fairness">AI Lifecycle Model Management: Monitoring for Risk, Bias and Fairness</h2>
+
+<p>Talk given by <a href="https://community.ibm.com/community/user/people/sepideh-seifzadeh1">Sepideh Seifzadeh</a></p>
+
+<p>Why do we care about data regulation?</p>
+
+<ul>
+<li>increased collection of data</li>
+<li>low cost storage</li>
+<li>Machine Learning capabilities have increased &ndash;&gt; doing more things , more unintended consequences or harms</li>
+</ul>
+
+<p>Why is there going to be AI regulation
+- how is it going to protect us from harm
+- could regulation be bad, could it stifle innovation, regulation has some harms and some nefits
+- should we incremental make laws or make a new set of rules</p>
+
+<p>When AI makes a mistake who do we blame?  who is liable for self driving care mistake</p>
+
+<p>example of Compas, give a score to the defedant before the trial date, should we put them in jail or not, algorithm gave them a score, algorithm was biased to have more false positives for black defedents</p>
+
+<p>So what are the solutions?
+- IBM is a leader in this space
+- AI fairness 360</p>
+
+<p>ML lifecycle</p>
+
+<p>Collect data &ndash;&gt; organize data &ndash;&gt; analyze the data &ndash;&gt; infuse the data</p>
+
+<p>importantant to continue to montior the model</p>
+
+<p>IMB has partnered with red hat to solve this</p>
+
+<p>Cloud Pak for data</p>
+
+<p>Shows an ended to end lifecycle using IBM tools the whole way</p>
+
+<h3 id="my-thoughts">my thoughts</h3>
+
+<p>maybe i struggled with it because I have been thinking about this space a lot of late</p>
+
+<p>how do you combo high level stuff with actual meat, like yes AI is going to be regulated, AI is growing, people are using it more, we get that</p>
+
+<p>I know it is hard to do a quick 30 minute conversation, but this actually did a disservice to how hard this is, and how nontrivial it is</p>
+
+<p>In a quick chat you have to get to big ideas that made people thing</p>
+
+<p>This was a sales pitch</p>
+
+<p>Interesting to see that this is how IBM is marketing themselves now</p>
+
+<h2 id="ai-and-security-lessons-challenges-and-future-directions">AI and Security, Lessons, Challenges and Future Directions</h2>
+
+<p><a href="https://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a> founder of oasis labs</p>
+
+<p>deeep learnings has made advancements, alpha go, personal assistants</p>
+
+<p>in security attacks are increasing in scale and sophistication</p>
+
+<p>mirai botnet, Iot attack ddos, also large data breaches</p>
+
+<p>we should consider the presence of an attacker as we deploy deep learning &ndash;&gt; as we automate more systems it makes it easier for attacks to have more power.</p>
+
+<p>How can attackers attack
+- they can attack integrirty, cause a system to produce incorrect or specific outcomes
+- confidentiality -&gt; get sensitive information</p>
+
+<p>AI can also be used in to create attacks,</p>
+
+<p>we need to develop security AI systems</p>
+
+<p>consider self driving cars &ndash;&gt; exampe of how you can mess with stop sign if you put tape on it and trick the driving car, can cause misclassification into speed limit sign</p>
+
+<p>important to make learning system robust to attacks</p>
+
+<p>example: Visual question &amp; answer
+- input as image and question and then generate answer
+- we can add noise that does not change anything to the human</p>
+
+<ul>
+<li>if it can be attacked we did not make a good model</li>
+</ul>
+
+<p>can even be done with reinforcement learning and creating agents</p>
+
+<p>whitebox attacks, attacker has access to the actual model</p>
+
+<p>but there is also blackbox attacks that are very effective</p>
+
+<p>confidentiality, learn something from the data
+- differential privacy</p>
+
+<p>&ndash; users having control over their data, distrbuted ledger and smart contracts</p>
+
+<p>extracting secrets from training data, memorization vs generalization, link to the <a href="https://blog.acolyer.org/2019/09/23/the-secret-sharer/">morning paper write up</a></p>
+
+<p>Instead we need to train a differential private model, same level of accuracy, but attacks are no longer</p>
+
+<p>what is dfferential privacy?
+- look at a data set with one data point more than the other
+- an algorthm is private if the computation results is essentially the same from the two results
+- by looking at the results an attacker cannot tell if Joe&rsquo;s data point is in the data set or not</p>
+
+<p>It can be hard to deploy algorithms that are differentially private
+- usable by non-experts
+- integration with exisiting environment</p>
+
+<p>developing techniques and tools to deploy differential privacy</p>
+
+<p>oasis labs, they have been putting all of these things together, kera is an app to improve data siloing in medical research</p>
+
+<p>many important question to still answer
+- building better systems</p>
+
+<p>security is a large challenge that requires community effort</p>
+
+<h3 id="my-thoughts-1">my thoughts</h3>
+
+<p>AI and ML is just a tool, anything can be done with it</p>
+
+<p>the key is how when you automate something you give more control, like if you have humans doing it, it is harder, person on the street corner versus posting on the internet</p>
+
+<p>these systems are not intelligent they arte just doing apttern recognition</p>
+
+<p>this type of work is so important, but to me the conlusion should not just be, lets think more about security they should be broader</p>
+
+<p>how does focusing on these niches maybe lead down the wrong path? yeah lets continue on the current path and make it more robust rather than these are a lot of concerns that show us hey maybe we should go down a different path</p>
+
+<p>It is interesting to think about what is the purpose of the keynote talks. maybe these keynotes are just about making data scientists more cautionary about what they are doing</p>
+
+<h2 id="getting-specific-about-algorithmic-bias">Getting Specific About Algorithmic Bias</h2>
+
+<p><a href="https://www.linkedin.com/in/rachel-thomas-942a7923">Rachel Thomas</a></p>
+
+<p>facial recognition, gendershades.org
+- performs a lot worse on dark skinned women</p>
+
+<p>amazons facial recognition matched 28 members of congress to mugshots, more for congressman of color</p>
+
+<p>harini suresh and john guttag - a framework for understanding unitended consequences of machine learnng</p>
+
+<p>face recognition is representation bias, training sets had white men in them more</p>
+
+<p>evaluation bias &ndash;&gt; bench mark data sets having light skinned men</p>
+
+<p>we can create more representative data sets -&gt; part of dender shades , consider consent when creating datasets</p>
+
+<p>compass algorithm - false positive rate for black defedants was twice as high - 40 percent of black defedents who were labeled as high risk did not re-offend</p>
+
+<p>same peformance with a linear classifier with three variables</p>
+
+<p>race was not an input into compass algoirthm, but it was found as a latent variable, we have to be careful of this</p>
+
+<p>feedback loop, when a model controls the next round of data you get, you implement a model and then it affects what data you get</p>
+
+<p>reccomendation systems predict what content users like but then also affects what they actually see</p>
+
+<p>historical bias -&gt; getting more data will not mitigate the compass thing, we have historical incarciareted higher rates of black people.</p>
+
+<p>suresh et al 2019 for defintion</p>
+
+<p>it is so important to work with domian experts, work with people in the legal system and those actually impacted by it.</p>
+
+<p>third case study: online ad delivery
+- latanya sweeney , google her name and then ask if she has been arrested
+- neutral sounding adds for kristen lindquist, but she actually has three arrest
+- this pattern held names for black people had these worse ads</p>
+
+<p>company said there were allowing you to post both and then people did A/B testing to get the one people will click on more</p>
+
+<p>AI ethics concerns are about human rights
+- anil dash there is no tech industry any more</p>
+
+<p>we need to consider what civil and human rights we want to protect</p>
+
+<p>idea of data being biased is just too generic, when you actually want to get deeper</p>
+
+<p>sendhil Mullainathon and ZIad Obermeyer - who is most likely to have a stroke
+- most predictive is prior stroke
+- cardiovascular diese</p>
+
+<ul>
+<li>accidential injury</li>
+<li>benign breast lump</li>
+<li>colonoscopy</li>
+<li>the last three should not actually be predicitve</li>
+</ul>
+
+<p>we are not actually measuring a stroke</p>
+
+<p>we are measuring do you have symptoms go to the doctor, get tests and recieve a diagnosis</p>
+
+<p>so essentially if you use healthcare more, that is what those are measuring, this is a form of measurement bias, we are using aproxy to what we care about and that different is important</p>
+
+<p>Historicial Bias
+- when doctors are shown identical files much less likely to give a helpful reccomendation for black people
+- responding to fraiglist apartments with black name
+- when bargaining for a car, black people are offered higher prices</p>
+
+<p>&ndash; this historical bias is everywhere</p>
+
+<p>why does algoirthmic bias matter &ndash;&gt; humans are biased too</p>
+
+<p>machine learning can ampelify bias</p>
+
+<p>algorithms are used differently than human
+- people are more likely to assume algoirthms are fair
+    - with people we recognize they are subjective
+- algorithms are more likely to be implemeneted with no appeals in place
+- algorithms are used at scale
+- algorithms at scale</p>
+
+<p>towards some solutions
+1. analyze a project at work/school
+    - number of frameworks, she has her own
+    - when the implication is not to design technology
+    - should we even build this
+    - sometimes the answer is just not to build something
+    - what bias are there in the data? all data is biased so important to see what data there is, data sheets for data sets
+    - can the code and data be audited, open source
+    - error rates for sub-groups?
+    - accuracy of simple rule based alternative
+    - how do we handle appeals or mistakes
+    - how diverse is the team that built it</p>
+
+<h3 id="my-thoughts-2">my thoughts</h3>
+
+<p>love her calling out the other researchers</p>
+
+<p>she does this so well examples and depth, but also keeps things at a high level</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

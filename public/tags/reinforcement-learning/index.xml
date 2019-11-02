@@ -13,10 +13,10 @@
     
     <item>
       <title>Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</title>
-      <link>https://judahgnewman.netlify.com/writing/agents_language_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 10:50:20 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/agents_language_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</guid>
       <description>Talk given by Jacob Andreas
 Motivation Ideally we have systems that understand us in our natural language and can do things. We are beginning to have autonomous agents in the world around us. Both agents in the virtual world such a personal assistants and agents in the physical world like Roombas. We want to build automated agents that can take actions based on natural language
 How do we design agents?</description>

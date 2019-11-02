@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Welcome</title>
+    <link>https://judahgnewman.netlify.com/categories/books/</link>
+    <description>Recent content in Books on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Oct 2019 08:02:37 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Wizard from Earthsea</title>
+      <link>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</link>
+      <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</guid>
+      <description>I read this book because of a recommendation from my friend Hawkins. I had previously read a couple of other books by Ursula Le Guin. I absolutely loved both Left Hand of Darkness and The Dispossessed. Both were sci-fi books that were actually commentaries on human society. I cannot get enough of books like that. Hawk had mentioned that this book was about a communist society and what that would look like.</description>
+    </item>
+    
+    <item>
+      <title>A Year in Review: The Books I Read in 2018</title>
+      <link>https://judahgnewman.netlify.com/writing/a-year-in-review-the-books-i-read-in-2018/</link>
+      <pubDate>Thu, 25 Jul 2019 21:16:37 +0000</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/a-year-in-review-the-books-i-read-in-2018/</guid>
+      <description>It is that time of year again when every website is publishing some piece of content trying to sum up 2018. Whether it is Facebook, posting a video that is your year in review, or a march madness style bracket to determine what person, place, or thing won 2018, everybody is attempting to summarize the past year.
+A lot has happened over the past year. In 2018, I graduated college and started my first full time job.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,10 +13,10 @@
     
     <item>
       <title>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</title>
-      <link>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/inspecting_deep_learning_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 13:55:58 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/inspecting_deep_learning_odsc/</guid>
       <description>Talk given by Michael Mahoney and Charles H. Martin
 Talk Slides
 Github
@@ -25,10 +25,10 @@ Motivation What most practitioners of deep learning do is train models. Training
     
     <item>
       <title>Implict Deep Learning </title>
-      <link>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/implicit_learning_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 08:33:02 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/implicit_learning_odsc/</guid>
       <description>Talk given by Laurent El Ghaoui : Professor at BAIR and chief scientist at Sumup Analytics
 This talk was about a new area of Deep Learning research that is still very much theory. In this approach rather than specifying the architecture of a given model, the data tells us the structure of our model. This approach provides for new notation and new conceptual ways for us to think about deep learning.</description>
     </item>

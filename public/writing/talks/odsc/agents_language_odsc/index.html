@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/reinforcement-learning"><kbd class="item-tag">Reinforcement Learning</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+
+<p>Talk given by <a href="http://web.mit.edu/jda/www/">Jacob Andreas</a></p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>Ideally we have systems that understand us in our natural language and can do things. We are beginning to have autonomous agents in the world around us. Both agents in the virtual world such a personal assistants and agents in the physical world like Roombas. We want to build automated agents that can take actions based on natural language</p>
+
+<h2 id="how-do-we-design-agents">How do we design agents?</h2>
+
+<p>We can break down the agent design problem in the following way. We have a context which consists of our environment and our available actions. And then we have our data which consists of our instructions and supervision.</p>
+
+<p>So imagine we want to teach an agent to navigate our house. The environment would be where in the house is the agent and what do they see nearby. The available actions would be the movements the agent could make. The instructions would be a certain task we wanted to agent to accomplish. For example, &ldquo;Go sit on the sofa&rdquo;. Lastly, the supervision would be whether or not a series of actions accomplishes the instructions.</p>
+
+<p>Every time an agent takes an action it changes the state. Each action is a transition from one state to another state. The language of the instructions corresponds to a series of actions. It is essentially a machine translation problem of translating instructions into a set of actions.</p>
+
+<h2 id="does-this-approach-work">Does this approach work?</h2>
+
+<p>We can get fairly far with this approach. One problem with it though is that it treats each state as independent. But generally we will actually need to understand the previous state.</p>
+
+<p>We might have to enrich the state space so that it includes something about completion of certain parts of the instruction. We can do this by adding a state space which corresponds an action to a given part of the instruction. Essentially attention in this machine translation problem. This only works though when the instructions are a series of actions.</p>
+
+<p>What if the instructions were instead a goal?</p>
+
+<h2 id="constraints-approach">Constraints approach</h2>
+
+<p>Another approach is that we read the instructions and make constraints of our final state. To do this we take advantage of linguistic structure. Lets look at an example.</p>
+
+<p>&ldquo;Sit on the chair next to the bed&rdquo;</p>
+
+<p>What we would do is parse this text into a set of constraints for the final space. The constraints could be:</p>
+
+<ol>
+<li>Be sitting</li>
+<li>Be on a chair</li>
+<li>Be next to the bed</li>
+</ol>
+
+<p>We then just have to get a series of actions that brings us to a final state that meets those constraints.</p>
+
+<p>But how do we get a language of constraints that is powerful enough to represent everything? How do we know what being sitting is or being next to a chair is?</p>
+
+<p>How can we get all the benefits of the constraint approach with needing all of these pre learned things?</p>
+
+<p>We can change the approach to rather than predicting individual actions we predict the full action set. We have no intermediate logical structure but rather text to a full action set.</p>
+
+<h2 id="what-else-can-we-do-with-these-same-tools">What else can we do with these same tools?</h2>
+
+<p>Rather than just training agents we can also do instruction generation. We can take a set of actions and map it to language. We can imagine this is really helpful for navigational guidance.</p>
+
+<h2 id="my-thoughts">My Thoughts</h2>
+
+<p>This talk had a really nice flow and was incredibly well motivated. it started out simple and then built up in complexity. It followed a logical thinking pattern and told a story.</p>
+
+<p>This talk seemed to follow a similar recent trend of adding more structure to models. Adding more structure to models can actually help a lot. What can be difficult is how do we pick what structure to add, what level of abstractions do we use?</p>
+
+<p>One thing I was thinking about during this talk was how we often break problems down into smaller problems to solve them. This is often necessary. It is almost impossible to think about really complex problems. But I was playing around with the idea of how using proxy problems can bring us down the wrong rabbit hole.</p>
+
+<p>For example imagine we want to build an intelligent system. So far our approach has been to build very narrowly intelligent system. The hope is by starting here and doing this well, we will eventually learn how to do the harder thing. Is it possible though, that by optimizing the simpler thing, we actually are not taking the best approaches to solve the larger problem.</p>
+
+<p>In the end I would argue yes that is possible, but what else can we really do? We need to have intermediate approaches. We just should keep in mind the larger issue we are actually trying to solve and understand we are using a proxy which might not generalize to the larger issue.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

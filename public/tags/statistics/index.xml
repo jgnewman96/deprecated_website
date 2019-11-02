@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on Welcome</title>
+    <link>https://judahgnewman.netlify.com/tags/statistics/</link>
+    <description>Recent content in Statistics on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Oct 2019 13:40:46 -0700</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rotation 1: Non-coop estimation</title>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_1/</link>
+      <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_1/</guid>
+      <description>Project Description Nielsen receives data from retailers about all of the items they sell. For example, Walmart sends Nielsen all of the products sold at each store in the past week. Brands, such as Johnson &amp;amp; Johnson, use this information to see how much of their product is being bought. Some retailers do not send Nielsen their data. We will refer to these retailers as non-cooperators. Non-cooperators do not send Nielsen their data because the majority of the items they sell are from their own brand.</description>
+    </item>
+    
+    <item>
+      <title>Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
+      <pubDate>Sun, 29 Sep 2019 22:04:54 +0000</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
+      <description>By Devezer B, Nardin LG, Baumgaertner B, Buzbas EO
+Summary This paper creates a model of how scientific researchers make progress towards the truth. By examining this process under different conditions the authors were able to identify what characteristics help lead scientists towards the truth. This work was motivated by understanding the role that reproducibility has in the research process. Through experiments with different conditions the authors were able to reach some conclusions about how reproducibility and other characteristics affect a communities ability to find the truth.</description>
+    </item>
+    
+  </channel>
+</rss>

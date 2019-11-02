@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <lastmod>2019-10-31T12:17:01-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://judahgnewman.netlify.com/tags/conferences/</loc>
     <lastmod>2019-10-31T12:17:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/odsc/</loc>
-    <lastmod>2019-10-31T12:17:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</loc>
     <lastmod>2019-10-31T12:17:01-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2019-10-31T12:17:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/talks/</loc>
     <lastmod>2019-10-31T12:17:01-07:00</lastmod>
   </url>
   
@@ -38,17 +43,17 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/keynotes_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/keynotes_odsc/</loc>
     <lastmod>2019-10-31T08:22:50-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</loc>
     <lastmod>2019-10-31T08:02:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/books/</loc>
+    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
     <lastmod>2019-10-31T08:02:37-07:00</lastmod>
   </url>
   
@@ -63,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/climate_change_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/climate_change_odsc/</loc>
     <lastmod>2019-10-30T15:58:02-07:00</lastmod>
   </url>
   
@@ -73,12 +78,12 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/inspecting_deep_learning_odsc/</loc>
     <lastmod>2019-10-30T13:55:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/agents_language_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</loc>
     <lastmod>2019-10-30T10:50:20-07:00</lastmod>
   </url>
   
@@ -93,17 +98,17 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/ml_microecon/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/ml_microecon/</loc>
     <lastmod>2019-10-30T09:51:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/implicit_learning_odsc/</loc>
     <lastmod>2019-10-30T08:33:02-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/mlflow_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/mlflow_odsc/</loc>
     <lastmod>2019-10-29T13:53:00-07:00</lastmod>
   </url>
   
@@ -113,92 +118,92 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/user_centeric_design_odsc/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/user_centeric_design_odsc/</loc>
     <lastmod>2019-10-29T11:47:50-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/data-viz/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/kdd_odsc/</loc>
     <lastmod>2019-10-29T08:05:34-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/kdd_odsc/</loc>
-    <lastmod>2019-10-29T08:05:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/grad-school/</loc>
+    <loc>https://judahgnewman.netlify.com/categories/academia/</loc>
     <lastmod>2019-10-29T07:58:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/professors/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/academia/professors/</loc>
     <lastmod>2019-10-29T07:58:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/biased_data_hawk/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/personal/biased_data_hawk/</loc>
     <lastmod>2019-10-25T16:44:33-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/letters/</loc>
+    <loc>https://judahgnewman.netlify.com/categories/personal/</loc>
     <lastmod>2019-10-25T16:44:33-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/industry-work/</loc>
+    <loc>https://judahgnewman.netlify.com/categories/industry/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/ml_cop/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/industry/nielsen/ml_cop/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/industry/nielsen/my_time_at_nielsen/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/nielsen/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_1/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/rotation_1/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_2/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/rotation_2/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_3/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/rotation_3/</loc>
+    <loc>https://judahgnewman.netlify.com/tags/software-engineering/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</loc>
+    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
+    <lastmod>2019-10-25T13:40:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</loc>
     <lastmod>2019-10-21T19:48:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/interdisciplinary-papers/</loc>
+    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
     <lastmod>2019-10-21T19:48:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</loc>
     <lastmod>2019-10-18T17:46:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</loc>
     <lastmod>2019-10-08T16:23:38+00:00</lastmod>
   </url>
   
@@ -208,27 +213,32 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/personal-planning-for-the-offseason/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/personal/personal-planning-for-the-offseason/</loc>
     <lastmod>2019-10-07T22:03:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/paper-model-cards-for-model-reporting/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</loc>
     <lastmod>2019-10-05T22:08:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/green-ai/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/green-ai/</loc>
     <lastmod>2019-09-30T03:40:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</loc>
     <lastmod>2019-09-29T22:04:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</loc>
+    <lastmod>2019-09-27T00:18:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/policy/</loc>
     <lastmod>2019-09-27T00:18:24+00:00</lastmod>
   </url>
   
@@ -243,6 +253,11 @@
   </url>
   
   <url>
+    <loc>https://judahgnewman.netlify.com/tags/reflections/</loc>
+    <lastmod>2019-07-25T21:16:37+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://judahgnewman.netlify.com/research/</loc>
     <lastmod>2019-07-25T18:34:24+00:00</lastmod>
   </url>
@@ -250,10 +265,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/about/</loc>
     <lastmod>2019-07-25T18:30:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/categories/</loc>
   </url>
   
 </urlset>

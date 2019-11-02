@@ -13,10 +13,10 @@
     
     <item>
       <title>ODSC</title>
-      <link>https://judahgnewman.netlify.com/writing/odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</link>
       <pubDate>Thu, 31 Oct 2019 12:17:01 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</guid>
       <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
 Day 1, Tuesday October 29, 2019 Interpretable Knowledge Discovery Reinforced by Visual Methods
 User-Centric Design for Data Scientists
@@ -26,11 +26,11 @@ Towards a Blend of Machine Learning and Microeconomics</description>
     </item>
     
     <item>
-      <title>Thursday Keynotes</title>
-      <link>https://judahgnewman.netlify.com/writing/keynotes_odsc/</link>
+      <title>ODSC Keynotes</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/keynotes_odsc/</link>
       <pubDate>Thu, 31 Oct 2019 08:22:50 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/keynotes_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/keynotes_odsc/</guid>
       <description>AI Lifecycle Model Management: Monitoring for Risk, Bias and Fairness Talk given by Sepideh Seifzadeh
 Why do we care about data regulation?
  increased collection of data low cost storage Machine Learning capabilities have increased &amp;ndash;&amp;gt; doing more things , more unintended consequences or harms  Why is there going to be AI regulation - how is it going to protect us from harm - could regulation be bad, could it stifle innovation, regulation has some harms and some nefits - should we incremental make laws or make a new set of rules</description>
@@ -38,19 +38,19 @@ Why do we care about data regulation?
     
     <item>
       <title>A Wizard from Earthsea</title>
-      <link>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</link>
+      <link>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</link>
       <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/wizard_from_earth_sea/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</guid>
       <description>I read this book because of a recommendation from my friend Hawkins. I had previously read a couple of other books by Ursula Le Guin. I absolutely loved both Left Hand of Darkness and The Dispossessed. Both were sci-fi books that were actually commentaries on human society. I cannot get enough of books like that. Hawk had mentioned that this book was about a communist society and what that would look like.</description>
     </item>
     
     <item>
       <title>Tackling Climate Change with Machine Learning</title>
-      <link>https://judahgnewman.netlify.com/writing/climate_change_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/climate_change_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 15:58:02 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/climate_change_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/climate_change_odsc/</guid>
       <description>Talk given by David Rolnick University of Pennsylvania and founder of Climate Change AI
 Motivation Climate change as an important issues does not need that much motivation. We have all seen what has been happening California recently with the wild fires. There has been increasingly severe impacts from human influence on our climate system.
 One thing that is important to recognize about climate change is that different parts of the world are impacted differently.</description>
@@ -58,10 +58,10 @@ One thing that is important to recognize about climate change is that different 
     
     <item>
       <title>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</title>
-      <link>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/inspecting_deep_learning_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 13:55:58 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/inspecting_deep_learning_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/inspecting_deep_learning_odsc/</guid>
       <description>Talk given by Michael Mahoney and Charles H. Martin
 Talk Slides
 Github
@@ -70,10 +70,10 @@ Motivation What most practitioners of deep learning do is train models. Training
     
     <item>
       <title>Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</title>
-      <link>https://judahgnewman.netlify.com/writing/agents_language_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 10:50:20 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/agents_language_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</guid>
       <description>Talk given by Jacob Andreas
 Motivation Ideally we have systems that understand us in our natural language and can do things. We are beginning to have autonomous agents in the world around us. Both agents in the virtual world such a personal assistants and agents in the physical world like Roombas. We want to build automated agents that can take actions based on natural language
 How do we design agents?</description>
@@ -81,30 +81,30 @@ How do we design agents?</description>
     
     <item>
       <title>Towards a Blend of Machine Learning and Microeconomics</title>
-      <link>https://judahgnewman.netlify.com/writing/ml_microecon/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/ml_microecon/</link>
       <pubDate>Wed, 30 Oct 2019 09:51:58 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/ml_microecon/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/ml_microecon/</guid>
       <description>Talk given by Michael I Jordan
 What is Machine Learning? The talk started by Professor Jordan defining what Machine Learning is. He said that machine learning is not some new field of research but it is rather the engineering extension of statistics. He calls back to how there was chemistry for a long time before there was chemical engineering. There was physics and electrical theory before there was electrical engineering.</description>
     </item>
     
     <item>
       <title>Implict Deep Learning </title>
-      <link>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/implicit_learning_odsc/</link>
       <pubDate>Wed, 30 Oct 2019 08:33:02 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/implicit_learning_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/implicit_learning_odsc/</guid>
       <description>Talk given by Laurent El Ghaoui : Professor at BAIR and chief scientist at Sumup Analytics
 This talk was about a new area of Deep Learning research that is still very much theory. In this approach rather than specifying the architecture of a given model, the data tells us the structure of our model. This approach provides for new notation and new conceptual ways for us to think about deep learning.</description>
     </item>
     
     <item>
       <title>ML Flow: Platform for Complete Machine Learning Life Cycle</title>
-      <link>https://judahgnewman.netlify.com/writing/mlflow_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/mlflow_odsc/</link>
       <pubDate>Tue, 29 Oct 2019 13:53:00 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/mlflow_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/mlflow_odsc/</guid>
       <description>Talk given by Jules Damji: git hub repo
 Motivation Machine learning development is complex. This is not due to the underlying theory but rather all of the different stages in development. Each stage has its own requirements and goals. We have developed tools and best practices for this for traditional software development, but not Machine Learning.
 Here are the differences between traditional software and machine learning
@@ -114,10 +114,10 @@ Traditional Software:
     
     <item>
       <title>User-Centric Design for Data Scientists</title>
-      <link>https://judahgnewman.netlify.com/writing/user_centeric_design_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/user_centeric_design_odsc/</link>
       <pubDate>Tue, 29 Oct 2019 11:47:50 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/user_centeric_design_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/user_centeric_design_odsc/</guid>
       <description>By Annie Darmofal and Katie Malone
 They both work at Tempus
 Motivation Even if we build the most incredible thing, if it is not designed with users in mind, no body will use it. If we have built something that nobody will use, is it even incredible. If nobody is using what we have built than that is a failing.
@@ -126,10 +126,10 @@ We can build tools that users actually care about and will use if we take a user
     
     <item>
       <title>Interpretable Knowledge Discovery Reinforced by Visual Methods</title>
-      <link>https://judahgnewman.netlify.com/writing/kdd_odsc/</link>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/kdd_odsc/</link>
       <pubDate>Tue, 29 Oct 2019 08:05:34 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/kdd_odsc/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/kdd_odsc/</guid>
       <description>Talk given by Boris Kovalerchuk , Slides
 Motivation Boris motivated the need for visual techniques with an example on the Iris data set. He showed three different models for the Iris data set, shown below.
 He highlighted that the problem with each of these analytical approaches is that they generalize to areas we have seen before. Ideally, instead we would have a model that classified points in space we had seen before and refused to classify points in the unknown space.</description>
@@ -137,20 +137,20 @@ He highlighted that the problem with each of these analytical approaches is that
     
     <item>
       <title>Professors</title>
-      <link>https://judahgnewman.netlify.com/writing/professors/</link>
+      <link>https://judahgnewman.netlify.com/writing/academia/professors/</link>
       <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/professors/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/academia/professors/</guid>
       <description>This is list of professors who are doing really cool work:
 Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas] [Rachel Thomas]</description>
     </item>
     
     <item>
       <title>How do you Solve for Biased Data?</title>
-      <link>https://judahgnewman.netlify.com/writing/biased_data_hawk/</link>
+      <link>https://judahgnewman.netlify.com/writing/personal/biased_data_hawk/</link>
       <pubDate>Fri, 25 Oct 2019 16:44:33 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/biased_data_hawk/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/personal/biased_data_hawk/</guid>
       <description>My friend Hawkins recently sent me the following question:
  How do you work around biased data sets to produce non discriminatory results in ML?
  I ended up writing him a fair amount while I wan on a plane. My response to him is replicated here in full.
@@ -159,125 +159,125 @@ Thanks for asking this question. It is a really important one and it is always n
     </item>
     
     <item>
-      <title>Machine Learning Community of Practice</title>
-      <link>https://judahgnewman.netlify.com/writing/ml_cop/</link>
+      <title>Machine Learning Community of Practice: Nielsen</title>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/ml_cop/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/ml_cop/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/ml_cop/</guid>
       <description> Project Description  group to help bring machine learning, learnings to all parts of the organization  hosts webinars, and really just be a first point of contant for all things machine learning  website with resources, experts, guides   My Contribution  study groups &amp;ndash;&amp;gt; wanted to facilitate learnings across the org, this was my biggest thing  coding club for leaders in the org, putting together presentations for them to know technical things  What I Learned  How to stay motivated even when it seems like things are not happening  How to recognize that there are different users with different needs  You do not have to do everything yourself it is important to partner  The importance of setting direction  </description>
     </item>
     
     <item>
       <title>My Time At Nielsen</title>
-      <link>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</link>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/my_time_at_nielsen/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/my_time_at_nielsen/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/my_time_at_nielsen/</guid>
       <description>What I Did at Nielsen My first job after completing undergrad was as a Data Scientist at Nielsen. Nielsen is a market research company that provides insight about what people buy and what media content they consume. I was a part of Nielsen&amp;rsquo;s early career program focused on fast tracking individuals to leadership roles. The program consists of four six months rotations for a total of two years. During my time at Nielsen I wrote about what I worked on and what I was learning.</description>
     </item>
     
     <item>
       <title>Rotation 1: Non-coop estimation</title>
-      <link>https://judahgnewman.netlify.com/writing/rotation_1/</link>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_1/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/rotation_1/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_1/</guid>
       <description>Project Description Nielsen receives data from retailers about all of the items they sell. For example, Walmart sends Nielsen all of the products sold at each store in the past week. Brands, such as Johnson &amp;amp; Johnson, use this information to see how much of their product is being bought. Some retailers do not send Nielsen their data. We will refer to these retailers as non-cooperators. Non-cooperators do not send Nielsen their data because the majority of the items they sell are from their own brand.</description>
     </item>
     
     <item>
       <title>Rotation 2: Bayesian Inference for Ratings</title>
-      <link>https://judahgnewman.netlify.com/writing/rotation_2/</link>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_2/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/rotation_2/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_2/</guid>
       <description>Project Description Nielsen is best known for their linear television ratings which estimate the number of people who were watching a channel at any time. This information is estimated using a representative panel of households all across the United States. Households in Nielsen&amp;rsquo;s Panel report all of the television that they watch. Each household&amp;rsquo;s viewing is weight based on its demographics to ensure that the viewing is representative of the population.</description>
     </item>
     
     <item>
       <title>Rotation 3: Digital Pipeline Development</title>
-      <link>https://judahgnewman.netlify.com/writing/rotation_3/</link>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_3/</link>
       <pubDate>Fri, 25 Oct 2019 13:40:46 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/rotation_3/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_3/</guid>
       <description>Project Description Nielsen is in the process of transforming how we build our products. We are a ninety five year old company that is not technologically native. We are working on building products that are more maintainable and reducing the amount of work that we duplicate. Data science in particular is undergoing a large transformation within Nielsen. Previously, Data Science sat very far away from the final product and a large portion of the data science organization did not have the technical skills to build reliable technical products.</description>
     </item>
     
     <item>
       <title>Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices</title>
-      <link>https://judahgnewman.netlify.com/writing/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</link>
       <pubDate>Mon, 21 Oct 2019 19:48:27 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</guid>
       <description>By Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, Marti A. Hearst
 Summary This paper is a qualitative analysis of thirty interviews with data scientists about their data exploration process. The interviews focus on the different tools that they use, how they are used and what functionality data scientists still desire. The paper shows how different this exploration process can be for different data scientists and how they all use different tools.</description>
     </item>
     
     <item>
       <title>Defining an Analysis: A Study of Client-Facing Data Scientists</title>
-      <link>https://judahgnewman.netlify.com/writing/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</link>
       <pubDate>Fri, 18 Oct 2019 17:46:58 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</guid>
       <description>By Mosca, Abigail and Robinson, Shannon and Clarke, Meredith and Redelmeier, Rebecca and Coates, Sebastian and Cashman, Dylan and Chang, Remco
 Summary The authors of this paper use interviews of 14 data scientists to characterize how a data scientist takes business requirements and turns it into a project. The authors call this process of taking a clients needs and turning it into an analysis plan initialization. The authors specifically focus on how data scientists interact with non-technical clients.</description>
     </item>
     
     <item>
       <title>Towards Effective Foraging by Data Scientists to Find Past Analysis Choices</title>
-      <link>https://judahgnewman.netlify.com/writing/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</link>
       <pubDate>Tue, 08 Oct 2019 16:23:38 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</guid>
       <description>By Mary Beth Kery, Bonnie E. John, Patrick O’Flaherty, and Amber Horvath, Brad A. Myers
 Summary The authors of the paper present a juypter lab extension called verdant that keeps track of notebook history. The goal of verdant is to to help data scientists answer questions about their research process even if they have not documented everything along the way. The need for this tool is motivated by how messy and non-linear the data scientist process is.</description>
     </item>
     
     <item>
       <title>Planning for the Offseason</title>
-      <link>https://judahgnewman.netlify.com/writing/personal-planning-for-the-offseason/</link>
+      <link>https://judahgnewman.netlify.com/writing/personal/personal-planning-for-the-offseason/</link>
       <pubDate>Mon, 07 Oct 2019 22:03:08 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/personal-planning-for-the-offseason/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/personal/personal-planning-for-the-offseason/</guid>
       <description>One of my friends and teammates asked me for some feedback about what he should be working on during the frisbee off-season. I wrote him an email explaining about how I think about getting better in the off-season before sending him some personal feedback. I thought sending this email would help contextualize how I think about getting better and reaching our goals. Some of the information in here, can be applied to really any skill, not just getting better at frisbee.</description>
     </item>
     
     <item>
       <title>Model Cards for Model Reporting</title>
-      <link>https://judahgnewman.netlify.com/writing/paper-model-cards-for-model-reporting/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</link>
       <pubDate>Sat, 05 Oct 2019 22:08:21 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/paper-model-cards-for-model-reporting/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</guid>
       <description>By Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru
 Summary The authors propose that machine learning models should be accompanied by documentation known as &amp;ldquo;model cards&amp;rdquo;. A model card should outline who built the model, what the purpose of the model is, how it was validated and what it&amp;rsquo;s performance is according to many different metrics. The authors focus on models that are making decisions about humans.</description>
     </item>
     
     <item>
       <title>Green AI</title>
-      <link>https://judahgnewman.netlify.com/writing/green-ai/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/green-ai/</link>
       <pubDate>Mon, 30 Sep 2019 03:40:49 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/green-ai/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/green-ai/</guid>
       <description>By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
 Summary The authors of this post argue that a large percentage of machine learning research focuses on Red AI and make a call for more research to be centered on Green AI. The authors define Red AI and Green AI as follows:  Red AI: research that makes small improvements on the state of the art by leveraging more computation resources Green AI: research that focuses on diminishing the amount of computation necessary to reach a result.</description>
     </item>
     
     <item>
       <title>Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity</title>
-      <link>https://judahgnewman.netlify.com/writing/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
       <pubDate>Sun, 29 Sep 2019 22:04:54 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
       <description>By Devezer B, Nardin LG, Baumgaertner B, Buzbas EO
 Summary This paper creates a model of how scientific researchers make progress towards the truth. By examining this process under different conditions the authors were able to identify what characteristics help lead scientists towards the truth. This work was motivated by understanding the role that reproducibility has in the research process. Through experiments with different conditions the authors were able to reach some conclusions about how reproducibility and other characteristics affect a communities ability to find the truth.</description>
     </item>
     
     <item>
       <title>Accidents Happen: Exposing Fallacies in Child Protection Abuse Cases and Reuniting Families Through Aggressive Litigation</title>
-      <link>https://judahgnewman.netlify.com/writing/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</link>
       <pubDate>Fri, 27 Sep 2019 00:18:24 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</guid>
       <description>By Jessica Horan-Block &amp;amp; Elizabeth Tuttle Newman
 Summary This paper by two attorneys at Bronx Defenders argues that quick, decisive, and aggressive action can return children to parents after abuse allegations much faster than traditional approaches. The authors outline how minority and low income parents are more frequently accused of abuse. Parents will bring their children to the Emergency Room in response to accidental injuries or strange physical developments. When the parents explanation for how the injury occurred is not deemed sufficient by the physician, they will be accused of abuse.</description>
     </item>
