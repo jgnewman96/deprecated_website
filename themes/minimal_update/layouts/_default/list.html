@@ -2,7 +2,7 @@
 
 <table style="width:100%">
         <tr>
-                <td>
+                <td width="15%">
                     </ul>
                     {{ partial "browse-by-cat.html" .}}
                 </td>
@@ -11,10 +11,12 @@
             
                 <h2>{{ .Title }}</h2>
                 {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+                {{ partial "paginator" . }}
+                {{ partial "footer" . }}
                 
              </td>
 
-            <td>
+            <td width="15%">
                 </ul>
                 {{ partial "browse-by-tag.html" .}}
             </td>
@@ -22,5 +24,4 @@
         </tr>
     </table>
     
-{{ partial "paginator" . }}
-{{ partial "footer" . }}
+
