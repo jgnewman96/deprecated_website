@@ -6,7 +6,7 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2019 12:17:01 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>ODSC</title>
       <link>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</link>
-      <pubDate>Thu, 31 Oct 2019 12:17:01 -0700</pubDate>
+      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</guid>
       <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
@@ -26,14 +26,24 @@ Towards a Blend of Machine Learning and Microeconomics</description>
     </item>
     
     <item>
+      <title>AI Neuroscience: Can we understand the neural networks we train?</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 10:55:26 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</guid>
+      <description>Talk given by Jason Yosinski. He works at Uber AI Labs and Recursion Pharmaceuticals
+Motivation We train and use neural netwroks but we have a very minimal grasp on how they actual work. We have created systems that can beat humans players in games and actually create robots that can work. We have made huge advances in creating systems that can do impressive things. Most of the this improve has been driven by increase in computation and increase in amounts of data.</description>
+    </item>
+    
+    <item>
       <title>ODSC Keynotes</title>
       <link>https://judahgnewman.netlify.com/writing/talks/odsc/keynotes_odsc/</link>
       <pubDate>Thu, 31 Oct 2019 08:22:50 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/keynotes_odsc/</guid>
       <description>AI Lifecycle Model Management: Monitoring for Risk, Bias and Fairness Talk given by Sepideh Seifzadeh
-Why do we care about data regulation?
- increased collection of data low cost storage Machine Learning capabilities have increased &amp;ndash;&amp;gt; doing more things , more unintended consequences or harms  Why is there going to be AI regulation - how is it going to protect us from harm - could regulation be bad, could it stifle innovation, regulation has some harms and some nefits - should we incremental make laws or make a new set of rules</description>
+The first keynote was about how can we as data scientists monitor for risk, bias and fairness. The speaker motivated the tech by saying that AI and data regulation is coming. There is more data being collected, Machine Learning capabilities have increased and the cost of storage is now a lot lower.
+The speaker highlighted how we do not have defined mechanisms in place to handle when their are problems with AI.</description>
     </item>
     
     <item>
@@ -137,10 +147,10 @@ He highlighted that the problem with each of these analytical approaches is that
     
     <item>
       <title>Professors</title>
-      <link>https://judahgnewman.netlify.com/writing/academia/professors/</link>
+      <link>https://judahgnewman.netlify.com/writing/research/professors/</link>
       <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/academia/professors/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/research/professors/</guid>
       <description>This is list of professors who are doing really cool work:
 Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas] [Rachel Thomas]</description>
     </item>
@@ -288,17 +298,16 @@ Summary This paper by two attorneys at Bronx Defenders argues that quick, decisi
       <pubDate>Thu, 25 Jul 2019 21:23:30 +0000</pubDate>
       
       <guid>https://judahgnewman.netlify.com/reading/</guid>
-      <description> 
-What I am Currently Reading Books Recently Read 
-Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Nesta Newsletter Sidewalks Labs Newsletter Roots of Progress: Jason Crawford  </description>
+      <description>What I am Currently Reading Books Recently Read 
+Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Nesta Newsletter Sidewalks Labs Newsletter Roots of Progress: Jason Crawford  Here is a spreadsheet that records the articles I enjoyed every week.</description>
     </item>
     
     <item>
       <title>A Year in Review: The Books I Read in 2018</title>
-      <link>https://judahgnewman.netlify.com/writing/a-year-in-review-the-books-i-read-in-2018/</link>
+      <link>https://judahgnewman.netlify.com/writing/books/a-year-in-review-the-books-i-read-in-2018/</link>
       <pubDate>Thu, 25 Jul 2019 21:16:37 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/a-year-in-review-the-books-i-read-in-2018/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/books/a-year-in-review-the-books-i-read-in-2018/</guid>
       <description>It is that time of year again when every website is publishing some piece of content trying to sum up 2018. Whether it is Facebook, posting a video that is your year in review, or a march madness style bracket to determine what person, place, or thing won 2018, everybody is attempting to summarize the past year.
 A lot has happened over the past year. In 2018, I graduated college and started my first full time job.</description>
     </item>
