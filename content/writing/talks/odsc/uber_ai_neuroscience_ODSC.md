@@ -1,172 +1,69 @@
 ---
-title: "AI Neuroscience: Can we understand the neural networks we track?"
+title: "AI Neuroscience: Can we understand the neural networks we train?"
 date: 2019-10-31T10:55:26-07:00
-draft: true
-tags: ['ODSC', 'Deep Learning']
+draft: false
+tags: ['Deep Learning']
+categories: ['Talks']
 ---
- Talk given by Jason Yosinski works at uber ai labs and recursion pharmaceuticals
+ Talk given by [Jason Yosinski](http://yosinski.com/). He works at Uber AI Labs and Recursion Pharmaceuticals
 
- We train neural networks but often do not understand how they work 
- - examples of deep learning --> alpha go 
- - robot gait learning, teach a robot to walk 
- - example from his work, show a robot learning to walk 
- - reinforcement learning and robtics also great movement in language 
+## Motivation
 
- machine learning progress over time 
- - more computation 
- - more data 
- - these two factors make better models 
+We train and use neural netwroks but we have a very minimal grasp on how they actual work. We have created systems that can beat humans players in games and actually create robots that can work. We have made huge advances in creating systems that can do impressive things. Most of the this improve has been driven by increase in computation and increase in amounts of data. Yet, scientific understaning is not connected to progress. When a computer becomes two times faster, that does not mean we understand it twice as much.
 
- but scientific understanding is fundamentally disconnected from progress 
+Currently we are building models that are more powerful than we can understand. Often we build things that are more complex than we can understand. But understanding falling two far behind what we do is dangerous. We need to work hard to keep our understanding closer to our progress.
 
- if a computer becomes two times faster we do not understand two times as much
+* * *
 
- at our current region, we are building models that are more powerful than we understand
- - can we keep our understanding closer to our progress 
+Lets look at our understanding of a deep learning system. Alex Net was one of the first breakthrough networks in computer vision. At this point we can define the code for Alex Net in about ten lines of keras code. We define the size of the layers and the Relu between them. But this code is not actually the model itself, it is the skeleton of the model. The model consists of the actual matrices. Our model consists of the 60 million numbers that are in our matrices. It turns out then when we have all of the right numbers in the right places, these matrices can accomplish some pretty incredible things.
 
- lets look at example from computer vision 
- - alex next, can be code in like ten lines of keras 
- - define the size of layers, the relu between them the intilization 
- - not the model itself, but the skeleton 
+For the example of Alex Net, we understand the outer most part of the system. The input is image which is a bunch of pixels. The output is a classification of what is in the image. The difficulty comes from understanding the middle of the network. We can begin to understand the network by feeding images through the network and seeing what happens. We can plot the different parts of the network.
 
- - the model is actually a tons of number, the values in the matrix 
- - at the end we have 60 million numbers in the right spot 
- - but how do we understand what these numbers are 
- - it is hard, but not unimportant 
+Jason developed a [visualization toolkit](http://yosinski.com/deepvis) that allows you to visualize how a neurel net is being activated when you feed an image through it. Jason during the talk demoed this tool to help us understand how the neurel net works. He showed how the first layer understand the lowest level of abstraction. So a transition from white to dark or essentially and edge. Then as we go further down the network we get to higher and higher levels of abstraction. SO one layer might have a detector for faces or for text.
 
+The very first layer looks for patterns in pixel space. Then the second layer looks for patterns in the previous layer, not the pixel layer. By stacking these layers we slowly see more and more patterns. The first layer sees patters in an 11 x 11 pixel box. The second layer than has a 3 x 3 filter so it can see patterns in a 33 x 33 pixel space. Here is an [article](https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637) that outlies Alexnet's architecture for reference.
 
- - lets understand middle of network, we under stand images at one end and classification at the other end. 
+So now that we understand to some extent what it learns, can we understand why it learns these features. We neved told the system to learn faces or text or edges. We told it to learn how to classify pictures. We can conjecture that it learns these different abstractions because without them, it cannot accomplish the task we want it to. 
 
- simple approach put images in and plot stuff 
+Imagine a seatbelt. A seatbelt is nothing but a grey stripe. But there are grey stripes everywhere. So it cannout just learn, grey stripe, otherwise it would classify so many things as a seatbelt. It had to learn that a seatbelt is gray stripe beneath a face. It is learning to detect a face, because that is an abstraction that will help it detect many other things. Or imagine a camera lense. If the system called everything that was a black circle a camera lens it would not be succesfuully. It should only label a black circle with text in the middle a camera lens.
 
- deepvis toolbik they built at his website. yosiniski.com 
+Using this visualization tool we were able to understand a little about the middle layers of Alex Net. But we only looked at couple of neurons. It would take so long to understand one feature decoder. Understanding all of the neurons would take forver.
 
- - look at the alex net strcuture and correspond what he is talking about
+* * *
 
- first look at first conveulational layer
+After publishing the paper on all of these findings, Jason was frustrated but entraced. We had improved our understanding of the system to some degree, but there still was so much to learn. He decided to try a different approach. Rather than passing a photo through a network and inspecting the neurons, lets ask a network what it thinks a guerilla is. We could start with a photo of white noice and feed it through the network. We could then slowly update the photo so that the network assigns a high probability of it being a guerilla. So at first it would have no idea what the photo was. Then we would back propogate through to the photo so that it thought it was more a guerilla. If we do this many times eventually the network will think it is a guerilla with very high probability and this should give us some understanding of what the network believes is a guerilla. 
 
- tool that takes an image and runs it through alex net, shows the feature detectors, looks for a pattern detector everywhere in the image. 
+But when they did this, they did not get a photo that looks anything like a guerilla. Yet the network says with very high probability it is a guerilla. He then wrote a paper about why this approach failed. It is great that in science when something fails it is a paper. In engineering when somethings fails, then you failed.
 
- photo of him and shows the white to black or black to white firing 
+The next approach was to try the same thing but regularize the image space so no pixels are too extreme. Also make it so pixels do not change too quickly. They combined a bunch of regularizers (l1, l2, and spatial smoothness) and started getting better results. He showed examples with a hartebeast and a school bus. For the hartebeeast the networks does not learn hooves, because lots of animals have hooves. It does learn the horns and the shape of the top of the hartebeast are what defines a hartebeast. For a school buss it learns to look for patterns of yellow and windows and wheels. 
 
-looking for patterns in pixel space and if it sees them it is firing 
+Know we kind of have an understanding of the network is learning. The regularizer allowed us to enfore a prior to keep images in a specific region.
 
- second layer looks for patterns in the previous layer, not in the pixel layer 
+* * *
+Rather than using regularization though, we can use GANS. One network that determines whether or a not an image looks real and then another network that says does it look like a specific class. We then are also changing the input from being a specic class to being a caption.
 
- by stacking these thing they slowly see more and more space. first one sees things in 11 x11 space, but as you stack the layers they can see more pixels and they can see more abstract stuff 
+What if we wanted to replace a network with a brain? We could then see how the brain work using a similar process. Unfortunately we cannot do back propogation through a brain.
 
- - first it sees pixels, then edges and then higher and higher levels of abstraction 
-
- look at the fifth conculational layer 
- - features should be highly abstract or , there is one section that is a face detector, shows examples of photos in the room 
- - look at the images that cause a neuron to fire the most 
- - conv 5 has 256, one neuron that finds text, one that does face 
-
-- why does it learn these features? we never taught it to learn these features, we told it what to learn at the end 
-
-why does it learn text? because it has to learn these abstractions to help with its  task 
-
-seatbelet example - gray stripe, but these are everywhere 
-- it has to learn seatbelt and beneath face
-
-- learns to detect faces so it can learn to detect seat bealts 
-
-text helps us learn the category camera lense 
-- if it calls everything thing a black circle a camera lens it will fail 
-
-- but black cirlce plus text could be a camera len
-
-we know understand a little bit about the middle layers 
-
-we only looked at a couple neurons in the middle, but it would take forever to just understand one feature detecotr, but understand all the neurons would take forever and be hard 
-
+But a group in harvard and Japan did something similar with Monkeys. They showed monkeys a blank image and then saw what neurons fired. They then altered that photo to make it excite those neurons even more. They did this iteratively until eventually they created a photo that looked like a monkey. The monkey was trying to recognize another monkey. 
+ 
 * * * 
 
-frustrated but entranced -> ask the network to paint picture of gorilla 
-- why does a network think something is a guerilla 
-- the hair, the background as grass, the face 
+There must recent research is about trying to to understand what is happening during the training process. When we train an algorithm all we see is that the loss is going down. But what does that actually mean? We want to understand how is the network actually changing.
 
-come up with a method where a network tells us what a guerilla is 
+There must recent paper [LCA: loss change allocation for neurel network training](https://arxiv.org/abs/1909.01440) does exactly that. They examine the matrices over time to see how they are changing during the training process. It provides a rich visuilizations of how each neuron is changing.
 
-start with a pixel of white noise feed it through the network, it says basically it could be anything 
+They take away three things from this visualization.
 
-actually using back prop compute things that would get us more guerilla --> move the white noise image in pixel space closer closer to guerilla 
+1. Training is very noisy with different neurons going in different directions
+2. It seems like some layers actually make the loss worse
+3. There seems to be some levels of micro learning that is snychronized with nearby neurons being updated in similar ways.
 
-now we go forward guerilla should be more likely, and then we should eventually get a guerilla 
+This visualization gives us much more visibility into what is happening during training.
 
-did this, we did not get guerilla looking thing 
+## My thoughts
 
-but netwrok says with very high proability it is a guerilla
+Wow this was a really cool talk. I especially loved the iterative process of the research. We are interested in something, lets look at it and try and understand it. Okay, now that we have improved our understanding a little bit what are the next steps.
 
-wrote a paper about how this failed 
+The idea that some of the neurons or layers are actually hurting the model in terms of loss is really odd to me. I am not sure what to make of that. The way Jason explained it was that it was because they were losing out to other layers. If we knew that one layer was hurting the model in terms of loss could we improve it by removing that layer? 
 
-science if it fails its a paper, in engineering if it fails you failed 
-
-deep networks are easily failed 
-
-use regurilize to shrink the image space, do not have any pixels be too extreme 
-- combine a bunch of regurilizers, l2, l1 and spatial smoothness regularizer, we are getting better results 
-- example with hartebeest and school bus 
-- with hartebeest does not learn the hooves, lots of animals have hooves, but it does learn about the horns and shape of the top of it 
-- school bus, looks for patterns of yellow and the windows and some of the wheels
-
-we kind of know what the thing is learning, regularizer is a prior to keep images in a region 
-
-but we can actually just have two networks, plug and play generative networks, 
-- we have a panter network that says image looks real or not and then image that says what it looks like, so a cheese burger 
-
-first paint for if it is realistic image and then make it look like a specific class
-
-change the input to being an caption --> generate a photo from a caption
-
--- the way we collect the data biases the model, but not caring about the smaller things in the network 
-
-what if we could replce a network with a brain? we cannot back prop through a brian? 
-- group in harvard and japan, showed images to monkeys 
-- saw what neurons fired for monkeys 
-- showed random photo to monkey and then create a new photo to monkey to slowly get what the monkey is actually trying to see 
-- get a photo the excites that neuron even more 
-- 
-
-LCA: loss change allocation for neurel network training 
-
-algorithm trained on mnist
-- when we train it all wee see is the loss curve going gown 
-- but what is actually happening 
-- we just see a scaler going down 
-
-LCA -> anytime we see a change in the loss which parameter is training 
--- offers a very rich visualization of training 
-- we can see which parameters are learning 
-https://arxiv.org/abs/1909.01440
-
-three things we learn 
-- noisy 
-- some layers loss
-- micro learning is synchronized 
-
-gives us a lot more visibility into traning 
-
-if we bin parameters into helping, hurting and no change
-- only 50 percent of parameters actually help, some parameters hurt 
-- training is very noisy 
-
-we can look at how much each layer help, different layers help more or less 
-- some layers go backwards 
-- layers are oscillitating 
-- some layers beat the other layers and then layers miss out? 
-
-all three layers make a jump in learning all at once 
-
-slides s.yosinksi.com/odsc.pdf
-
-
- ## My thoughts
-
-  what is a neuron and what does it men for it to fire? 
-
-  Iterative process of looking into, checking something, then doing another, then checking that out 
-
-  try and figure something out, then debug further, then try the next thing 
-
-  layers going backward seems odd, maybe are defintion of help is wrong 
+I am interested in how some of these visualizations, both the most recent ones about the training process and the ones used to visualize a trained model, could be used to improve the model training process. Is it possible that by providing these with end-users and them having a better understanding of the model is working we could improve the model building process. COuld we use these tools to better understand errors. If we look at an error and use this tool could we understand why the model is making an error and help make the model more robust?

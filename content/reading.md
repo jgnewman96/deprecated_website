@@ -38,3 +38,5 @@ Regular Internet Reading 
 * [Nesta Newsletter](https://www.nesta.org.uk/)
 * [Sidewalks Labs Newsletter](https://www.sidewalklabs.com/)
 * [Roots of Progress](https://rootsofprogress.org/): Jason Crawford
+
+[Here](https://docs.google.com/spreadsheets/d/1LJM3EJrV8Gx8W0Hk-_i2BhHy1QEer_wZ91dlC22D7a8/edit?usp=sharing) is a spreadsheet that records the articles I enjoyed every week.

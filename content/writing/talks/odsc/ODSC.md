@@ -1,6 +1,6 @@
 ---
 title: "ODSC"
-date: 2019-10-31T12:17:01-07:00
+date: "2019-11-02"
 draft: false
 tags: ['Conferences']
 categories: ['Talks']
@@ -49,6 +49,10 @@ I attended ODSC (Open Data Science Conference) West in October 2019. Here are th
 [Key Notes]
 (
 {{< ref  "/writing/talks/odsc/keynotes_ODSC.md"  >}} )
+
+[AI Neuroscience: Can we understand the neural networks we train?]
+(
+{{< ref  "/writing/talks/odsc/uber_ai_neuroscience_ODSC.md"  >}} )
 
 
 
