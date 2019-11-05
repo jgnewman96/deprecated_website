@@ -54,6 +54,10 @@ I attended ODSC (Open Data Science Conference) West in October 2019. Here are th
 (
 {{< ref  "/writing/talks/odsc/uber_ai_neuroscience_ODSC.md"  >}} )
 
+[Trouble shooting Deep Neural Networks]
+(
+{{< ref  "/writing/talks/odsc/troubleshoot_NN_ODSC.md"  >}} )
+
 
 
 
