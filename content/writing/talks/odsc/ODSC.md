@@ -58,7 +58,7 @@ I attended ODSC (Open Data Science Conference) West in October 2019. Here are th
 (
 {{< ref  "/writing/talks/odsc/troubleshoot_NN_ODSC.md"  >}} )
 
-[Declaritive Data Visualization with Vega-Lite and Altair]
+[Declarative Data Visualization with Vega-Lite and Altair]
 (
 {{< ref  "/writing/talks/odsc/vega_altair_ODSC.md"  >}} )
 

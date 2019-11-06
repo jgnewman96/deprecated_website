@@ -6,10 +6,19 @@
     <description>Recent content in Reflections on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 21:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2019 10:33:13 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/reflections/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leaving</title>
+      <link>https://judahgnewman.netlify.com/writing/industry/nielsen/leaving/</link>
+      <pubDate>Wed, 06 Nov 2019 10:33:13 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/industry/nielsen/leaving/</guid>
+      <description>Why I am leaving Nielsen Nielsen was my first experience working at a full time job and in a lot of ways it was a good one. I learned an immense amount and became a much better data scientist. I met a lot of very smart people who helped me grow and taught me a lot. There were a lot of frustrations though during my time at Nielsen and I thought it would be worthwhile to expand upon why I am leaving.</description>
+    </item>
     
     <item>
       <title>A Year in Review: The Books I Read in 2018</title>
