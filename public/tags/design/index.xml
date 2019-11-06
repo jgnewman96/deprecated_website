@@ -6,10 +6,20 @@
     <description>Recent content in Design on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 11:47:50 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 15:51:05 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Declarative Data Visualization with Vega-Lite and Altair</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/vega_altair_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 15:51:05 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/vega_altair_odsc/</guid>
+      <description>Talk given by Dominik Moritz at Apple/CMU and Kanit &amp;ldquo;Ham&amp;rdquo; Wongsuphasawat at Apple
+Motivation So what is declarative data visualization? As programmers we are used to imperative programming. Imperative programming is specifying how to do a problem. For example you say, put a red circle here and put a blue circle there. It couples the specification with the execution. In declarative programming we only specify what should be done. We would say map x and y to specific position, not how to max x and y.</description>
+    </item>
     
     <item>
       <title>User-Centric Design for Data Scientists</title>

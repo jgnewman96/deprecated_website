@@ -26,6 +26,26 @@ Towards a Blend of Machine Learning and Microeconomics</description>
     </item>
     
     <item>
+      <title>Declarative Data Visualization with Vega-Lite and Altair</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/vega_altair_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 15:51:05 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/vega_altair_odsc/</guid>
+      <description>Talk given by Dominik Moritz at Apple/CMU and Kanit &amp;ldquo;Ham&amp;rdquo; Wongsuphasawat at Apple
+Motivation So what is declarative data visualization? As programmers we are used to imperative programming. Imperative programming is specifying how to do a problem. For example you say, put a red circle here and put a blue circle there. It couples the specification with the execution. In declarative programming we only specify what should be done. We would say map x and y to specific position, not how to max x and y.</description>
+    </item>
+    
+    <item>
+      <title>Trouble shooting Deep Neural Networks</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 11:51:11 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</guid>
+      <description>Talk given by Josh Tobin works at Open Ai and Full stack Deep Learning. Talk Resources
+Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree.</description>
+    </item>
+    
+    <item>
       <title>AI Neuroscience: Can we understand the neural networks we train?</title>
       <link>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</link>
       <pubDate>Thu, 31 Oct 2019 10:55:26 -0700</pubDate>
@@ -327,7 +347,7 @@ A lot has happened over the past year. In 2018, I graduated college and started 
       <pubDate>Thu, 25 Jul 2019 18:30:51 +0000</pubDate>
       
       <guid>https://judahgnewman.netlify.com/about/</guid>
-      <description>I am a builder, problem solver, and a friend. I push myself and those around me to think differently, to challenge the status quo and to focus on personal growth. I currently work as a Data Scientist at Change Research where we are improving american democracy through better public opinion insight. I grew up in New York City, went to College in Chicago where I studied computer science and economics and I now reside in the Bay Area.</description>
+      <description>I am a builder, problem solver, and a friend. I push myself and those around me to think differently, to challenge the status quo and to focus on personal growth. I currently work as a Data Scientist at Change Research where we are improving american democracy through better public opinion insight. I grew up in New York City, went to college in Chicago where I studied computer science and economics and I now reside in the Bay Area.</description>
     </item>
     
   </channel>

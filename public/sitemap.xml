@@ -38,12 +38,27 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</loc>
-    <lastmod>2019-10-31T10:55:26-07:00</lastmod>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/vega_altair_odsc/</loc>
+    <lastmod>2019-10-31T15:51:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/design/</loc>
+    <lastmod>2019-10-31T15:51:05-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/tags/deep-learning/</loc>
+    <lastmod>2019-10-31T11:51:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</loc>
+    <lastmod>2019-10-31T11:51:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</loc>
     <lastmod>2019-10-31T10:55:26-07:00</lastmod>
   </url>
   
@@ -115,11 +130,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/writing/talks/odsc/mlflow_odsc/</loc>
     <lastmod>2019-10-29T13:53:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/design/</loc>
-    <lastmod>2019-10-29T11:47:50-07:00</lastmod>
   </url>
   
   <url>

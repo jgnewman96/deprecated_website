@@ -6,10 +6,20 @@
     <description>Recent content in Deep Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2019 10:55:26 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 11:51:11 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Trouble shooting Deep Neural Networks</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 11:51:11 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</guid>
+      <description>Talk given by Josh Tobin works at Open Ai and Full stack Deep Learning. Talk Resources
+Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree.</description>
+    </item>
     
     <item>
       <title>AI Neuroscience: Can we understand the neural networks we train?</title>
