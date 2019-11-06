@@ -6,10 +6,20 @@
     <description>Recent content in Deep Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 13:55:58 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 10:55:26 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AI Neuroscience: Can we understand the neural networks we train?</title>
+      <link>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</link>
+      <pubDate>Thu, 31 Oct 2019 10:55:26 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/talks/odsc/uber_ai_neuroscience_odsc/</guid>
+      <description>Talk given by Jason Yosinski. He works at Uber AI Labs and Recursion Pharmaceuticals
+Motivation We train and use neural netwroks but we have a very minimal grasp on how they actual work. We have created systems that can beat humans players in games and actually create robots that can work. We have made huge advances in creating systems that can do impressive things. Most of the this improve has been driven by increase in computation and increase in amounts of data.</description>
+    </item>
     
     <item>
       <title>Principled Methods for Analyzing Weight Matrices of Modern Production Quality Neural Networks</title>

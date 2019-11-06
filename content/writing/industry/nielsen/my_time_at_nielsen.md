@@ -24,4 +24,6 @@ My first job after completing undergrad was as a Data Scientist at Nielsen. Niel
 
 ## Why I left Nielsen
 
+- caring about my work
+
 
