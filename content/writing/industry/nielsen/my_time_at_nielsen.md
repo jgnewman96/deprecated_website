@@ -26,5 +26,3 @@ I left Nielsen after a year and four months to pursue an opportunity at Change R
     {{< ref  "/writing/industry/nielsen/leaving.md"  >}} )
 
 
-
-
