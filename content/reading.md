@@ -7,7 +7,7 @@ draft: false
 <center>
 ### What I am Currently Reading
 
-<img src="/img/washington.jpg" width="200">
+<img src="/img/creativity.jpg" width="200">
 
 ### Books Recently Read
 
@@ -15,7 +15,7 @@ draft: false
 
 <img src="/img/karamazov.jpg" width="200">
 
-<img src="/img/coates.jpg" width="200">
+<img src="/img/washington.jpg" width="200">
 
 <img src="/img/omni.jpg" width="200">
 
@@ -35,7 +35,6 @@ Regular Internet Reading 
 * [Pointer](http://www.pointer.io/)
 * [The Morning Paper](https://blog.acolyer.org/): Adrian Colyer
 * [The New Yorker](https://www.newyorker.com/)
-* [Nesta Newsletter](https://www.nesta.org.uk/)
 * [Sidewalks Labs Newsletter](https://www.sidewalklabs.com/)
 * [Roots of Progress](https://rootsofprogress.org/): Jason Crawford
 

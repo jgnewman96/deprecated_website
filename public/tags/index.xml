@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2019 10:33:13 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 08:02:37 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Reflections</title>
       <link>https://judahgnewman.netlify.com/tags/reflections/</link>
-      <pubDate>Wed, 06 Nov 2019 10:33:13 -0800</pubDate>
+      <pubDate>Fri, 22 Nov 2019 08:02:37 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature</title>
+      <link>https://judahgnewman.netlify.com/tags/nature/</link>
+      <pubDate>Tue, 05 Nov 2019 08:02:37 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/nature/</guid>
       <description></description>
     </item>
     
@@ -75,29 +84,11 @@
     </item>
     
     <item>
-      <title>Nature</title>
-      <link>https://judahgnewman.netlify.com/tags/nature/</link>
-      <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Science Fiction</title>
       <link>https://judahgnewman.netlify.com/tags/science-fiction/</link>
       <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/science-fiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Climate Change</title>
-      <link>https://judahgnewman.netlify.com/tags/climate-change/</link>
-      <pubDate>Wed, 30 Oct 2019 15:58:02 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/climate-change/</guid>
       <description></description>
     </item>
     

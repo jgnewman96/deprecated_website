@@ -1,20 +1,20 @@
 ---
 title: "The Omnivore's Dilemma"
-date: 2019-10-31T08:02:37-07:00
+date: 2019-11-05T08:02:37-07:00
 draft: false
 tags: ['Nature']
 categories: ['Books']
 ---
 
-*The Omnivore's Dilemma* by Michael Pollan was an absolutely fascinating read. I enjoyed learning more about our food insutry and how the human food chain has developed. The central question of the book was where does our food come from? What seems like such a simple question has become quite complex in our modern society. I learned a lot by watching Michael try to answer this question. 
+*The Omnivore's Dilemma* by Michael Pollan was an absolutely fascinating read. I enjoyed learning more about our food insutry and how the human food chain has developed. The central question of the book was where does our food come from? What seems like such a simple question has become quite complex in our modern society. I learned a lot by watching Michael try to answer this question.
 
-- While this book dealt explicitly with out food chain, it raises a lot of question in general about the complexity of our society today. Food is something that on the surface is so simple and is so essential to our day to day society. It is crazy to see how certain things have developed without careful thought or an understanding of the pros and cons of certain approaches. 
+- While this book dealt explicitly with out food chain, it raises a lot of question in general about the complexity of our society today. Food is something that on the surface is so simple and is so essential to our day to day society. It is crazy to see how certain things have developed without careful thought or an understanding of the pros and cons of certain approaches.
 
-- The book brought up a number of times about how the government subsidizes the production of corn. It argues that this has been very bad for the farming industry and our food chain in general because the demand for food is inelastic. This means that even as the price of food drops, for the most part the demand of food is stable. I am curious for someone to take a careful look at the economics of our food chain and if subsidizing farmers makes economic sense. 
+- The book brought up a number of times about how the government subsidizes the production of corn. It argues that this has been very bad for the farming industry and our food chain in general because the demand for food is inelastic. This means that even as the price of food drops, for the most part the demand of food is stable. I am curious for someone to take a careful look at the economics of our food chain and if subsidizing farmers makes economic sense.
 
-- One other part of the book that was very interesting to me was the discussions about how we can understand our own behavior in the context of evolution and food. Our actions are mostly depedent on the time when we evolved which is when we were hunter and gatherers. Can we better understand ourselves if we think about the hunter/gatherer context and what kind of traits would have been necessary to thrive in that context. 
+- One other part of the book that was very interesting to me was the discussions about how we can understand our own behavior in the context of evolution and food. Our actions are mostly depedent on the time when we evolved which is when we were hunter and gatherers. Can we better understand ourselves if we think about the hunter/gatherer context and what kind of traits would have been necessary to thrive in that context.
 
-## Quotes 
+## Quotes
 
 > As a relatively new nation drawn from many different immigrant populations, each with its own culture of food,
 Americans have never had a single, strong, stable culinary tradition to guide us.

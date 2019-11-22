@@ -1,8 +1,8 @@
 ---
 title: "Tackling Climate Change with Machine Learning"
 date: 2019-10-30T15:58:02-07:00
-draft: false 
-tags: ['Machine Learning' , 'Climate Change']
+draft: false
+tags: ['Machine Learning' , 'Nature']
 categories: ['Talks']
 ---
 Talk given by [David Rolnick](http://www.davidrolnick.com/) University of Pennsylvania and founder of [Climate Change AI](https://www.climatechange.ai/index.html)
