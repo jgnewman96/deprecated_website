@@ -6,10 +6,20 @@
     <description>Recent content in Design on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2019 15:51:05 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 08:32:28 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creativity Inc.</title>
+      <link>https://judahgnewman.netlify.com/writing/books/creativity/</link>
+      <pubDate>Fri, 29 Nov 2019 08:32:28 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/creativity/</guid>
+      <description>Creativity Inc was a fantastic book looking at the culture of Pixar. It explained the founding of Pixar and how the founders maintain an intense focus on developing a fantastic culture. The founders believe that if they maintain a good culture, their business will thrive. A successful business is not about having a great product plan,but developing a good culture and empowering smart people.
+I appreciated that the book did not prescribe easy solutions but discussed everything with nuance.</description>
+    </item>
     
     <item>
       <title>Declarative Data Visualization with Vega-Lite and Altair</title>

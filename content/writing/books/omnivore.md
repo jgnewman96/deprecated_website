@@ -19,18 +19,28 @@ categories: ['Books']
 > As a relatively new nation drawn from many different immigrant populations, each with its own culture of food,
 Americans have never had a single, strong, stable culinary tradition to guide us.
 
+<!-- -->
+
 > Indeed, there is every reason to believe that corn has succeeded in domesticating us.
+
+<!-- -->
 
 > The economics of a family farm are very different than a firm’s: When prices fall, the firm can lay off people,
 idle factories, and make fewer widgets. Eventually the market finds a new balance between supply and demand.
 But the demand for food isn’t elastic; people don’t eat more just because food is cheap. And laying off farmers
 doesn’t help to reduce supply.
 
+
+<!-- -->
 > To the contrary, a healthy sense of all we don’t know—even a sense of mystery—keeps us from reaching for
 oversimplifications and technological silver bullets.
 
+<!-- -->
+
 > Like fresh air and sunshine, Joel believes transparency is a more powerful disinfectant than any regulation or
 technology.
+
+<!-- -->
 
 > Is the individual the crucial moral entity in nature as we’ve decided it should be in human society? We simply
 may require a different set of ethics to guide our dealings with the natural world, one as well suited to the

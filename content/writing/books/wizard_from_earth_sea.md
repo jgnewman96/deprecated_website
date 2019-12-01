@@ -16,11 +16,20 @@ Le guin wrote an afterward that accompanied later versions of the book. The afte
 
 There are quite a number of sci-fi series that I have just read the first book and not continued in the series (*The Fifth Season*, *The Three Body Problem*). I will hopefully continue to read this series because I do really love Le Guin's writing.
 
-Some quotes from the book I really appeciated:
+### Quotes
 
 > "To light a candle is to cast a shadow"
+
+
+<!-- -->
 
 > "And the truth is that as a man’s real power grows and his knowledge widens, ever the way he can follow grows
 narrower: until at last he chooses nothing, but does only and wholly what he must do"
 
+
+<!-- -->
+
 > "He has to find out what it means to be himself. That requires not a war but a search and a discovery."
+
+
+<!-- -->

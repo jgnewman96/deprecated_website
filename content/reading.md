@@ -7,11 +7,11 @@ draft: false
 <center>
 ### What I am Currently Reading
 
-<img src="/img/creativity.jpg" width="200">
+<img src="/img/R&R.jpg" width="200">
 
 ### Books Recently Read
 
-<img src="/img/earthsea.jpg" width="200">
+<img src="/img/creativity.jpg" width="200">
 
 <img src="/img/karamazov.jpg" width="200">
 

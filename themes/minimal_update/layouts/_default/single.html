@@ -5,7 +5,7 @@
     <div>
         <h2>{{ .Title }}</h2>
         <h5>{{ .Description }}</h5>
-        {{ partial "tags" . }}
+        {{ partial "tags"  . }}{{ partial "categories"  . }}
     </div>
 
     <div align="start" class="content">{{ .Content }}</div>

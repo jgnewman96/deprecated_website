@@ -2,14 +2,13 @@
 
 <main>
 
-   
-
-
     <ul>
+            
         {{ range .Site.Taxonomies.series.golang }}
-            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title .Page.ReadingTime }}</a></li>
         {{ end }}
     </ul>
+
 
 
     <!-- Disquis comments -->

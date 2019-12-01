@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 08:02:37 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 08:32:28 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Design</title>
+      <link>https://judahgnewman.netlify.com/tags/design/</link>
+      <pubDate>Fri, 29 Nov 2019 08:32:28 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reflections</title>
@@ -35,15 +44,6 @@
       <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/conferences/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://judahgnewman.netlify.com/tags/design/</link>
-      <pubDate>Thu, 31 Oct 2019 15:51:05 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
       <description></description>
     </item>
     
