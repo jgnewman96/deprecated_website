@@ -6,20 +6,10 @@
     <description>Recent content in Economics on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2019 08:02:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 09:51:58 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/economics/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Mostly Harmless Econometrics: Chapter 1 </title>
-      <link>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter1/</link>
-      <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter1/</guid>
-      <description>What is the relationship of interest? What is the ideal experiment identification strategy mode of inference
-descriptive is interesting but we want to learn about cause and effect - a causual relationship allows us to think about counterfactuals or how things would have been differdnt in a different state of the world - this allows us to think about a change in policy - if we just see an association it does not allow us to think about how things change</description>
-    </item>
     
     <item>
       <title>Towards a Blend of Machine Learning and Microeconomics</title>

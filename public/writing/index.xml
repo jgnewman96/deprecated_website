@@ -6,10 +6,19 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Nov 2019 08:32:28 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Dec 2019 17:14:34 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Year of Rest and Relaxation</title>
+      <link>https://judahgnewman.netlify.com/writing/books/r-r/</link>
+      <pubDate>Mon, 09 Dec 2019 17:14:34 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/r-r/</guid>
+      <description>My Year of Rest and Relaxation by Otessa Moshfegh is quite a trip. The reader is taken inside the mind of a young adult living in New York who is trying to sleep for a entire year. The main character&amp;rsquo;s parents died and she recently left her job. She is using medication to sleep as much as possible. She hopes that after a year of sleeping she will be able to have a new start and be divorced from the darkness of her previous life.</description>
+    </item>
     
     <item>
       <title>Creativity Inc.</title>
@@ -112,16 +121,6 @@ The speaker highlighted how we do not have defined mechanisms in place to handle
       
       <guid>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</guid>
       <description>I read this book because of a recommendation from my friend Hawkins. I had previously read a couple of other books by Ursula Le Guin. I absolutely loved both Left Hand of Darkness and The Dispossessed. Both were sci-fi books that were actually commentaries on human society. I cannot get enough of books like that. Hawk had mentioned that this book was about a communist society and what that would look like.</description>
-    </item>
-    
-    <item>
-      <title>Mostly Harmless Econometrics: Chapter 1 </title>
-      <link>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter1/</link>
-      <pubDate>Thu, 31 Oct 2019 08:02:37 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter1/</guid>
-      <description>What is the relationship of interest? What is the ideal experiment identification strategy mode of inference
-descriptive is interesting but we want to learn about cause and effect - a causual relationship allows us to think about counterfactuals or how things would have been differdnt in a different state of the world - this allows us to think about a change in policy - if we just see an association it does not allow us to think about how things change</description>
     </item>
     
     <item>
