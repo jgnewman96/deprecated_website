@@ -30,12 +30,12 @@ Regular Internet Reading 
 * [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
 * [Fast AI](https://www.fast.ai/) : Rachel Thomas & Jeremy Howard
 * [Wait but Why](https://waitbutwhy.com/): Tim Urban
+* [Paul Graham](http://paulgraham.com/index.html)
 * [Exponential View](https://www.exponentialview.co/): Azeem Azhar
 * [Import AI](https://jack-clark.net/) : Jack Clark
 * [Pointer](http://www.pointer.io/)
 * [The Morning Paper](https://blog.acolyer.org/): Adrian Colyer
 * [The New Yorker](https://www.newyorker.com/)
-* [Sidewalks Labs Newsletter](https://www.sidewalklabs.com/)
 * [Roots of Progress](https://rootsofprogress.org/): Jason Crawford
 
 [Here](https://docs.google.com/spreadsheets/d/1LJM3EJrV8Gx8W0Hk-_i2BhHy1QEer_wZ91dlC22D7a8/edit?usp=sharing) is a spreadsheet that records the articles I enjoyed every week.

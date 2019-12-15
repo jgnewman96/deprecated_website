@@ -1,7 +1,7 @@
 ---
 title: "Mostly Harmless Econometrics: Chapter 1 "
 date: 2019-10-31T08:02:37-07:00
-draft: false
+draft: true
 tags: ['Economics']
 categories: ['Text Books']
 ---

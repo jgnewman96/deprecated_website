@@ -4,6 +4,10 @@ date: Thu, 25 Jul 2019 18:34:24 +0000
 draft: false
 ---
 
+### Current Project
+
+Agent Based Simulations
+
 ### Research Interests
 
 * applied AI and ML
@@ -25,3 +29,16 @@ Here are some specific posts where my thoughts about the paper touch on some mor
                 {{< ref  "/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity.md"  >}} )
 
 ### Previous Research
+
+#### Human Computer Interaction + Machine Learning
+
+While machine learning is a very powerful tool, one large downside currently is how inaccessible it is to most people. Current algorithms have machines learning in methods very different than how humans natively learn. To teach a human how to recognize a cat you might explain what a cat is and show the human a couple of photos. To teach the machine you provide it was thousands of photos and tell it whether or not the photo as a cat in it. While the human is able to understand the core qualities of a cat from a few examples, it takes the machine thousands of examples and labels to understand what actually constitutes a cat.
+
+During my undergraduate studies, I had the absolute pleasure of researching supervised by professor [Blase Ur](https://www.blaseur.com/). We explored whether humans could teach machines through a more complex and native interaction than just providing labels. Is there potential for humans to teach computers, through explanations for example? We studied this by conducting a human research study where we asked participants to provide labels and explanations for an image classification task. We characterized the different types of information participants provided and how it could be used to train an image classification system. We also did a follow up experiment demonstrating how the explanations could be used to jump start the training process.
+
+I was first author on our paper that was presented at INTERACT 2019 in Paphos, Cyprus. Here is a link to the paper and my slides for the presentation
+
+- [Paper](https://www.blaseur.com/papers/hciml-interact19.pdf)
+- [Slides](https://docs.google.com/presentation/d/15xa1brGV56HIsfpYsg8ZHMsHUWOyDnr5Odh8jo05kFI/edit?usp=sharing)
+
+

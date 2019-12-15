@@ -6,10 +6,29 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2019 17:14:34 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2019 13:42:50 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reflections on Playing Games </title>
+      <link>https://judahgnewman.netlify.com/writing/personal/games/</link>
+      <pubDate>Sun, 15 Dec 2019 13:42:50 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/personal/games/</guid>
+      <description>Jenny, my wonderful partner in crime and teammate, had her birthday last month. I got her a Nintendo Switch, with the game Overcooked. Overcooked is a cooking simulation game. You are in a kitchen with other chefs and you have to collaborate to make customers dishes. While simple in concept, Overcooked is quite deep in how it forces you to work together. The levels are set up so that the only way you can succeed is by delegating and working together.</description>
+    </item>
+    
+    <item>
+      <title>Professors</title>
+      <link>https://judahgnewman.netlify.com/writing/research/professors/</link>
+      <pubDate>Sat, 14 Dec 2019 07:58:23 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/research/professors/</guid>
+      <description>This is list of professors who are doing really cool work:
+ Cynthia Rudin Andrew Gelman Michael L. Jordan Moritz Hardt Jacob Andreas Rachel Thomas Jeffery Heer Brent Hecht  </description>
+    </item>
     
     <item>
       <title>My Year of Rest and Relaxation</title>
@@ -220,16 +239,6 @@ We can build tools that users actually care about and will use if we take a user
       <description>Talk given by Boris Kovalerchuk , Slides
 Motivation Boris motivated the need for visual techniques with an example on the Iris data set. He showed three different models for the Iris data set, shown below.
 He highlighted that the problem with each of these analytical approaches is that they generalize to areas we have seen before. Ideally, instead we would have a model that classified points in space we had seen before and refused to classify points in the unknown space.</description>
-    </item>
-    
-    <item>
-      <title>Professors</title>
-      <link>https://judahgnewman.netlify.com/writing/research/professors/</link>
-      <pubDate>Tue, 29 Oct 2019 07:58:23 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/research/professors/</guid>
-      <description>This is list of professors who are doing really cool work:
-Cynthia Rudin Andrew Gelman [Michael Jordan] [Moritz hardt] [Jacob Andreas] [Rachel Thomas]</description>
     </item>
     
     <item>
