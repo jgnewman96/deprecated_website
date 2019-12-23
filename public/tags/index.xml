@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2019 13:42:50 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 17:18:01 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://judahgnewman.netlify.com/tags/machine-learning/</link>
+      <pubDate>Sat, 21 Dec 2019 17:18:01 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflections</title>
+      <link>https://judahgnewman.netlify.com/tags/reflections/</link>
+      <pubDate>Sat, 21 Dec 2019 17:18:01 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Frisbee</title>
@@ -17,15 +35,6 @@
       <pubDate>Sun, 15 Dec 2019 13:42:50 -0800</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/frisbee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reflections</title>
-      <link>https://judahgnewman.netlify.com/tags/reflections/</link>
-      <pubDate>Sun, 15 Dec 2019 13:42:50 -0800</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Thu, 31 Oct 2019 11:51:11 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://judahgnewman.netlify.com/tags/machine-learning/</link>
-      <pubDate>Thu, 31 Oct 2019 08:22:50 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     

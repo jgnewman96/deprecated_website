@@ -6,10 +6,19 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2019 13:42:50 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 17:18:01 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building Models and the Scientific Method</title>
+      <link>https://judahgnewman.netlify.com/writing/personal/model_building/</link>
+      <pubDate>Sat, 21 Dec 2019 17:18:01 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/personal/model_building/</guid>
+      <description>In the past year there has been a large focus on what is wrong with the fields of Artificial Intelligence and Machine Learning. Coverage has focused on limitations of current deep learning and machine learning systems. Pieces have highlighted the dangers of implementing systems without understanding their implications or who they are going to impact. These pieces have highlighted areas where these fields need to grow. Machine Learning is still a relatively young field that needs to grow and learn.</description>
+    </item>
     
     <item>
       <title>Reflections on Playing Games </title>

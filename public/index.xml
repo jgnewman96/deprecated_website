@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2019 13:42:50 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 17:18:01 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building Models and the Scientific Method</title>
+      <link>https://judahgnewman.netlify.com/writing/personal/model_building/</link>
+      <pubDate>Sat, 21 Dec 2019 17:18:01 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/personal/model_building/</guid>
+      <description>In the past year there has been a large focus on what is wrong with the fields of Artificial Intelligence and Machine Learning. Coverage has focused on limitations of current deep learning and machine learning systems. Pieces have highlighted the dangers of implementing systems without understanding their implications or who they are going to impact. These pieces have highlighted areas where these fields need to grow. Machine Learning is still a relatively young field that needs to grow and learn.</description>
+    </item>
     
     <item>
       <title>Reflections on Playing Games </title>
@@ -395,7 +404,7 @@ Summary This paper by two attorneys at Bronx Defenders argues that quick, decisi
       
       <guid>https://judahgnewman.netlify.com/reading/</guid>
       <description>What I am Currently Reading Books Recently Read 
-Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Paul Graham Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer The New Yorker Roots of Progress: Jason Crawford  Here is a spreadsheet that records the articles I enjoyed every week.</description>
+Good Reads Regular Internet Reading   Stratechery: Ben Thompson Andrew Gelman The New Yorker Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Paul Graham Stephen Wolfram Exponential View: Azeem Azhar Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer Roots of Progress: Jason Crawford  Here is a spreadsheet that records the articles I enjoyed every week.</description>
     </item>
     
     <item>
