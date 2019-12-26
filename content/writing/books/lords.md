@@ -1,5 +1,5 @@
 ---
-title: "Lords"
+title: "Lords of the Realm"
 date: 2019-12-25T08:48:21-08:00
 draft: false
 tags: ['Economics']
@@ -18,14 +18,17 @@ I am interested in exploring sports contracts and how market dynamics are in pla
 
 #### Quotes
 > If they were united, there was nothing they could not do. He used the same words over and over: “Together you are irreplaceable.”
+
 <!-- -->
 
 > “The owners themselves were responsible for it working so badly. What happened was that baseball wasn’t governed by supply and demand. The owners wanted to win so badly they didn’t care about breaking even. They always thought, ‘We’re just one player away.’ ”
+
 <!-- -->
 
 > But he did think he had to start doing what Miller had once done so brilliantly: look a few negotiations out, decide where he wanted to go, and try to get there a bit at a time. He probably couldn’t get as much “meaningful
 
 <!-- -->
+
 > “If the game is lost to the economics that drives it, then we’ll lose the humanity that is unique to the game. We all must feel it and live it in our way and be mindful of its vulnerability to abuse.
 
 <!-- -->
