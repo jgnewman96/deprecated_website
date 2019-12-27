@@ -7,7 +7,7 @@ draft: false
 <center>
 ### What I am Currently Reading
 
-<img src="/img/lords.jpg" width="200">
+<img src="/img/their_eyes.jpg" width="200">
 
 ### Books Recently Read
 
@@ -17,7 +17,7 @@ draft: false
 
 <img src="/img/washington.jpg" width="200">
 
-<img src="/img/omni.jpg" width="200">
+<img src="/img/lords.jpg" width="200">
 
 </center>
 
