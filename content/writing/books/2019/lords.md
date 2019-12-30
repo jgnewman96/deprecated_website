@@ -6,7 +6,7 @@ tags: ['Economics']
 categories: ['Books']
 ---
 
-*Lords of the Realm* by John Helyar chronicles the history of baseball through the eyes of the owners.  We generally learn about the history of sports through the great players and there influence on the game. This book looks at the owners and how they shaped the game of baseball as it developed. The book is particularly focused on the labor relations between the players and the owners.
+*Lords of the Realm* by John Helyar chronicles the history of baseball through the eyes of the owners.  We generally learn about the history of sports through the great players and their influence on the game. This book looks at the owners and how they shaped the game of baseball as it developed. The book is particularly focused on the labor relations between the players and the owners.
 
 This book showed a completely different side of baseball history than I am used to. I have heard about all the great players, but never learned about how free agency developed. I did not know how farm systems developed or how expansion took place. Before reading this book I rarely gave the owners much thought. I did not consider how they shaped the game and how different sports have different models of free agency.
 

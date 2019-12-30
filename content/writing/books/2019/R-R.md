@@ -10,7 +10,7 @@ categories: ['Books']
 
 The book is dark, biting, and very funny at times. The book reminded me how complicated everyone's internal monologue can be. I am so often wrapped up in my internal monologue that I forget everyone around me is having an equally complicated one at the same time.
 
-The book also made me think about how easy it is for people to feel lonely and fall through the cracks post college. Up until college everyone has a strong support system with people all around them. Post college that can change a lot. There is no one checking up on you or looking at for you in the same way.
+The book also made me think about how easy it is for people to feel lonely and fall through the cracks post college. Up until college everyone has a strong support system with people all around them. Post college that can change a lot. There is no one checking up on you or looking out for you in the same way.
 
 
 #### Quotes

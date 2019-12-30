@@ -6,13 +6,13 @@ tags: ['Design']
 categories: ['Books']
 ---
 
-*Creativity Inc* was a fantastic book looking at the culture of Pixar. It explained the founding of Pixar and how the founders maintain an intense focus on developing a fantastic culture. The founders believe that if they maintain a good culture, their business will thrive. A successful business is not about having a great product plan,but developing a good culture and empowering smart people.
+*Creativity Inc* was a fantastic book looking at the culture of Pixar. It explained the founding of Pixar and how the founders maintain an intense focus on developing a fantastic culture. The founders believe that if they maintain a good culture, their business will thrive. A successful business is not about having a great product plan, but developing a good culture and empowering smart people.
 
 I appreciated that the book did not prescribe easy solutions but discussed everything with nuance. It recognized that there are tradeoffs between different approaches. It was honest about how problems are difficult and that there will always be problems. It never felt like it was oversimplifying how difficult running a company can be.
 
-I am excited to return to this book at a later date and see how my thoughts about it have changed. So much of what the book talked about aligned deeply with my personal values. I loved the intense focus on putting people in a situation to succeed and trusting people. That everything else will figure it out, if your core values are good and you follow them.
+I am excited to return to this book at a later date and see how my thoughts about it have changed. So much of what the book talked about aligned deeply with my personal values. I loved the intense focus on putting people in a situation to succeed and trusting people. That everything else will work itself out, if your core values are good and you follow them.
 
-While this book was about how to create a good company culture, almost everything the book talked about applies to how to live a good life. It is so important to take some of the things that book talked about and implement them in your own live. There are going to be problems and things are going to be difficult at times. It is not about avoiding problems or avoiding fear, it is about how we respond to them and how we work through them.
+While this book was about how to create a good company culture, almost everything the book talked about applies to how to live a good life. It is so important to take some of the things that the book talked about and implement them in your own live. There are going to be problems and things are going to be difficult at times. It is not about avoiding problems or avoiding fear, it is about how we respond to them and how we work through them.
 
 I would highly recommend this book to anyone.
 
