@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://judahgnewman.netlify.com/writing/books/year_review_2019/</loc>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://judahgnewman.netlify.com/categories/books/</loc>
-    <lastmod>2019-12-25T08:48:21-08:00</lastmod>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/categories/</loc>
-    <lastmod>2019-12-25T08:48:21-08:00</lastmod>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/reflections/</loc>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/</loc>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <lastmod>2019-12-30T09:49:54-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/their_eyes/</loc>
+    <lastmod>2019-12-27T09:03:58-06:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/books/lords/</loc>
-    <lastmod>2019-12-25T08:48:21-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2019-12-25T08:48:21-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2019-12-25T08:48:21-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/lords/</loc>
     <lastmod>2019-12-25T08:48:21-08:00</lastmod>
   </url>
   
@@ -49,11 +64,6 @@
   
   <url>
     <loc>https://judahgnewman.netlify.com/tags/machine-learning/</loc>
-    <lastmod>2019-12-21T17:18:01-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/reflections/</loc>
     <lastmod>2019-12-21T17:18:01-06:00</lastmod>
   </url>
   
@@ -83,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/books/r-r/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/r-r/</loc>
     <lastmod>2019-12-09T17:14:34-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/books/creativity/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/creativity/</loc>
     <lastmod>2019-11-29T08:32:28-08:00</lastmod>
   </url>
   
@@ -98,7 +108,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/books/washington_black/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/washington_black/</loc>
     <lastmod>2019-11-22T08:02:37-07:00</lastmod>
   </url>
   
@@ -113,7 +123,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/books/omnivore/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/omnivore/</loc>
     <lastmod>2019-11-05T08:02:37-07:00</lastmod>
   </url>
   
@@ -158,7 +168,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/books/wizard_from_earth_sea/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/books/2019/wizard_from_earth_sea/</loc>
     <lastmod>2019-10-31T08:02:37-07:00</lastmod>
   </url>
   
