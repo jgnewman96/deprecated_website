@@ -6,10 +6,20 @@
     <description>Recent content in Statistics on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Oct 2019 13:40:46 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 17:34:38 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical Methods for Eliciting Probability Distributions</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</link>
+      <pubDate>Sun, 05 Jan 2020 17:34:38 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</guid>
+      <description>By Paul H. Garthwaite, Joseph B. Kadane and Anthony O’Hagan
+Summary This paper is an overview of how to take experts believes and turn them into statistical distributions. It combines a long line of psychology research with statistics research. The situation we are examining is when we want to create a distribution over a value from an experts opinion. It is impossible to ask an expert to give us a probability distribution so we need a methodology to query an expert that allows us to create the distribution ourselves.</description>
+    </item>
     
     <item>
       <title>Rotation 1: Non-coop estimation</title>

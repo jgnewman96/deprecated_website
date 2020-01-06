@@ -6,10 +6,20 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Dec 2019 09:49:54 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 17:34:38 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical Methods for Eliciting Probability Distributions</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</link>
+      <pubDate>Sun, 05 Jan 2020 17:34:38 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</guid>
+      <description>By Paul H. Garthwaite, Joseph B. Kadane and Anthony O’Hagan
+Summary This paper is an overview of how to take experts believes and turn them into statistical distributions. It combines a long line of psychology research with statistics research. The situation we are examining is when we want to create a distribution over a value from an experts opinion. It is impossible to ask an expert to give us a probability distribution so we need a methodology to query an expert that allows us to create the distribution ourselves.</description>
+    </item>
     
     <item>
       <title>2019 in Review: The Books I Read</title>
@@ -21,14 +31,12 @@
     </item>
     
     <item>
-      <title>Their_eyes</title>
+      <title>Their Eyes Were Watching God</title>
       <link>https://judahgnewman.netlify.com/writing/books/2019/their_eyes/</link>
       <pubDate>Fri, 27 Dec 2019 09:03:58 -0600</pubDate>
       
       <guid>https://judahgnewman.netlify.com/writing/books/2019/their_eyes/</guid>
-      <description>Having to have a fair amount of experience before knowing if something is right
-Janie jsut went straight into marriage and had her grandmother tell her what she wanted
-also having to learn through experience</description>
+      <description>There Eyes Were Watching God is a novel about Janie, an African American Women born shortly after the end of slavery. The novel follows her she moves through three different husbands and living situations. This book is the most well known piece of literature by Zora Neale Hurston. The book is often read in English classes in either high school or college. I never read There Eyes Were Watching God in school; I was in the other 10th grade english class.</description>
     </item>
     
     <item>
@@ -347,15 +355,6 @@ We hosted monthly webinars that highlighted different machine learning projects 
       <guid>https://judahgnewman.netlify.com/writing/papers/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</guid>
       <description>By Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, Marti A. Hearst
 Summary This paper is a qualitative analysis of thirty interviews with data scientists about their data exploration process. The interviews focus on the different tools that they use, how they are used and what functionality data scientists still desire. The paper shows how different this exploration process can be for different data scientists and how they all use different tools.</description>
-    </item>
-    
-    <item>
-      <title>Lab book </title>
-      <link>https://judahgnewman.netlify.com/writing/papers/labbook/</link>
-      <pubDate>Mon, 21 Oct 2019 19:48:27 +0000</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/writing/papers/labbook/</guid>
-      <description></description>
     </item>
     
     <item>
