@@ -8,6 +8,16 @@ categories: ['Research']
 
 
 
+This is a combination of a lot of different things coming together into one project 
+
+we have to put our assumptions first and make an actual judgement 
+
+we want to study complex systems and try to not reduce the complexity 
+
+we want to open ourselves up to be wrong and be corrected and iterate
+
+We want to be able to understand things slightly better, it is not about having a complete and full understanding but just a partially improved understand 
+
 So i think reading either the notes I took on Michael Jordans talk or the article I sent you earlier might help conceptualize some of what I am going to say, but not sure its necessary. At a high level though, if you havent noticed I am very interested in working on a project with you. I have always found that a learn a ton working with you and I think it is really fun to work together. I also think it would be really good to keep working together even after I leave Nielsen We could just work on kaggle competitions or problems involving data, but I think both of us are more interested in larger research questions. We are interested in questions of HCI and systems. We want to understand how systems function and how does technology interact with humans. While working on data problems is fun and enlightening they are often very narrow in scope. Also that is what I imagine we will both be doing in our day job, so maybe not as good to take on in our side projects
 Obviosuly because these questions are larger and more nebulous, they are a lot harder to answer. Just working on a data problem is a lot more straightforward and easy for us to work on, but just because something is hard does not mean we should not do it.
 While yes most research happens in academic settings. I truly believe there is no reason that you and I cannot do research while both working for a company, Yes it might be slow because we cannot devote enough time, but I think it can be done. Also research does not have to follow traditional methods. Like we do not have to write a research paper. Research is not defined by what the output is. It is defined by the approach and the process.
