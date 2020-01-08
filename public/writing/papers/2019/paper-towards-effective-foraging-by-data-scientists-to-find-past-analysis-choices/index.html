@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Policy</title>
+        <title>Towards Effective Foraging by Data Scientists to Find Past Analysis Choices</title>
         
         <style>
 
@@ -68,9 +68,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.59.1" />
         
-            <link href="/tags/policy/index.xml" rel="alternate" type="application/rss&#43;xml" title="Welcome" />
-            <link href="/tags/policy/index.xml" rel="feed" type="application/rss&#43;xml" title="Welcome" />
-        
 
         
 
@@ -88,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Policy</a>
+                    <a class="navbar-brand visible-xs" href="#">Towards Effective Foraging by Data Scientists to Find Past Analysis Choices</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -127,71 +124,44 @@
         </nav>
 
 
-<table style="width:100%">
-        <tr>
-                <td width="15%">
-                    </ul>
-                    <ul class="cats__list" style="list-style-type:none;">
-        
-        <li class="cat__item"></li>
-          <a class="cat__link" href="/categories/books">
-            books (9)</a>
-        </li>
-        
-        <li class="cat__item"></li>
-          <a class="cat__link" href="/categories/industry">
-            industry (7)</a>
-        </li>
-        
-        <li class="cat__item"></li>
-          <a class="cat__link" href="/categories/papers">
-            papers (9)</a>
-        </li>
-        
-        <li class="cat__item"></li>
-          <a class="cat__link" href="/categories/personal">
-            personal (3)</a>
-        </li>
-        
-        <li class="cat__item"></li>
-          <a class="cat__link" href="/categories/research">
-            research (2)</a>
-        </li>
-        
-        <li class="cat__item"></li>
-          <a class="cat__link" href="/categories/talks">
-            talks (14)</a>
-        </li>
-          
-      </ul>
-                </td>
+<main>
 
-            <td>
-            
-                <h2>Policy</h2>
-                 <div class="item">
-
+    <div>
+        <h2>Towards Effective Foraging by Data Scientists to Find Past Analysis Choices</h2>
+        <h5></h5>
         
-        
-        
-    
-        
-        
-    
-        <h4><a href="/writing/papers/2019/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/">Accidents Happen: Exposing Fallacies in Child Protection Abuse Cases and Reuniting Families Through Aggressive Litigation</a></h4>
-        <h5>September 27, 2019</h5>
-        
-<a href="https://judahgnewman.netlify.com/tags/policy"><kbd class="item-tag">Policy</kbd></a>
+<a href="https://judahgnewman.netlify.com/tags/software-engineering"><kbd class="item-tag">Software Engineering</kbd></a>
 
 
-        
 <a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
 
-    
-    </div> 
-                
+    </div>
 
-                        <footer>
+    <div align="start" class="content">
+
+<p><a href="https://marybethkery.com/projects/Verdant/Towards_effective_foraging_by_data_scientists.pdf">By Mary Beth Kery, Bonnie E. John, Patrick O’Flaherty, and Amber Horvath, Brad A. Myers</a></p>
+
+<h2 id="summary">Summary</h2>
+
+<p>The authors of the paper present a juypter lab extension called verdant that keeps track of notebook history. The goal of verdant is to to help data scientists answer questions about their research process even if they have not documented everything along the way. The need for this tool is motivated by how messy and non-linear the data scientist process is. Through out the data science process many different things are tried out and it is impossible to record everything. Verdant makes it possible for users to look back through what they did and answer key questions. </p>
+
+<p>The authors of the paper focus a lot on building an interface that makes information retrieval simple in easy. The tools provides a few different interfaces for information retrieval. They borrow best practices from the information foraging theory to guide their design. One of their key insights is that there is a certain structure behind all data science processes in notebooks and they use that to help guide the information they display. They use the structure of cells, artifacts that the data science has created and the passing of time to make search and retrieval easier. </p>
+
+<p>The authors evaluate their tool through a set of 15 user interactions with data scientists ay JuypterCon. From this set of interactions the authors verify that their tool helps with information retrieval and get feedback about how to make the tool even better. The authors show that by keeping this history and making it accesible to the data scientist they are able to answer questions about their process which they would not have been able to otherwise.   </p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<ul>
+<li>This is another example of bringing best practices from other fields. Bringing learnings from another field is always powerful and shows how problems field&rsquo;s face are often quite similar. While the actual task might be quite different, we can learn from how other fields have successfully solved essentially the same problem.</li>
+<li>Defining a hierarchical structure for the different parts of a data scientists workflow gives the authors a systematic way to structure information. Identifying this underlying structure and then leveraging it is the real key to their paper. Finding this underlying structure is easier when we limit our scope to just notebooks. Notebooks have a defined structure of cells and only a limited number of actions can happen. Finding/defining this underlying structure for a more general purpose data science workflow is a difficult task.</li>
+<li>A data scientists work happens at many different granularities. There is the scope of an individual coding session. There is the scope of a certain segment of model development such as EDA (exploratory data analysis). We could even think of different sprints as another scope. Verdant helps data scientists with information retrieval at a specific granularity: an individual working session. But what about if a data scientists wants to retrieve information from months ago? Information retrieval and information sharing over a larger scope is still an open problem.</li>
+<li>Data scientists need a better structure for documentation over the span of an entire project. This paper has key insights about how to find underlying structure in the data science workflow and how to best structure information so that it can be found later. Documentation over the entire workflow will require a more active effort from the data scientists themselves. It will have to be a more active effort of saying this what is important because there is just too much information to passively store all of it. It will need to be a tool that helps lead the data scientists towards best practices of documentation</li>
+</ul>
+</div>
+
+</main>
+
+        <footer>
             <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
         </footer>
 
@@ -201,74 +171,4 @@
     </body>
 
 </html>
-
-                
-             </td>
-
-            <td width="15%">
-                </ul>
-                <ul class="tags__list" style="list-style-type:none;">
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/conferences">conferences (1)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/data-science">data-science (1)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/deep-learning">deep-learning (4)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/design">design (4)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/economics">economics (2)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/frisbee">frisbee (2)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/machine-learning">machine-learning (10)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/nature">nature (2)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/policy">policy (1)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/reflections">reflections (7)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/reinforcement-learning">reinforcement-learning (1)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/science-fiction">science-fiction (1)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/software-engineering">software-engineering (4)</a>
-    </li>
-    
-    <li class="tag__item"></li>
-      <a class="tag__link" href="/tags/statistics">statistics (4)</a>
-    </li>
-      
-  </ul>
-            </td>
-    
-        </tr>
-    </table>
-    
 

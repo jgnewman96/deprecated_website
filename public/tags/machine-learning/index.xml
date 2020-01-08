@@ -99,20 +99,20 @@ We hosted monthly webinars that highlighted different machine learning projects 
     
     <item>
       <title>Model Cards for Model Reporting</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/paper-model-cards-for-model-reporting/</link>
       <pubDate>Sat, 05 Oct 2019 22:08:21 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-model-cards-for-model-reporting/</guid>
       <description>By Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru
 Summary The authors propose that machine learning models should be accompanied by documentation known as &amp;ldquo;model cards&amp;rdquo;. A model card should outline who built the model, what the purpose of the model is, how it was validated and what it&amp;rsquo;s performance is according to many different metrics. The authors focus on models that are making decisions about humans.</description>
     </item>
     
     <item>
       <title>Green AI</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/green-ai/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/green-ai/</link>
       <pubDate>Mon, 30 Sep 2019 03:40:49 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/green-ai/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/green-ai/</guid>
       <description>By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
 Summary The authors of this post argue that a large percentage of machine learning research focuses on Red AI and make a call for more research to be centered on Green AI. The authors define Red AI and Green AI as follows:  Red AI: research that makes small improvements on the state of the art by leveraging more computation resources Green AI: research that focuses on diminishing the amount of computation necessary to reach a result.</description>
     </item>

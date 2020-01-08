@@ -6,17 +6,28 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2020 17:34:38 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 08:00:07 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Voter Registration Databases and MRP</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/gelman_vf_mrp/</link>
+      <pubDate>Tue, 07 Jan 2020 08:00:07 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/gelman_vf_mrp/</guid>
+      <description>Summary The authors outline that due to decreasing performance of phone polls new approaches to political polling are becoming prominent. These new methods of getting survey responses do not get perfectly random samples. The authors argue we can use new statistical methods to make accurate inference without random samples.
+The authors lay out the following work flow:
+ Draw a survey sample directly from the voter database or matching responses from an already existing survey to the database Use auxiliary data from the database to construct a flexible statistical model on the quantity (or quantities) of interest Project inferences from the statistical model to the full target population on an individual level Use the projected individual-level inferences, which can be seen as a pseudo-survey dataset, to construct larger group-level inferences about either the electorate as a whole or subgroups within the electorate.</description>
+    </item>
+    
+    <item>
       <title>Statistical Methods for Eliciting Probability Distributions</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/eliciting_beliefs/</link>
       <pubDate>Sun, 05 Jan 2020 17:34:38 -0600</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/eliciting_beliefs/</guid>
       <description>By Paul H. Garthwaite, Joseph B. Kadane and Anthony O’Hagan
 Summary This paper is an overview of how to take experts believes and turn them into statistical distributions. It combines a long line of psychology research with statistics research. The situation we are examining is when we want to create a distribution over a value from an experts opinion. It is impossible to ask an expert to give us a probability distribution so we need a methodology to query an expert that allows us to create the distribution ourselves.</description>
     </item>
@@ -349,30 +360,30 @@ We hosted monthly webinars that highlighted different machine learning projects 
     
     <item>
       <title>Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</link>
       <pubDate>Mon, 21 Oct 2019 19:48:27 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-futzing-and-moseying-interviews-with-professional-data-analysts-on-exploration-practices/</guid>
       <description>By Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, Marti A. Hearst
 Summary This paper is a qualitative analysis of thirty interviews with data scientists about their data exploration process. The interviews focus on the different tools that they use, how they are used and what functionality data scientists still desire. The paper shows how different this exploration process can be for different data scientists and how they all use different tools.</description>
     </item>
     
     <item>
       <title>Defining an Analysis: A Study of Client-Facing Data Scientists</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</link>
       <pubDate>Fri, 18 Oct 2019 17:46:58 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</guid>
       <description>By Mosca, Abigail and Robinson, Shannon and Clarke, Meredith and Redelmeier, Rebecca and Coates, Sebastian and Cashman, Dylan and Chang, Remco
 Summary The authors of this paper use interviews of 14 data scientists to characterize how a data scientist takes business requirements and turns it into a project. The authors call this process of taking a clients needs and turning it into an analysis plan initialization. The authors specifically focus on how data scientists interact with non-technical clients.</description>
     </item>
     
     <item>
       <title>Towards Effective Foraging by Data Scientists to Find Past Analysis Choices</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</link>
       <pubDate>Tue, 08 Oct 2019 16:23:38 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-towards-effective-foraging-by-data-scientists-to-find-past-analysis-choices/</guid>
       <description>By Mary Beth Kery, Bonnie E. John, Patrick O’Flaherty, and Amber Horvath, Brad A. Myers
 Summary The authors of the paper present a juypter lab extension called verdant that keeps track of notebook history. The goal of verdant is to to help data scientists answer questions about their research process even if they have not documented everything along the way. The need for this tool is motivated by how messy and non-linear the data scientist process is.</description>
     </item>
@@ -388,40 +399,40 @@ Summary The authors of the paper present a juypter lab extension called verdant 
     
     <item>
       <title>Model Cards for Model Reporting</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/paper-model-cards-for-model-reporting/</link>
       <pubDate>Sat, 05 Oct 2019 22:08:21 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/paper-model-cards-for-model-reporting/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-model-cards-for-model-reporting/</guid>
       <description>By Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru
 Summary The authors propose that machine learning models should be accompanied by documentation known as &amp;ldquo;model cards&amp;rdquo;. A model card should outline who built the model, what the purpose of the model is, how it was validated and what it&amp;rsquo;s performance is according to many different metrics. The authors focus on models that are making decisions about humans.</description>
     </item>
     
     <item>
       <title>Green AI</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/green-ai/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/green-ai/</link>
       <pubDate>Mon, 30 Sep 2019 03:40:49 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/green-ai/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/green-ai/</guid>
       <description>By Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
 Summary The authors of this post argue that a large percentage of machine learning research focuses on Red AI and make a call for more research to be centered on Green AI. The authors define Red AI and Green AI as follows:  Red AI: research that makes small improvements on the state of the art by leveraging more computation resources Green AI: research that focuses on diminishing the amount of computation necessary to reach a result.</description>
     </item>
     
     <item>
       <title>Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
       <pubDate>Sun, 29 Sep 2019 22:04:54 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
       <description>By Devezer B, Nardin LG, Baumgaertner B, Buzbas EO
 Summary This paper creates a model of how scientific researchers make progress towards the truth. By examining this process under different conditions the authors were able to identify what characteristics help lead scientists towards the truth. This work was motivated by understanding the role that reproducibility has in the research process. Through experiments with different conditions the authors were able to reach some conclusions about how reproducibility and other characteristics affect a communities ability to find the truth.</description>
     </item>
     
     <item>
       <title>Accidents Happen: Exposing Fallacies in Child Protection Abuse Cases and Reuniting Families Through Aggressive Litigation</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</link>
       <pubDate>Fri, 27 Sep 2019 00:18:24 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/accidents-happen-exposing-fallacies-in-child-protection-abuse-cases-and-reuniting-families-through-aggressive-litigation/</guid>
       <description>By Jessica Horan-Block &amp;amp; Elizabeth Tuttle Newman
 Summary This paper by two attorneys at Bronx Defenders argues that quick, decisive, and aggressive action can return children to parents after abuse allegations much faster than traditional approaches. The authors outline how minority and low income parents are more frequently accused of abuse. Parents will bring their children to the Emergency Room in response to accidental injuries or strange physical developments. When the parents explanation for how the injury occurred is not deemed sufficient by the physician, they will be accused of abuse.</description>
     </item>

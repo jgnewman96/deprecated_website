@@ -6,17 +6,28 @@
     <description>Recent content in Statistics on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2020 17:34:38 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 08:00:07 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Voter Registration Databases and MRP</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/gelman_vf_mrp/</link>
+      <pubDate>Tue, 07 Jan 2020 08:00:07 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/gelman_vf_mrp/</guid>
+      <description>Summary The authors outline that due to decreasing performance of phone polls new approaches to political polling are becoming prominent. These new methods of getting survey responses do not get perfectly random samples. The authors argue we can use new statistical methods to make accurate inference without random samples.
+The authors lay out the following work flow:
+ Draw a survey sample directly from the voter database or matching responses from an already existing survey to the database Use auxiliary data from the database to construct a flexible statistical model on the quantity (or quantities) of interest Project inferences from the statistical model to the full target population on an individual level Use the projected individual-level inferences, which can be seen as a pseudo-survey dataset, to construct larger group-level inferences about either the electorate as a whole or subgroups within the electorate.</description>
+    </item>
+    
+    <item>
       <title>Statistical Methods for Eliciting Probability Distributions</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/eliciting_beliefs/</link>
       <pubDate>Sun, 05 Jan 2020 17:34:38 -0600</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/eliciting_beliefs/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/eliciting_beliefs/</guid>
       <description>By Paul H. Garthwaite, Joseph B. Kadane and Anthony O’Hagan
 Summary This paper is an overview of how to take experts believes and turn them into statistical distributions. It combines a long line of psychology research with statistics research. The situation we are examining is when we want to create a distribution over a value from an experts opinion. It is impossible to ask an expert to give us a probability distribution so we need a methodology to query an expert that allows us to create the distribution ourselves.</description>
     </item>
@@ -32,10 +43,10 @@ Summary This paper is an overview of how to take experts believes and turn them 
     
     <item>
       <title>Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity</title>
-      <link>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
+      <link>https://judahgnewman.netlify.com/writing/papers/2019/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</link>
       <pubDate>Sun, 29 Sep 2019 22:04:54 +0000</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/writing/papers/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
+      <guid>https://judahgnewman.netlify.com/writing/papers/2019/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity/</guid>
       <description>By Devezer B, Nardin LG, Baumgaertner B, Buzbas EO
 Summary This paper creates a model of how scientific researchers make progress towards the truth. By examining this process under different conditions the authors were able to identify what characteristics help lead scientists towards the truth. This work was motivated by understanding the role that reproducibility has in the research process. Through experiments with different conditions the authors were able to reach some conclusions about how reproducibility and other characteristics affect a communities ability to find the truth.</description>
     </item>
