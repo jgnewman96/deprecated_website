@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2020 15:25:30 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 14:26:31 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Competing Bandits in Matching Markets</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/bandits_matching_markets/</link>
+      <pubDate>Wed, 15 Jan 2020 14:26:31 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/bandits_matching_markets/</guid>
+      <description>Summary This paper explores matching in two sided markets through the multi armed bandit problem. An example of a two sided market we can model using multi armed bandits is matching workers to employees. There is a pool of workers and a pool of employees. We want to find the optimal matching of employees and workers. Employees have preferences over workers, and workers have preferences over employees. There has been a lot of working that examines how to achieve an optimal matching.</description>
+    </item>
     
     <item>
       <title>American Marriage</title>
