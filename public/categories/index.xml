@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2020 14:26:31 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2020 08:53:42 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Books</title>
+      <link>https://judahgnewman.netlify.com/categories/books/</link>
+      <pubDate>Mon, 27 Jan 2020 08:53:42 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://judahgnewman.netlify.com/categories/talks/</link>
+      <pubDate>Wed, 22 Jan 2020 16:15:55 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/talks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Papers</title>
@@ -17,15 +35,6 @@
       <pubDate>Wed, 15 Jan 2020 14:26:31 -0800</pubDate>
       
       <guid>https://judahgnewman.netlify.com/categories/papers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>https://judahgnewman.netlify.com/categories/books/</link>
-      <pubDate>Sun, 12 Jan 2020 15:25:30 -0800</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/categories/books/</guid>
       <description></description>
     </item>
     
@@ -53,15 +62,6 @@
       <pubDate>Sun, 15 Dec 2019 13:42:50 -0800</pubDate>
       
       <guid>https://judahgnewman.netlify.com/categories/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Talks</title>
-      <link>https://judahgnewman.netlify.com/categories/talks/</link>
-      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/categories/talks/</guid>
       <description></description>
     </item>
     
