@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
-    <lastmod>2020-01-27T08:53:42-08:00</lastmod>
+    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/silver_bullet/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/software-engineering/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <lastmod>2020-01-29T11:48:28-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
     <lastmod>2020-01-27T08:53:42-08:00</lastmod>
   </url>
   
@@ -19,21 +49,6 @@
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2020/silent_spring/</loc>
-    <lastmod>2020-01-27T08:53:42-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2020-01-27T08:53:42-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2020-01-27T08:53:42-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/</loc>
     <lastmod>2020-01-27T08:53:42-08:00</lastmod>
   </url>
   
@@ -54,11 +69,6 @@
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/papers/2020/bandits_matching_markets/</loc>
-    <lastmod>2020-01-15T14:26:31-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
     <lastmod>2020-01-15T14:26:31-08:00</lastmod>
   </url>
   
@@ -304,11 +314,6 @@
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/industry/nielsen/rotation_3/</loc>
-    <lastmod>2019-10-25T13:40:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/software-engineering/</loc>
     <lastmod>2019-10-25T13:40:46-07:00</lastmod>
   </url>
   
