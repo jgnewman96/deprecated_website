@@ -2,7 +2,7 @@
 title: "My Year of Rest and Relaxation"
 date: 2019-12-09T17:14:34-08:00
 draft: false
-tags:
+tags: ['Fiction']
 categories: ['Books']
 ---
 
