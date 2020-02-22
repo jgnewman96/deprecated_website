@@ -8,17 +8,20 @@ draft: false
 
 ### What I am Currently Reading
 
-<img src="/img/BRDSG.jpg" width="200">
+<img src="/img/ZMM.jpg" width="200">
 
 ### Books Recently Read
 
-<img src="/img/AM.jpg" width="200">
-
-<img src="/img/A_of_learning.jpg" width="200">
+<img src="/img/BRDSG.jpg" width="200">
 
 <img src="/img/SBS.jpg" width="200">
 
-<img src="/img/SS.jpg" width="200">
+<img src="/img/A_of_learning.jpg" width="200">
+
+<img src="/img/AM.jpg" width="200">
+
+
+
 
 </center>
 

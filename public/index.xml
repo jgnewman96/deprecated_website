@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jan 2020 11:48:28 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 14:47:18 -0800</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Braiding Sweet Grass</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/braiding_sg/</link>
+      <pubDate>Wed, 05 Feb 2020 14:47:18 -0800</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/braiding_sg/</guid>
+      <description>Braiding Sweet Grass is a set of short stories about nature from Robin Kimmerer&amp;rsquo;s life. Kimmerer blends a scientific perspective with a perspective from from her heritage as a Native American. While each story is about an individual relationship between humans and nature, she often makes larger points about how human view themselves in the world. Kimmerer questions human&amp;rsquo;s claim of intelligent supremacy, challenges some of our economic systems and laments different ways our society is narrow minded.</description>
+    </item>
     
     <item>
       <title>No Silver Bullet - Essence and Accident in Software Engineering</title>
