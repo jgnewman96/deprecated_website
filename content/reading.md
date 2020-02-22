@@ -21,8 +21,6 @@ draft: false
 <img src="/img/AM.jpg" width="200">
 
 
-
-
 </center>
 
 #### [Good Reads](https://www.goodreads.com/user/show/75265124-judah)
