@@ -8,7 +8,7 @@ draft: false
 
 ### What I am Currently Reading
 
-<img src="/img/ZMM.jpg" width="200">
+<img src="/img/GEHT.jpg" width="200">
 
 ### Books Recently Read
 
@@ -16,7 +16,7 @@ draft: false
 
 <img src="/img/SBS.jpg" width="200">
 
-<img src="/img/A_of_learning.jpg" width="200">
+<img src="/img/ZMM.jpg" width="200">
 
 <img src="/img/AM.jpg" width="200">
 
@@ -31,6 +31,8 @@ Regular Internet Reading 
 * [Stratechery](https://stratechery.com/): Ben Thompson
 * [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
 * [The New Yorker](https://www.newyorker.com/)
+* [The Atlantic](https://www.theatlantic.com/)
+* [Elliot Morris](https://thecrosstab.substack.com/)
 * [Fast AI](https://www.fast.ai/) : Rachel Thomas & Jeremy Howard
 * [Wait but Why](https://waitbutwhy.com/): Tim Urban
 * [Paul Graham](http://paulgraham.com/index.html)

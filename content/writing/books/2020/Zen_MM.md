@@ -11,3 +11,5 @@ tim urban and ezra klein
 so much of what he is talking about is still relevant 
 
 what are the ways the futre is different from the past? BLOG POST
+
+The medium that he used to write this story is crazy, using a novel to disguise something else. He even directly calls out that he is doing this. 

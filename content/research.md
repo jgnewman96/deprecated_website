@@ -10,10 +10,10 @@ Agent Based Simulations
 
 ### Research Interests
 
-* applied AI and ML
-* tech regulation
-* the structure of intelligence
-* climate change, inequality / poverty / health
+* Applied AI and ML
+* Tech regulation
+* The structure of intelligence
+* Climate Change, Inequality / Poverty / Health
 
 ### Paper Reading
 
