@@ -2,8 +2,8 @@
 title: "Braiding Sweet Grass"
 date: 2020-02-05T14:47:18-08:00
 draft: false
-tags: ['Books']
-categories: ['Nature']
+tags: ['Nature']
+categories: ['Books']
 ---
 
 *Braiding Sweet Grass* is a set of short stories about nature from Robin Kimmerer's life. Kimmerer blends a scientific perspective with a perspective from from her heritage as a Native American. While each story is about an individual relationship between humans and nature, she often makes larger points about how human view themselves in the world. Kimmerer questions human's claim of intelligent supremacy, challenges some of our economic systems and laments different ways our society is narrow minded.
