@@ -8,18 +8,17 @@ draft: false
 
 ### What I am Currently Reading
 
-<img src="/img/GEHT.jpg" width="200">
+<img src="/img/coates_WD.jpg" width="200">
 
 ### Books Recently Read
+
+<img src="/img/GEHT.jpg" width="200">
+
+<img src="/img/ZMM.jpg" width="200">
 
 <img src="/img/BRDSG.jpg" width="200">
 
 <img src="/img/SBS.jpg" width="200">
-
-<img src="/img/ZMM.jpg" width="200">
-
-<img src="/img/AM.jpg" width="200">
-
 
 </center>
 
@@ -28,16 +27,16 @@ draft: false
 Regular Internet Reading 
 =========================
 
-* [Stratechery](https://stratechery.com/): Ben Thompson
+* [Stratechery](https://stratechery.com/): Ben Thompson ($120 a year)
 * [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
-* [The New Yorker](https://www.newyorker.com/)
+* [The New Yorker](https://www.newyorker.com/) ($50 a year)
 * [The Atlantic](https://www.theatlantic.com/)
-* [Elliot Morris](https://thecrosstab.substack.com/)
+* [Elliot Morris](https://thecrosstab.substack.com/) ($50 a year)
 * [Fast AI](https://www.fast.ai/) : Rachel Thomas & Jeremy Howard
 * [Wait but Why](https://waitbutwhy.com/): Tim Urban
 * [Paul Graham](http://paulgraham.com/index.html)
 * [Stephen Wolfram](https://writings.stephenwolfram.com/)
-* [Exponential View](https://www.exponentialview.co/): Azeem Azhar
+* [Exponential View](https://www.exponentialview.co/): Azeem Azhar ($85 a year)
 * [Import AI](https://jack-clark.net/) : Jack Clark
 * [Pointer](http://www.pointer.io/)
 * [The Morning Paper](https://blog.acolyer.org/): Adrian Colyer

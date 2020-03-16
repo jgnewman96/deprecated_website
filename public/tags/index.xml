@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 09:12:23 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2020 14:15:50 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Politics</title>
+      <link>https://judahgnewman.netlify.com/tags/politics/</link>
+      <pubDate>Sat, 14 Mar 2020 14:15:50 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflections</title>
+      <link>https://judahgnewman.netlify.com/tags/reflections/</link>
+      <pubDate>Sat, 14 Mar 2020 14:15:50 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mindfulness</title>
@@ -17,15 +35,6 @@
       <pubDate>Mon, 24 Feb 2020 09:12:23 -0800</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/mindfulness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reflections</title>
-      <link>https://judahgnewman.netlify.com/tags/reflections/</link>
-      <pubDate>Thu, 20 Feb 2020 08:52:42 -0800</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
       <description></description>
     </item>
     

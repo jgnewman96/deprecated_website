@@ -6,6 +6,19 @@ tags:
 categories:
 ---
 
+The importance of social insitutions
+- reading the book 
+- thinking about social institutions across countries 
+
+we think a lot about social institutions hyper locally, 
+
+I will talk about that briefly 
+
+how do we think social insitutions across countries or people we do not come into contact with frequently. 
+
+is climate change an opportunity to unite cross nationally 
+
+
 Uighur's
 
 immigartion camps
