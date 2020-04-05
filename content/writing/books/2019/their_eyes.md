@@ -2,7 +2,7 @@
 title: "Their Eyes Were Watching God"
 date: 2019-12-27T09:03:58-06:00
 draft: false
-tags: ['Reflections', 'Fiction']
+tags: ['Reflections', 'Fiction', 'History']
 categories: ['Books']
 ---
 

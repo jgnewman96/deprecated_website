@@ -2,7 +2,7 @@
 title: "The Omnivore's Dilemma"
 date: 2019-11-05T08:02:37-07:00
 draft: false
-tags: ['Nature']
+tags: ['Nature', 'Non-Fiction']
 categories: ['Books']
 ---
 

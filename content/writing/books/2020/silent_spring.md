@@ -2,7 +2,7 @@
 title: "Silent Spring"
 date: 2020-01-27T08:53:42-08:00
 draft: false
-tags: ['Nature']
+tags: ['Nature', 'History']
 categories: ['Books']
 ---
 

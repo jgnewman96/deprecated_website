@@ -2,7 +2,7 @@
 title: "Washington Black"
 date: 2019-11-22T08:02:37-07:00
 draft: false
-tags: ['Reflections', 'Fiction']
+tags: ['Reflections', 'Fiction', 'History']
 categories: ['Books']
 ---
 

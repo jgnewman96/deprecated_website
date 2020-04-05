@@ -6,7 +6,7 @@ tags: ['Politics', 'Reflections']
 categories: ['Personal']
 ---
 
-We have been taught to support political candidates whose ideology most nearly matches our own. While being ideological aligned with a candidate is important, not any enough weight is given to candidates other traits. As an organization grows larger, the success of the organization is determined less by the vision or execution of the leader and more by the leaders ability to listen and empower others. The United States political system is so large and unwieldy that the impact of a president is not felt through their ideology but their ability to successfully run a large organization.
+We have been taught to support political candidates whose ideology most nearly matches our own. While being ideological aligned with a candidate is important, not enough weight is given to candidates other traits. As an organization grows larger, the success of the organization is determined less by the vision or execution of the leader and more by the leaders ability to listen and empower others. The United States political system is so large and unwieldy that the impact of a president is not felt through their ideology but their ability to successfully run a large organization.
 
 * * *
 
@@ -39,6 +39,7 @@ History shows that the structure of government limits our ability to get things 
 If we were starting from scratch, we would think about picking the leader of our government in a very different way. Yes, we would still care about their personal ideology, but we would be less focused on it. There are many politicians who have ideologies that are close enough to our own. Rather than finding the candidate who has the ideology that most closely matches ours, we would be trying to learn more about how candidates operate. We would want a candidate who listens and recognizes there own limitations. A candidate who can admit when they are wrong and hires great staff.
 
 If we were less focused on ideology and more focused on these other characteristics we might be interested in the following debate questions.
+
  - How do you get information from your staff?
  - How do you handle when someone challenges your opinion?
  - How do you think about who you are hiring?

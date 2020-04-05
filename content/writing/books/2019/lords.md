@@ -2,7 +2,7 @@
 title: "Lords of the Realm"
 date: 2019-12-25T08:48:21-08:00
 draft: false
-tags: ['Economics']
+tags: ['Economics', 'History', 'Non-Fiction']
 categories: ['Books']
 ---
 

@@ -2,7 +2,7 @@
 title: "Braiding Sweet Grass"
 date: 2020-02-05T14:47:18-08:00
 draft: false
-tags: ['Nature']
+tags: ['Nature', 'Non-Fiction']
 categories: ['Books']
 ---
 

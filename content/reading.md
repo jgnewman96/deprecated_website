@@ -8,17 +8,18 @@ draft: false
 
 ### What I am Currently Reading
 
-<img src="/img/coates_WD.jpg" width="200">
+<img src="/img/NM.jpg" width="200">
 
 ### Books Recently Read
+
+<img src="/img/HWM.jpg" width="200">
+
+<img src="/img/coates_WD.jpg" width="200">
 
 <img src="/img/GEHT.jpg" width="200">
 
 <img src="/img/ZMM.jpg" width="200">
 
-<img src="/img/BRDSG.jpg" width="200">
-
-<img src="/img/SBS.jpg" width="200">
 
 </center>
 
@@ -34,6 +35,7 @@ Regular Internet Reading 
 * [Elliot Morris](https://thecrosstab.substack.com/) ($50 a year)
 * [Fast AI](https://www.fast.ai/) : Rachel Thomas & Jeremy Howard
 * [Wait but Why](https://waitbutwhy.com/): Tim Urban
+* [Tushar Chandra](https://tusharc.dev/)
 * [Paul Graham](http://paulgraham.com/index.html)
 * [Stephen Wolfram](https://writings.stephenwolfram.com/)
 * [Exponential View](https://www.exponentialview.co/): Azeem Azhar ($85 a year)

@@ -2,7 +2,7 @@
 title: "Creativity Inc."
 date: 2019-11-29T08:32:28-08:00
 draft: false
-tags: ['Design']
+tags: ['Design', 'Non-Fiction']
 categories: ['Books']
 ---
 

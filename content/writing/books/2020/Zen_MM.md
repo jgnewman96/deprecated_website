@@ -2,7 +2,7 @@
 title: "Zen and the Art of Motorcycle Maintenance"
 date: 2020-02-20T08:52:42-08:00
 draft: false
-tags: ['Reflections']
+tags: ['Reflections', 'Fiction']
 categories: ['Books']
 ---
 
