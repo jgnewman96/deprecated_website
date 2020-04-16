@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/textbooks/prob_distr/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/textbooks/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_1/</loc>
+    <lastmod>2020-04-15T18:08:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/data-science/</loc>
+    <lastmod>2020-04-15T18:08:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://judahgnewman.netlify.com/categories/books/</loc>
     <lastmod>2020-04-09T10:36:56-05:00</lastmod>
   </url>
@@ -13,27 +58,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/</loc>
-    <lastmod>2020-04-09T10:36:56-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/tags/non-fiction/</loc>
-    <lastmod>2020-04-09T10:36:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2020-04-09T10:36:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2020-04-09T10:36:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/</loc>
     <lastmod>2020-04-09T10:36:56-05:00</lastmod>
   </url>
   
@@ -168,11 +193,6 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
-    <lastmod>2020-01-07T08:00:07-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/papers/2020/gelman_vf_mrp/</loc>
     <lastmod>2020-01-07T08:00:07-08:00</lastmod>
   </url>
@@ -299,11 +319,6 @@
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2019/wizard_from_earth_sea/</loc>
-    <lastmod>2019-10-31T08:02:37-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/data-science/</loc>
     <lastmod>2019-10-31T08:02:37-07:00</lastmod>
   </url>
   

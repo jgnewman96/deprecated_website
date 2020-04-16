@@ -6,10 +6,34 @@
     <description>Recent content in Statistics on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 08:00:07 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 18:32:33 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Probability Distributions</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/prob_distr/</link>
+      <pubDate>Wed, 15 Apr 2020 18:32:33 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/prob_distr/</guid>
+      <description>Discrete Distributions A discrete distribution on has specified values, such as integers. It has a probability mass function.
+Poisson $$P(Z=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
+$$ E[Z| \lambda] = \lambda $$
+The poisson distribution provides a probability for any positive integer.
+A larger lambda gives more to higher values. A smaller lambda gives more probability to smaller values.
+Continuous Distributions Can take on arbitrarily many values. It has a probability density function.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Methods for Hackers: Prologue and Chapter 1</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_1/</link>
+      <pubDate>Wed, 15 Apr 2020 18:08:51 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_1/</guid>
+      <description>Bayesian Methods for Hackers is an online textbook created by Cam Davidson Pilon. The book focuses on bridging the gap from theory to practice. The author argues that textbooks often focus on theory to the point where they become inaccessible. By focusing on accessability these methods become avaliable to anyone.
+Notes The first chapter begins with an outline of how to think in a bayesian frameworks. Bayesian methods are our process of updating beliefs after seeing new evidence.</description>
+    </item>
     
     <item>
       <title>Voter Registration Databases and MRP</title>
