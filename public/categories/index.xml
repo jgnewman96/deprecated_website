@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2020 18:32:33 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 09:47:25 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal</title>
+      <link>https://judahgnewman.netlify.com/categories/personal/</link>
+      <pubDate>Sat, 18 Apr 2020 09:47:25 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/personal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Textbooks</title>
@@ -26,15 +35,6 @@
       <pubDate>Thu, 09 Apr 2020 10:36:56 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/categories/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>https://judahgnewman.netlify.com/categories/personal/</link>
-      <pubDate>Sat, 14 Mar 2020 14:15:50 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/categories/personal/</guid>
       <description></description>
     </item>
     

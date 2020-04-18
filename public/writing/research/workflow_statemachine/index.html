@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Workflow State Machine: Letter to Tushar</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Workflow State Machine: Letter to Tushar</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Workflow State Machine: Letter to Tushar</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/data-science"><kbd class="item-tag">Data Science</kbd></a>
+
+<a href="https://judahgnewman.netlify.com/tags/reflections"><kbd class="item-tag">Reflections</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/personal"><kbd class="item-category">Personal</kbd></a>
+
+    </div>
+
+    <div align="start" class="content"><p>I have been think about my workflow a lot of late decided to write my friend <a href="https://tusharc.dev/">Tushar</a> a letter. Here is that letter in full.</p>
+
+<p>Hey Tush,</p>
+
+<p>I hope you are getting some good relaxation in this weekend. It is a rainy day here in Baton Rouge so we are trapped inside. I have been thinking a lot about my work flow since reading that <a href="https://statmodeling.stat.columbia.edu/2020/04/04/toward-understanding-statistical-workflow/">Gelman piece</a> post I forwarded you. I always find bouncing ideas off you to be really helpful. I have learned a lot from seeing and talking with you about your workflow. Here are some assorted thoughts, respond to whatever interests you.</p>
+
+<p>When I am working on a more strictly engineering task my workflow is a lot better and I am in a much better headspace than when modeling. This relates a lot to the <a href="https://tusharc.dev/posts/debugging_attitude.html">debugging post</a> you made last week. My thinking is much more systematic and defined when I am working on an engineering task. With engineering, I am able to build it up piece by piece, isolate different parts and have a good understanding of each part. It also feels like I am making tangible progress as I go.</p>
+
+<p>My head space and process when I am modeling is much more chaotic. I will often just try something out and see if it improves my optimization metric. Very similar in a lot of ways to what you describe in your post. I do not reason about why making this change is important or what the significance of a parameter is. I just change the parameter hoping it will help.</p>
+
+<p>I have been thinking about this bad tendency for a while now.  I wrote a <a href="https://judahgnewman.netlify.com/writing/personal/model_building/">post</a>  earlier this year about how incorporating the scientific method might help. Here is a snippet from that piece which I think is pertinent.</p>
+
+<blockquote>
+<p>We see the promise and potential of automating a task and forget to be systematic thinkers. We forget the larger goals and focus on one metric. There is a metric we can measure, so we optimize it. &hellip;&hellip; It is harder to measure how much of a system we understand than accuracy on a defined task. Our goal should be understanding of a system rather than optimizing a certain metric. Model building should be a process of using the scientific method to better understand the driving forces in the world around us.</p>
+</blockquote>
+
+<p>My suggestion of using the scientific method was derived from two factors.
+    1. The scientific method forces us to focus on understanding rather than specific metrics
+    2. The scientific method provides a desirable workflow structure</p>
+
+<p>Just knowing that the scientific method will help me has proven not enough to fix some of my bad habits. I will sometimes get into a good flow of defining hypothesis and then testing them out. I find that this is often when I will make the most progress on model iteration. As a bonus it also usually helps me find bugs in my code. But often I still abandon this process and focus on the one or two metrics I have defined.</p>
+
+<hr />
+
+<p>Here are two thoughts about more changes I can make to my workflow</p>
+
+<ol>
+<li>Building Model Understanding Functionality Early</li>
+</ol>
+
+<p>Model understanding and interpretation should be a more integral part of my workflow. When I am evaluating a model it should focus less on the optimization metric. It should focus more on what the model is learning. I should build functionality that lets me see which features are important and how different features interact. I should then compare this to my a priori hypothesis and trends in the raw data. If I build this functionality it makes the scientific method structure a lot easier. I will have an understanding of how changes impact what my model is learning rather than the impact on the optimization metric.</p>
+
+<ol>
+<li>Using State Machines</li>
+</ol>
+
+<p>This idea is less concrete but has the potential to be more powerful. My thinking is <em>more systematic</em> if there is <em>more structure</em> in what I am working on. When my task is more narrowly defined it becomes a lot easier to wrap my head around. A couple of week ago Pointer contained an article about <a href="https://blog.yoshuawuyts.com/state-machines/">state machines</a>. I believe a modeling workflow can be defined using a state machine. This state machine would break the process into smaller parts a give the process more structure.</p>
+
+<p>A state machine is a graph that defines the possible states a process can be in. The article explains &ldquo;State machines not only encode which transitions are valid, in doing so they also encode which transitions are invalid.&rdquo;</p>
+
+<p>Why would using a state machine to model my workflow be so helpful? That state machine could enforce certain good practices and restrict bad habits. I would be forced to document before moving on to the next thing. Here is a very basic diagram of what a modeling workflow state machine could look like.</p>
+
+<p><center></p>
+
+<p><img src="/img/writing/model_workflow.jpg" width="600"></p>
+
+<p></center></p>
+
+<p>This diagram is quite simplistic but a useful starting point. There are probably more states and more cycles within the graph. Each red circle represent a state and then the blue squares represent an action that must be taken before transitioning states. It might even be possible to define sub state machines for each state, so model evaluation could have its own state machine.</p>
+
+<p>This diagram is illustrative because it highlights some of of the underlying structure in our workflows. While each practitioner will have their own tendencies there is some structure that workflows will follow. By making restrictions on this workflow we can help enforce good practices and remove bad practices.</p>
+
+<p>I have some more thoughts related to all of this centering on documentation and information retrieval, but we can get to those later.</p>
+
+<p>Respond to whatever interests you most but here are a couple questions to get the blood flowing:</p>
+
+<ol>
+<li>What type of structures or frameworks do you use when modeling to help guide your thinking?</li>
+<li>What tools / information do you find to be the most helpful in model understanding?</li>
+<li>What am I missing with my State Machine representation? Not in terms of which states or connections, but the overall structure?</li>
+</ol>
+
+<p>Thinking of you Tush! Hope you are doing well.</p>
+
+<p>Judah</p>
+</div>
+
+</main>
+
+<footer>
+    <p class="copyright text-muted">
+        &copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.
+    </p>
+</footer>
+
+
+
+
+</body>
+
+
+</html>

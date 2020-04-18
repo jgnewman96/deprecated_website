@@ -6,10 +6,21 @@
     <description>Recent content in Data Science on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2020 18:08:51 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 09:47:25 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Workflow State Machine: Letter to Tushar</title>
+      <link>https://judahgnewman.netlify.com/writing/research/workflow_statemachine/</link>
+      <pubDate>Sat, 18 Apr 2020 09:47:25 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/research/workflow_statemachine/</guid>
+      <description>I have been think about my workflow a lot of late decided to write my friend Tushar a letter. Here is that letter in full.
+Hey Tush,
+I hope you are getting some good relaxation in this weekend. It is a rainy day here in Baton Rouge so we are trapped inside. I have been thinking a lot about my work flow since reading that Gelman piece post I forwarded you.</description>
+    </item>
     
     <item>
       <title>Bayesian Methods for Hackers: Prologue and Chapter 1</title>
