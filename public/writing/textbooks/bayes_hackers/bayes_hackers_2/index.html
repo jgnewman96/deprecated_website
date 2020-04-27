@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Categories</title>
+        <title>Bayesian Methods for Hackers: Chapter 2</title>
         
         <style>
 
@@ -68,9 +68,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.59.1" />
         
-            <link href="/categories/index.xml" rel="alternate" type="application/rss&#43;xml" title="Welcome" />
-            <link href="/categories/index.xml" rel="feed" type="application/rss&#43;xml" title="Welcome" />
-        
 
         
 
@@ -88,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Categories</a>
+                    <a class="navbar-brand visible-xs" href="#">Bayesian Methods for Hackers: Chapter 2</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -129,87 +126,72 @@
 
 <main>
 
-    <h2>Categories</h2>
+    <div>
+        <h2>Bayesian Methods for Hackers: Chapter 2</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/data-science"><kbd class="item-tag">Data Science</kbd></a>
 
-     <div class="item">
-
-        
-        
-        
-    
-        
-        
-    
-        <h4><a href="/categories/textbooks/">Textbooks</a></h4>
-        <h5>April 21, 2020</h5>
-        
-
-        
-    
-    </div>  <div class="item">
-
-        
-        
-        
-    
-        
-        
-    
-        <h4><a href="/categories/books/">Books</a></h4>
-        <h5>April 19, 2020</h5>
-        
-
-        
-    
-    </div>  <div class="item">
-
-        
-        
-        
-    
-        
-        
-    
-        <h4><a href="/categories/personal/">Personal</a></h4>
-        <h5>April 18, 2020</h5>
-        
-
-        
-    
-    </div>  <div class="item">
-
-        
-        
-        
-    
-        
-        
-    
-        <h4><a href="/categories/talks/">Talks</a></h4>
-        <h5>February 24, 2020</h5>
-        
-
-        
-    
-    </div> 
-
-</main>
+<a href="https://judahgnewman.netlify.com/tags/statistics"><kbd class="item-tag">Statistics</kbd></a>
 
 
+<a href="https://judahgnewman.netlify.com/categories/textbooks"><kbd class="item-category">TextBooks</kbd></a>
 
-<div class="pages">
+    </div>
 
-    
+    <div align="start" class="content">
 
-    
-        <a class="icon pages-icon" href="/categories/page/2/" rel="next">
-            <i class="fa fa-arrow-right"></i>
-        </a>
-    
+<h2 id="notes">Notes</h2>
 
+<p>The chapter explains the syntax of pymc3 and how to turn different concepts into pymc3 code. It outlines the difference between a stochastic variable and determinstic variable</p>
+
+<ul>
+<li>A stochastic variable is random. This means even if all the information about the variable is known, we do not know what its value is. Drawing a value from a distribution is a stochastic variable.</li>
+<li>A deterministic variable can be determined from its parameters. Some examples of deterministic variables below
+
+<ul>
+<li>4</li>
+<li>4 + 4</li>
+</ul></li>
+</ul>
+
+<p>There is one tricky piece here. 4 + poisson(4) would be a stochastic variable but the following is a stochastic variable followed by a deterministic one.</p>
+
+<ul>
+<li>x = poisson(4) : stochastic</li>
+<li>4 + x : deterministic</li>
+</ul>
+
+<hr />
+
+<p>The author outlines a process for thinking about modeling when using Bayesian Inference. We should think about our model in the following process.</p>
+
+<p>How is my data generated?</p>
+
+<ol>
+<li>What is the best random variable to describe my data?</li>
+<li>What do we need to know for that distribution?</li>
+<li>How can we calculate what we need to know for that distribution?</li>
+</ol>
+
+<p>This process helps us tell a narrative about our data. There is a story about where our data is coming from and how it is generated. This narrative is desirable because humans understand stories intuitively. It provides a way to explain our data to other people.</p>
+
+<p>This process also makes it trivial to sample / generate data. Once we have created our data generating process we can plug in different parameters and then generate data.</p>
+
+<p>The author then runs through three different examples using this modeling approach and pymc3. Some of my thoughts about these examples can be seen below.</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<ul>
+<li><p>Examples are such a powerful way to learn.  Referencing an examples makes it easy to extend an approach to more complicated problems. I really appreciate this book&rsquo;s approach of using examples.</p></li>
+
+<li><p>The author of the book repeatedly bashes frequentist approaches. Before the beginning of the A / B testing example he bashes significance testing. I kind of hate this rhetoric. It does not explore why people like frequentist approaches and what the benefits of a bayesian approach are. In this particular example the frequentist approach is actually very similar to the bayesian approach. The frequentist approach just assumes normality and does not make the assumptions it is using clear. Rather than bashing frequentist approaches the author should highlight how the bayesian approach is more flexible and makes our assumptions more evident.</p></li>
+
+<li><p>In the last example, the author argues that plots should be used to assess goodness of fit for a model. I agree that plots can often add more information then just a metric, but the example that the author uses is poor. Separation plots are difficult to understand and do not add much information. For a logistic problem I would have provided a different plot. We could create a plot that has for each class the predicted probability as a function of the variable. We can then overlay on top of this the true results. This gives us a better sense of when we are predicting the wrong class and where the model has higher confidence.</p></li>
+</ul>
 </div>
 
-
+</main>
 
 <footer>
     <p class="copyright text-muted">
@@ -222,5 +204,12 @@
 
 </body>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css"
+    integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js"
+    integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O"
+    crossorigin="anonymous"></script>
 
 </html>

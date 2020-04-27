@@ -6,10 +6,30 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2020 09:47:25 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 16:38:35 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayesian Methods for Hackers: Chapter 2</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_2/</link>
+      <pubDate>Tue, 21 Apr 2020 16:38:35 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_2/</guid>
+      <description>Notes The chapter explains the syntax of pymc3 and how to turn different concepts into pymc3 code. It outlines the difference between a stochastic variable and determinstic variable
+ A stochastic variable is random. This means even if all the information about the variable is known, we do not know what its value is. Drawing a value from a distribution is a stochastic variable. A deterministic variable can be determined from its parameters.</description>
+    </item>
+    
+    <item>
+      <title>Go Ahead in the Rain: Notes to A Tribe Called Quest</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/go_in_rain/</link>
+      <pubDate>Sun, 19 Apr 2020 11:02:04 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/go_in_rain/</guid>
+      <description>Go Ahead in the Rain: Notes to a Tribe Called Quest is a beautiful book. It blends a memoir, with a history of a rap group, with a history of a time period. While the book is ostensibly about the rap group, it actualls talks about so much more than one rap group. Abdurraqib writes a poetic style of prose that conveys so much emotion.
+Abdurraqib writes through the lense of his personal experience with the group.</description>
+    </item>
     
     <item>
       <title>Workflow State Machine: Letter to Tushar</title>
@@ -29,11 +49,11 @@ I hope you are getting some good relaxation in this weekend. It is a rainy day h
       
       <guid>https://judahgnewman.netlify.com/writing/textbooks/prob_distr/</guid>
       <description>Discrete Distributions A discrete distribution on has specified values, such as integers. It has a probability mass function.
-Poisson $$P(Z=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
+Poisson The poisson distribution expresses the probability that a given number of events occur in a time interval. The larger the lambda the more times the event will occur.
+$$P(Z=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
 $$ E[Z| \lambda] = \lambda $$
 The poisson distribution provides a probability for any positive integer.
-A larger lambda gives more to higher values. A smaller lambda gives more probability to smaller values.
-Continuous Distributions Can take on arbitrarily many values. It has a probability density function.</description>
+A larger lambda gives more to higher values.</description>
     </item>
     
     <item>

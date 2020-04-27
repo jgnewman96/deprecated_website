@@ -3,13 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_2/</loc>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://judahgnewman.netlify.com/categories/</loc>
-    <lastmod>2020-04-18T09:47:25-05:00</lastmod>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/tags/data-science/</loc>
-    <lastmod>2020-04-18T09:47:25-05:00</lastmod>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/textbooks/</loc>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/</loc>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <lastmod>2020-04-21T16:38:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
+    <lastmod>2020-04-19T11:02:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/books/2020/go_in_rain/</loc>
+    <lastmod>2020-04-19T11:02:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/history/</loc>
+    <lastmod>2020-04-19T11:02:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/non-fiction/</loc>
+    <lastmod>2020-04-19T11:02:04-05:00</lastmod>
   </url>
   
   <url>
@@ -23,22 +73,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2020-04-18T09:47:25-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2020-04-18T09:47:25-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/research/workflow_statemachine/</loc>
-    <lastmod>2020-04-18T09:47:25-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/</loc>
     <lastmod>2020-04-18T09:47:25-05:00</lastmod>
   </url>
   
@@ -48,23 +83,8 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
-    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/categories/textbooks/</loc>
-    <lastmod>2020-04-15T18:32:33-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_1/</loc>
     <lastmod>2020-04-15T18:08:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
-    <lastmod>2020-04-13T10:28:17-05:00</lastmod>
   </url>
   
   <url>
@@ -88,11 +108,6 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/non-fiction/</loc>
-    <lastmod>2020-04-09T10:36:56-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2020/normal_people/</loc>
     <lastmod>2020-04-04T16:57:10-05:00</lastmod>
   </url>
@@ -110,11 +125,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/writing/personal/politican_ideaology_leadership/</loc>
     <lastmod>2020-03-14T14:15:50-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/history/</loc>
-    <lastmod>2020-03-14T14:15:30-05:00</lastmod>
   </url>
   
   <url>

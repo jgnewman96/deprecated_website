@@ -8,9 +8,11 @@ draft: false
 
 ### What I am Currently Reading
 
-<img src="/img/tribe.jpg" width="200">
+<img src="/img/CWF.jpg" width="200">
 
 ### Books Recently Read
+
+<img src="/img/tribe.jpg" width="200">
 
 <img src="/img/severance.jpg" width="200">
 
@@ -18,7 +20,6 @@ draft: false
 
 <img src="/img/NM.jpg" width="200">
 
-<img src="/img/HWM.jpg" width="200">
 
 
 </center>
