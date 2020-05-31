@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Optimization of Survey Weights under a Large Number of Conflicting Constraints</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Optimization of Survey Weights under a Large Number of Conflicting Constraints</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Optimization of Survey Weights under a Large Number of Conflicting Constraints</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/statistics"><kbd class="item-tag">Statistics</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+    </div>
+
+    <div align="start" class="content">
+
+<p><a href="https://arxiv.org/abs/1901.03791">By Matthew R. Williams and Terrance D. Savitsky</a></p>
+
+<h2 id="summary">Summary</h2>
+
+<p>This paper provides a framework for creating survey weights using constrained optimization. The problem we are solving can be laid out in the following way:</p>
+
+<p>We have a sample of size n taken from a population of size N. Each person in the population has a probability of being included in the survey. The probability of being in the sample is correlated with our response of interest. To account for this probability every person in our sample gets a weight of 1/p_i, where p_i is the probability of being selected. After applying these weights we can now infer about the population.</p>
+
+<p>Here is an example to ground our thinking. Our population is doctors in the United States. We send out an email to all doctors asking them to participate in our survey. We are interested in do doctors support using more technology in hospitals. A sample of the doctors we email respond.  We want to answer questions about our population of doctors, not just our sample of doctors. Doctors with a higher probability of responding to our survey might be more likely to support technology. We need to downweight the doctors with a higher probability of being in our survey otherwise we will overrepresent the number of doctors who support using more technology. If we knew p_i for every doctor, we could apply a weight of 1/p_i to each doctor in our sample.</p>
+
+<p>We do not actually know p_i though. It is  unobservable. We can observe other variables that might be correlated with p_i though. For example, gender or age or ethnicity might relate to p_i. Males might be more likely to be in our survey than females. We can weight our survey so that these variables line up with the population. If we know the population is 50% male, but our sample is 75% male, we then want to downweight those responses so that our sample lines up with the population.</p>
+
+<p>We call these variables, weighting variables. We do not know ahead of time which weighting variables will lead to the best sample. If we have a matrix X of possible weighting variables, we need to somehow pick which weighting variables to use. As the size of X increases, the number of potential weighting variables grows, there no longer becomes a closed form solution to our problem. In order to solve this problem we can use constrained optimization with a loss function.</p>
+
+<blockquote>
+<p>&ldquo;The focus shifts from finding one optimal solution to finding one or more reasonable solutions which satisfy most of the constraints and restrictions&rdquo;</p>
+</blockquote>
+
+<p>The constrained optimization allows us to use both <em>soft</em> and <em>hard</em> constraints. A hard constraint means that our solution most meet that constraint. For example our weights must make it so 50% of the sample is male. A soft constraint means that we want our solution to come as close as possible to the constraint. We penalize a solution the further away it is from the constraint.</p>
+
+<p>When we use hard constraints it is possible that no solution will exist if we add a lot of constraints. Using soft constraints we will always be able to find a solution. When we use soft constraints we can weight how much we care about a given constraint. We might care about gender lining up with the population more than we care about age.</p>
+
+<p>The rest of the paper discusses different options for deviances (their word for loss metrics). The authors then apply their solution to a data set and show the results.</p>
+
+<p>The authors evaluate their model by looking at how many constraints it can hit. They argue that a weighting that meets more constraints is a better weighting.</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<ul>
+<li><p>The authors are not able to evaluate the accuracy of their weighting because they do not know the truth values for the variable of interest in the population. A next step in research would be to examine a setting where we knew the true value in a population. We could then answer questions about if different loss metrics led more accurate weights. It is also possible that each sample is unique and there will not be a set of weighting variables or a loss metric that is consistently the best.</p></li>
+
+<li><p>I enjoyed the reframing of weighting as a constrained optimization. This approach makes it clear what assumptions we are making and makes it easy to compare different weighting approaches. We can directly tell the algorithm we care about these constraints more than these other constraints. When we report our weighting we should be clear about what assumptions we made and why we made them. Another possible approach would be do to many runs of weighting and see how results change as we change our assumptions. This would provide insight into the importance of certain assumptions and how the result could be different if our assumption is wrong.</p></li>
+</ul>
+</div>
+
+</main>
+
+<footer>
+    <p class="copyright text-muted">
+        &copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.
+    </p>
+</footer>
+
+
+
+
+</body>
+
+
+</html>

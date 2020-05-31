@@ -6,10 +6,19 @@
     <description>Recent content in Statistics on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2020 16:38:35 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 13:19:17 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayesian Methods for Hackers: Chapter 3</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_3/</link>
+      <pubDate>Wed, 06 May 2020 13:19:17 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_3/</guid>
+      <description>Notes Chapter 3 in Bayesian Method for Hackers is center on Markov Chain Monte Carlo (MCMC). It is possible to use pymc3 and bayesian models without understanding the underlying algorithms. Understanding this algorithms plays a pivotal role though if we want to be serious practitioners. When our model works out perfectly, not knowing the underlying algorithms is fine. But if we are trying to do anything complicated, our first attempt will almost certainly not work.</description>
+    </item>
     
     <item>
       <title>Bayesian Methods for Hackers: Chapter 2</title>
@@ -43,6 +52,17 @@ A larger lambda gives more to higher values.</description>
       <guid>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_1/</guid>
       <description>Bayesian Methods for Hackers is an online textbook created by Cam Davidson Pilon. The book focuses on bridging the gap from theory to practice. The author argues that textbooks often focus on theory to the point where they become inaccessible. By focusing on accessability these methods become avaliable to anyone.
 Notes The first chapter begins with an outline of how to think in a bayesian frameworks. Bayesian methods are our process of updating beliefs after seeing new evidence.</description>
+    </item>
+    
+    <item>
+      <title>Optimization of Survey Weights under a Large Number of Conflicting Constraints</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/opt_surv_weights/</link>
+      <pubDate>Tue, 07 Apr 2020 16:16:26 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/opt_surv_weights/</guid>
+      <description>By Matthew R. Williams and Terrance D. Savitsky
+Summary This paper provides a framework for creating survey weights using constrained optimization. The problem we are solving can be laid out in the following way:
+We have a sample of size n taken from a population of size N. Each person in the population has a probability of being included in the survey. The probability of being in the sample is correlated with our response of interest.</description>
     </item>
     
     <item>

@@ -6,10 +6,32 @@
     <description>Recent content in Papers on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jan 2020 11:48:28 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 14:16:48 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Cognitive Process Theory of Writing</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/theory_of_writng/</link>
+      <pubDate>Sun, 26 Apr 2020 14:16:48 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/theory_of_writng/</guid>
+      <description>By Linda Flower and John R. Hayes
+Summary This is an older paper from 1981. The authors provide a model to answer the following question &amp;ldquo;What guides the decisions writers make when they write?&amp;rdquo;
+The paper is organized in four different sections that build on top of each other. The authors collected data using a protocol analysis where participants were asked to write an essay for Seventeen Magazine about their job.</description>
+    </item>
+    
+    <item>
+      <title>Optimization of Survey Weights under a Large Number of Conflicting Constraints</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/opt_surv_weights/</link>
+      <pubDate>Tue, 07 Apr 2020 16:16:26 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/opt_surv_weights/</guid>
+      <description>By Matthew R. Williams and Terrance D. Savitsky
+Summary This paper provides a framework for creating survey weights using constrained optimization. The problem we are solving can be laid out in the following way:
+We have a sample of size n taken from a population of size N. Each person in the population has a probability of being included in the survey. The probability of being in the sample is correlated with our response of interest.</description>
+    </item>
     
     <item>
       <title>No Silver Bullet - Essence and Accident in Software Engineering</title>

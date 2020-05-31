@@ -6,26 +6,35 @@
     <description>Recent content in Categories on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2020 16:38:35 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 13:35:14 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Books</title>
+      <link>https://judahgnewman.netlify.com/categories/books/</link>
+      <pubDate>Sun, 31 May 2020 13:35:14 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Textbooks</title>
       <link>https://judahgnewman.netlify.com/categories/textbooks/</link>
-      <pubDate>Tue, 21 Apr 2020 16:38:35 -0500</pubDate>
+      <pubDate>Wed, 06 May 2020 13:19:17 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/categories/textbooks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Books</title>
-      <link>https://judahgnewman.netlify.com/categories/books/</link>
-      <pubDate>Sun, 19 Apr 2020 11:02:04 -0500</pubDate>
+      <title>Papers</title>
+      <link>https://judahgnewman.netlify.com/categories/papers/</link>
+      <pubDate>Sun, 26 Apr 2020 14:16:48 -0500</pubDate>
       
-      <guid>https://judahgnewman.netlify.com/categories/books/</guid>
+      <guid>https://judahgnewman.netlify.com/categories/papers/</guid>
       <description></description>
     </item>
     
@@ -44,15 +53,6 @@
       <pubDate>Mon, 24 Feb 2020 09:12:23 -0800</pubDate>
       
       <guid>https://judahgnewman.netlify.com/categories/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Papers</title>
-      <link>https://judahgnewman.netlify.com/categories/papers/</link>
-      <pubDate>Wed, 29 Jan 2020 11:48:28 -0800</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/categories/papers/</guid>
       <description></description>
     </item>
     

@@ -1,83 +1,81 @@
 ---
 title: "A Cognitive Process Theory of Writing"
 date: 2020-04-26T14:16:48-05:00
-draft: true
+draft: false
+tags: ['Reflections', 'Design']
+categories: ['Papers']
 ---
 
 [By Linda Flower and John R. Hayes](https://www.semanticscholar.org/paper/A-Cognitive-Process-Theory-of-Writing.-Flower-Hayes/c8ff58b5db4cf03fcf2c94b2b825e93ab43bcbcd)
 
-
 ## Summary
 
-paper from 1981
+This is an older paper from 1981. The authors provide a model to answer the following question "What guides the decisions writers make when they write?"
 
-Paper is trying to provide a model to answer this question "What guides the decisions writers make when they write?"
+The paper is organized in four different sections that build on top of each other. The authors collected data using a protocol analysis where participants were asked to write an essay for *Seventeen* Magazine about their job. As the participants were writing they were told to think aloud. There was a tape recorder placed next to participants. The observations in the paper come from analyzing the transcripts of all the participants.
 
-1. it is a set of distinctive thinking process,
-2. it is a hierarchical and embedded process,
-3. the process is guided by the writers goals
-4. there are high level goals and then smaller sub level goals
+### Observation 1: Writing is completed through a set of distinctive thinking processes.
 
-1.
-the old model depicted it as a linear steps in different stages
-    - a model of pre-write / write / re-write
+Previous models of writing have been stage models. Stage models reflect the growth of the written product. A classical stage model would divide writing into three stages. Pre-writing, Writing, Re-Writng. The authors instead propose a process model. In a process model the units of analysis are elementary mental processes. Rather than focusing on the final product, we focus on what the writer is doing.
 
-pre-writing as helped improve the quality of writing by getting people to do more work before hand
+The authors emphasis that a writers surroundings and context impact them during the writing process. Here are two observations from the paper centered on how the environment impacts writers.
 
-this model is for what is actually on the piece of paper, not what is going on inside the person
+> If a writer's representation of her rhetorical problem is inaccurate or simply underdeveloped, then she is unlikely to "solve" or attend to the missing aspects of the problem.
 
-writers are actually pre-writing and revising as they write
-
-these models fail at understanding what goes on during a part and how the parts relate to each other
-
-> in a stage model the major units of analysis are stages of completion which reflect the growth of a written product, and these stages are organized in a linear sequence or structure. In a process model, the major units of
-analysis are elementary mental processes, such as the process of generating ideas.
-
-*hierarchical structure* is important where some things are sub componets of another piece
-
-they use protocol analysis to get thoughts from people as they are writing.
-
-* * *
-
-their model
-- three major units: the task environment, the writer's long-term memory, and the writing processes.
-
-they indetify parts:
-
-we can start with the rhetorical problem
-    - solve a problem by writing something
-
-> If a writer's representation of her rhetorical problem is inaccurate or simply underdeveloped, then she is
-unlikely to "solve" or attend to the missing aspects of the problem.
-
+<!-- -->
 
 > each word in the growing text determines and limits the choices of what can come next.
 
-> In the planning process writers form an internal repre- sentation of the knowledge that will be used in writing. This internal repre-sentation is likely to be more abstract than the writer's prose representation will eventually be.
-    - outlines might just have key words or not be complete sentence
+The authors highlight that studying children can help us learn more about the writing process. Studying children is an easy way to observe participants improving their writing skills. By observing children we learn how certain skills develop.
 
-sub process of planning are generating ideas, organizing, grouping ideas and forming new concepts,
+### 2. These thinking processes are hierarchical and embedded within each other
 
-goal setting , defining the problem and setting your goals guide the process so much
+In previous writing models the process was a linear one. The writer would first accomplish one task in full and then move on to the next task in full. The authors of this paper posit that writing does not follow a linear structure. There are actually cycles and some processes happen inside of other processes. For example, writing one sentence might be a mini version of the entire writing process.
 
-translating is then taking the things from planning and putting them into writing
+### 3. Writing is guided by goals
 
-We can study children and how there writing process changes over time to become better writers ourselves
+The authors draw a distinction between content oriented goals and process oriented goals. A content oriented goal is about an end product. A process goal is about what actions the writer is taking. An example of a process goal is "I just want to get all my ideas on paper". One observation from the paper is that good writers use more process oriented goals. Using process oriented goals gives the writer conscious control over their work flow.
+
+> experienced writers ... can often draw on elaborate networks of goals which are so well learned as to be automatic
+
+The authors also argue that poor writers do a bad job of forming high level goals sometimes only relying on lower level goals.
+
+### 4. There are high level goals and then smaller sub level goals
+
+The authors observe that there are different goals we interact with as we write. There is the high level goal of the entire writing piece. Then there are smaller goals for a section or a paragraph or even just a sentence.
+
+> The distinctive thing about good writers is their tendency to return to that higher-level goal and to re-view and consolidate what has just been learned through exploring.
+
+> Yet this process of setting and developing sub-goals, and at times regenerating those goals is a powerful creative process.
+
 
 ## Thoughts
 
-The paper does such a good job at starting from a fundamental question and then just building it up from scratch
-    - identify the major elements
-    - show how the major elements relate
-    - how does the model help you answer critical questions
+While I was reading this paper I found it very helpful to apply this model or the lessons from this model to a different field. I spend the majority of my time programming rather than writing. It was helpful to think about some of the lessons from this paper and applying them to coding. Coding makes it really easy to have lower level goals. What do I want this function to do? What do I want this class to do? I sometimes struggle while I code though, to remember the higher level goal. I should try to keep the higher level goal in mind more and return to it as I worker on lower level goals.
 
-This applies to a lot more than writing. While this is specific to writing it is applicable to many other places as well.
+If some of the ideas from this paper can apply to software engineering, then some ideas from software engineering can be applied to writing. One thing that is really powerful about software engineering is the use of tests. We use tests to verify that functions are meeting our lower level goals. Could we bring the idea of tests to writing? One idea is that getting other people to read your writing is similar to testing it. If I would not publish code that does not have tests then I should not publish writing which has not been read by some testers first.
 
-- I like that the focus should always be on future research
-    Nevertheless, it is for us a working hypothesis and springboard for further research, and we hope that insofar as it suggests testable hypotheses it will be the same for others.
+There are two ideas that the authors return to many times which I found to have some harmony with each other. The first idea is that the text is a constraint. Once you have written a sentence it limits the possible outcomes of your next sentence. Once you have written a couple paragraphs the scope of your writing piece is very well defined. The other idea is that we learn more as we write and form new goals in response to that. It is impossible for us to have all of our goals figured out ahead of time. As we write, we learn more about what our lower level goals should be and how to achieve them. If we accept both of these ideas, then I would argue it sometimes makes a lot of sense to completely scrap our work and start from scratch. Scraping our work does not mean that the work was invaluable. The work was actually quite valuable, it helped us learn a lot. But, because the text we have written is constraining us, our possibilities are limited. They are limited by work we did when we knew less. Scraping that work gives us a blank canvas, working from a place where we know a lot more.
 
-    A model such as the one presented here is first and foremost a tool for researchers to think with. By giving a testable shape and definition to our observations, we have tried to pose new questions to be answered.
+This paper attacks a fundamental question from first principles. Rather than extending prior work they use prior working as a way to contextualize their thinking and then start from scratch. While there approach is necessary because they are building from scratch, it is a helpful framework for all research.
+
+- Identify the major elements of the question
+- Explain how the major elements relate
+- Use the model to help answer critical questions
+
+I really appreciate that they use their model as a starting point for further research. Rather than creating a model to explain everything they recognize that a model is helpful because it allows us to craft further research agendas.
+
+> Nevertheless, it is for us a working hypothesis and springboard for further research, and we hope that insofar as it suggests testable hypotheses it will be the same for others.
+
+<!-- -->
+
+> A model such as the one presented here is first and foremost a tool for researchers to think with. By giving a testable shape and definition to our observations, we have tried to pose new questions to be answered.
 
 
-Relate to Josh waitizikin: this is why you practice your scales, you need to turn these things into something you do not have to focus energy on so that you can focus your energy on other things.
-    > If the writer must devote conscious attention to de-mands such as spelling and grammar, the task of translating can interfere with the more global process of planning what one wants to say.
+Earlier this year I read the [*Art of Learning*]({{< ref  "/writing/books/2020/A_of_learning.md"  >}}) by Josh Waitzkin. The following quote reminded me of something Waitzkin talks about.
+
+> If the writer must devote conscious attention to demands such as spelling and grammar, the task of translating can interfere with the more global process of planning what one wants to say.
+
+Waitzkin talks about the importance of certain tasks moving from the conscious to the unconscious. When you are learning an instrument you learn the scales not to play the scales well, but so that certain techniques become unconscious. If you had to literally think about everything that you were doing, it would be impossible to do anything. This provides some evidence for why knowing how to spell things is still important. In the internet age you can look up anything. But having to think about how to spell takes up mental energy. When you do not have to think about spelling your mental energy can be focused on higher level processes.
+
+

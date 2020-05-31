@@ -6,10 +6,66 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2020 16:38:35 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 13:35:14 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exhalation</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/exhalation/</link>
+      <pubDate>Sun, 31 May 2020 13:35:14 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/exhalation/</guid>
+      <description>Exhalation by Ted Chiang is a set of short stories that really showcases some of what I love about sci-fi. Chiang uses each story to explore our contemporary culture in a way that is only possible through sci-fi. Good science fiction is not writing about a different. It is writing about our own society and using other places to provide a context that would not be possible otherwise. By looking at and asking questions about what the world would look like in other scenarios we can better understand our own world.</description>
+    </item>
+    
+    <item>
+      <title>Hyperion</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/hyperion/</link>
+      <pubDate>Mon, 11 May 2020 13:13:30 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/hyperion/</guid>
+      <description>Hyperion by Dan Simmons is likely to join the group of sci-fi series where I read the first novel in the series and then do not read the others. This in no way means that I did not enjoy the book, but I find the first book in sci-fi series to be the most compelling. The world building and the introduction of characters is so gripping. There are so many books out there that I am compelled to read and so I often do not continue with the series.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Methods for Hackers: Chapter 3</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_3/</link>
+      <pubDate>Wed, 06 May 2020 13:19:17 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_3/</guid>
+      <description>Notes Chapter 3 in Bayesian Method for Hackers is center on Markov Chain Monte Carlo (MCMC). It is possible to use pymc3 and bayesian models without understanding the underlying algorithms. Understanding this algorithms plays a pivotal role though if we want to be serious practitioners. When our model works out perfectly, not knowing the underlying algorithms is fine. But if we are trying to do anything complicated, our first attempt will almost certainly not work.</description>
+    </item>
+    
+    <item>
+      <title>Trick Mirror: Reflections on Self Delusion</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/trick_mirror/</link>
+      <pubDate>Thu, 30 Apr 2020 14:09:35 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/trick_mirror/</guid>
+      <description>Trick Mirror by Jia Tolentino is a series of essays exploring identity and the self in our current era. Tolentino blends personal stories and self reflections with larger dissections of structural systems in our society. I found Tolentino&amp;rsquo;s writing incredibly compelling. She does not prescribe absolutes and allows nuance to shine through. She does not prescribe exact solutions but rather examines structures in our society and how she navigates them.</description>
+    </item>
+    
+    <item>
+      <title>A Cognitive Process Theory of Writing</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/theory_of_writng/</link>
+      <pubDate>Sun, 26 Apr 2020 14:16:48 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/theory_of_writng/</guid>
+      <description>By Linda Flower and John R. Hayes
+Summary This is an older paper from 1981. The authors provide a model to answer the following question &amp;ldquo;What guides the decisions writers make when they write?&amp;rdquo;
+The paper is organized in four different sections that build on top of each other. The authors collected data using a protocol analysis where participants were asked to write an essay for Seventeen Magazine about their job.</description>
+    </item>
+    
+    <item>
+      <title>Conversations with Friends</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/conv_friends/</link>
+      <pubDate>Sun, 26 Apr 2020 14:15:38 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/conv_friends/</guid>
+      <description>Conversations with Friends is the second book in the past month that I have read by Sally Rooney. Similarly to Normal People, this novel explores communication between people in romantic relationships. It highlights the dangers and destructive nature of expecting others to understand us. When we expect others to understand rather than communicating there will be failures. We make assumptions about how other people are processing events and get caught in the world inside our heads.</description>
+    </item>
     
     <item>
       <title>Bayesian Methods for Hackers: Chapter 2</title>
@@ -83,6 +139,17 @@ Notes The first chapter begins with an outline of how to think in a bayesian fra
       <guid>https://judahgnewman.netlify.com/writing/books/2020/catch_kill/</guid>
       <description>Reading Catch and Kill by Ronan Farrow was a real eye opener for me. I knew who Harvey Weinstein was but I did not know any of the details. A lot of the events covered in the book happened while I was in college when I did not really follow the news.
 My largest takeaway was that while the book might be centered on Harvey Weinstein, it is actually about so much more than any individual man.</description>
+    </item>
+    
+    <item>
+      <title>Optimization of Survey Weights under a Large Number of Conflicting Constraints</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/opt_surv_weights/</link>
+      <pubDate>Tue, 07 Apr 2020 16:16:26 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/opt_surv_weights/</guid>
+      <description>By Matthew R. Williams and Terrance D. Savitsky
+Summary This paper provides a framework for creating survey weights using constrained optimization. The problem we are solving can be laid out in the following way:
+We have a sample of size n taken from a population of size N. Each person in the population has a probability of being included in the survey. The probability of being in the sample is correlated with our response of interest.</description>
     </item>
     
     <item>

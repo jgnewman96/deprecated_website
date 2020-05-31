@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bayesian Methods for Hackers: Chapter 3</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: silver;
+    }
+
+    :root {
+        --accent: maroon;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.59.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Bayesian Methods for Hackers: Chapter 3</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/writing/">Writing</a></li>
+                            
+                                <li><a href="/reading/">Reading</a></li>
+                            
+                                <li><a href="/research/">Research</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Bayesian Methods for Hackers: Chapter 3</h2>
+        <h5></h5>
+        
+<a href="https://judahgnewman.netlify.com/tags/data-science"><kbd class="item-tag">Data Science</kbd></a>
+
+<a href="https://judahgnewman.netlify.com/tags/statistics"><kbd class="item-tag">Statistics</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/textbooks"><kbd class="item-category">TextBooks</kbd></a>
+
+    </div>
+
+    <div align="start" class="content">
+
+<h1 id="notes">Notes</h1>
+
+<p>Chapter 3 in <em>Bayesian Method for Hackers</em> is center on Markov Chain Monte Carlo (MCMC). It is possible to use pymc3 and bayesian models without understanding the underlying algorithms. Understanding this algorithms plays a pivotal role though if we want to be serious practitioners. When our model works out perfectly, not knowing  the underlying algorithms is fine. But if we are trying to do anything complicated, our first attempt will almost certainly not work. When we have to debug and iterate, understanding how the algorithm works and how to diagnose problems becomes critical.</p>
+
+<p>The chapter begins be having us think about the parameter space for our model. If our model has N unknowns then the solution space for our model is N dimensional. Using bayesian models, we identify what spaces in that N dimensional space are more likely and which are less likely. If we use non-bayesian methods then we identify just one point in that N dimensional space.</p>
+
+<p>Priors in our bayesian model provide likelihoods for different places in our solution space. Often we will use a uniform prior which means everywhere in our solution space is equally like. After specifying our prior we then include in our data. When we include data, the solution space stays the same, but likelihood of different areas changes. Areas that line up with our data become more likely and areas that do not align with our data becomes less likely.</p>
+
+<h2 id="markov-chain-monte-carlo-mcmc">Markov Chain Monte Carlo (MCMC)</h2>
+
+<p>So how do we find the areas in our solution space that are most likely? MCMC is an algorithm that does an intelligent search of the solution space. If the solution space is very large it could be difficult to search the entire space. MCMC works by exploring the nearby areas and moving towards areas of higher probability. If MCMC works it will move to the area of the highest probability and then sample many times in that area. Once we have gotten lots of samples in the highest probability area we can create a histogram of our models parameters.</p>
+
+<p>Here is an outline for MCMC algorithms:
+1. Start at a position (our prior)
+2. Propose a new position
+3. Accept/Reject position based on adherence to data &amp; prior
+4. If Accept move to new position, return to 1, if reject return to 1
+5. After large number of iterations, return all positions</p>
+
+<p>MCMC algorithms are memoryless. The algorithm only cares about the current position. The next step is only dependent on the step before it and not a long list of steps.  The algorithm is memoryless. It does not care about how it got to where it is.</p>
+
+<h2 id="diagnostics">Diagnostics</h2>
+
+<p>Once we have run MCMC, how do we know if our result is a good one. The best way to diagnose MCMC is too look at a couple of different plots. Pymc3 comes built in with a lot of nice plotting tools. There are three different plots that are very helpful is assessing your fit.</p>
+
+<p>A <em>posterior plot</em> allows us to view histograms for the posterior  of parameters in our model. We can inspect what is the most likely value for a parameter and what is the uncertainty about that parameter.</p>
+
+<p>A <em>trace plot</em> allows us to view a scatter plot of where MCMC was sampling. Ideally we will see a fuzzy caterpillar. We want MCMC to be walking around in the highest probability space.</p>
+
+<p>An <em>autocorrelation plot</em> allows us to view how related each sample is with the previous sample. When we do MCMC we want our chain to have low autocorrelation. This is not a sufficient condition but a necessary condition. If we have high autocorrelation then our chain is not doing a random walk in the highest probability space.</p>
+
+<h2 id="some-extra-mcmc-thoughts-notes">Some extra MCMC Thoughts / Notes</h2>
+
+<ul>
+<li><p>When we are sampling our parameters we should not mix different samples together. If the value of two parameters is related this will lead to bad inference.</p></li>
+
+<li><p>It can help with convergence to start at good values. This does not mean setting our prior to be at good values but rather setting our <code>testval</code> to be something that makes sense. It is especially good to start near the peak rather than far away from it. <code>pymc3</code> comes built with a capability to do this. We can specify that starting point should be the maximum a posterior estimate or the map.</p></li>
+
+<li><p>When using MCMC, we often have to specify a burn-in period. The burn-in period is when we are still navigating to the region of highest probability. We do not want to include this time period in our final posterior histograms. We discard the burn-in period.</p></li>
+</ul>
+
+<h1 id="thoughts">Thoughts</h1>
+
+<ul>
+<li><p>I really appreciated the approach of this chapter. It was really helpful for me to think about the solution space for our model. It can be really helpful to return to fundamentals when learning a new algorithm or working on a problem. For anytime of model there will also be a solution space and we can always use that to ground our thinking.</p></li>
+
+<li><p>To help the reader understand how MCMC was moving the author kept using the metaphor of traversing a mountain. We can think about optimization in terms of finding valleys. I find that metaphors are one of the most powerful way to explain things to people. It can be really difficult to grasp concepts in the abstract. Using a metaphor to ground thinking is so helpful.</p></li>
+</ul>
+</div>
+
+</main>
+
+<footer>
+    <p class="copyright text-muted">
+        &copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.
+    </p>
+</footer>
+
+
+
+
+</body>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css"
+    integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js"
+    integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O"
+    crossorigin="anonymous"></script>
+
+</html>

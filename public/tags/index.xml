@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2020 16:38:35 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 13:35:14 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Science Fiction</title>
+      <link>https://judahgnewman.netlify.com/tags/science-fiction/</link>
+      <pubDate>Sun, 31 May 2020 13:35:14 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/science-fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Science</title>
       <link>https://judahgnewman.netlify.com/tags/data-science/</link>
-      <pubDate>Tue, 21 Apr 2020 16:38:35 -0500</pubDate>
+      <pubDate>Wed, 06 May 2020 13:19:17 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/data-science/</guid>
       <description></description>
@@ -23,9 +32,45 @@
     <item>
       <title>Statistics</title>
       <link>https://judahgnewman.netlify.com/tags/statistics/</link>
-      <pubDate>Tue, 21 Apr 2020 16:38:35 -0500</pubDate>
+      <pubDate>Wed, 06 May 2020 13:19:17 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-Fiction</title>
+      <link>https://judahgnewman.netlify.com/tags/non-fiction/</link>
+      <pubDate>Thu, 30 Apr 2020 14:09:35 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/non-fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflections</title>
+      <link>https://judahgnewman.netlify.com/tags/reflections/</link>
+      <pubDate>Thu, 30 Apr 2020 14:09:35 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://judahgnewman.netlify.com/tags/design/</link>
+      <pubDate>Sun, 26 Apr 2020 14:16:48 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiction</title>
+      <link>https://judahgnewman.netlify.com/tags/fiction/</link>
+      <pubDate>Sun, 26 Apr 2020 14:15:38 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
       <description></description>
     </item>
     
@@ -35,42 +80,6 @@
       <pubDate>Sun, 19 Apr 2020 11:02:04 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/history/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-Fiction</title>
-      <link>https://judahgnewman.netlify.com/tags/non-fiction/</link>
-      <pubDate>Sun, 19 Apr 2020 11:02:04 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/non-fiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reflections</title>
-      <link>https://judahgnewman.netlify.com/tags/reflections/</link>
-      <pubDate>Sat, 18 Apr 2020 09:47:25 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/reflections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fiction</title>
-      <link>https://judahgnewman.netlify.com/tags/fiction/</link>
-      <pubDate>Mon, 13 Apr 2020 10:28:17 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Science Fiction</title>
-      <link>https://judahgnewman.netlify.com/tags/science-fiction/</link>
-      <pubDate>Mon, 13 Apr 2020 10:28:17 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/science-fiction/</guid>
       <description></description>
     </item>
     
@@ -134,15 +143,6 @@
       <pubDate>Sun, 15 Dec 2019 13:42:50 -0800</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/frisbee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://judahgnewman.netlify.com/tags/design/</link>
-      <pubDate>Fri, 29 Nov 2019 08:32:28 -0800</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
       <description></description>
     </item>
     
