@@ -8,17 +8,18 @@ draft: false
 
 ### What I am Currently Reading
 
-<img src="/img/hyperion.jpg" width="200">
+<img src="/img/HTE.jpg" width="200">
 
 ### Books Recently Read
+
+<img src="/img/exhalation.jpg" width="200">
+
+<img src="/img/hyperion.jpg" width="200">
 
 <img src="/img/trick_mirror.png" width="200">
 
 <img src="/img/CWF.jpg" width="200">
 
-<img src="/img/tribe.jpg" width="200">
-
-<img src="/img/severance.jpg" width="200">
 
 
 

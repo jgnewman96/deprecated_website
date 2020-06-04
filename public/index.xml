@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>150 Succesful Machine Learning Models: 6 Lessons Learned at Booking.com</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/ml_at_booking/</link>
+      <pubDate>Mon, 18 May 2020 16:21:18 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/ml_at_booking/</guid>
+      <description>By Lucas Bernardi, Tehmis Mavridis, Pablo Estevez
+Summary This paper from Booking is not focused on algorithmic advances but on how the company has derived value from using Machine Learning. The authors argue that more papers similar to this one need to be published.
+The authors highlight some parts of the Machine Learning process that are specific to booking. They do this to explain why there situation is different then other technology firms.</description>
+    </item>
+    
+    <item>
       <title>Hyperion</title>
       <link>https://judahgnewman.netlify.com/writing/books/2020/hyperion/</link>
       <pubDate>Mon, 11 May 2020 13:13:30 -0500</pubDate>
