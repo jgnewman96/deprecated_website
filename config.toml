@@ -2,7 +2,7 @@ baseURL = "https://judahgnewman.netlify.com/"
 languageCode = "en-us"
 title = "Welcome"
 theme = "minimal_update"
-disqusShortname = "username" # delete this to disable disqus comments
+
 
 
 [params]
@@ -15,7 +15,7 @@ disqusShortname = "username" # delete this to disable disqus comments
     font = "Ubuntu" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
 
 [[menu.main]]
     url = "/"

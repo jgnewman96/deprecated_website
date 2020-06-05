@@ -10,6 +10,17 @@
 
     <div align="start" class="content">{{ .Content }}</div>
 
+
+    {{if  (eq .Title "Reading") | or (eq .Title "Research") }}
+    {{else }}
+    {{ partial "comments" . }}
+    {{end}}
+
+
 </main>
+
+
+
+
 
 {{ partial "footer" . }}
