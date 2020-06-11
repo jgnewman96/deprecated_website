@@ -6,10 +6,20 @@
     <description>Recent content in Reinforcement Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 10:50:20 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2020 13:19:21 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Survey on Practical Applications of Multi-Armed and Contextual Bandits</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/survey_mab/</link>
+      <pubDate>Mon, 08 Jun 2020 13:19:21 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/survey_mab/</guid>
+      <description>By Djallel Bouneffouf and Irina Rish
+Summary The authors begin the paper by highlighting that Multi-Armed Bandit (MAB) algorithms have gotten a lot of attention recently for their ability to learn with less feedback. Multi-Armed Bandit approaches thrive in situations where we can not use a supervised approach and have to make decisions with minimal feedback. This paper is a survey of the top recent developments in the field. They authors introduce a taxonomy to classify different types of MAB problems and explain the state of the art in each category.</description>
+    </item>
     
     <item>
       <title>Building Intelligent Agents That Can Interpret, Generate and Learn from Natural Language</title>
