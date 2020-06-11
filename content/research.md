@@ -24,7 +24,7 @@ A necessary part of producing quality research is reading lots of other research
 Here are some specific posts where my thoughts about the paper touch on some more general themes:
 
 * [Applying Learnings from other fields] ({{< ref  "/writing/papers/2020/theory_of_writng.md"  >}} )
-* Academia and Industry
+* [Academia and Industry] ({{< ref  "/writing/papers/2020/ML_at_booking.md"  >}} )
 * [Bayesian View of Research] (
                 {{< ref  "/writing/papers/2019/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity.md"  >}} )
 
