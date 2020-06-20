@@ -16,6 +16,7 @@ theme = "minimal_update"
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
+    googleAnalytics = "UA-169213754-1"
 
 [[menu.main]]
     url = "/"
