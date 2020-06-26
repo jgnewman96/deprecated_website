@@ -2,6 +2,8 @@
 title: 'Reading'
 date: Thu, 25 Jul 2019 21:23:30 +0000
 draft: false
+type: "landing_page"
+layout: "single"
 ---
 
 <center>

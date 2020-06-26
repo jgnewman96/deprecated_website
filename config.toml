@@ -18,6 +18,9 @@ theme = "minimal_update"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
     googleAnalytics = "UA-169213754-1"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [[menu.main]]
     url = "/"
     name = "Home"
@@ -62,5 +65,7 @@ theme = "minimal_update"
     url = "https://www.linkedin.com/in/jgnewman96/"
     name = "linkedin"
     weight = 4
+
+
 
 

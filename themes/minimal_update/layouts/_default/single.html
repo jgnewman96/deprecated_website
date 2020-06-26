@@ -5,16 +5,23 @@
     <div>
         <h2>{{ .Title }}</h2>
         <h5>{{ .Description }}</h5>
-        {{ partial "tags"  . }}{{ partial "categories"  . }}
+        <h7 class="section-heading">
+            {{ partial "tags"  . }}{{ partial "categories"  . }}
+            {{ if gt .ReadingTime 1 }}
+            {{ .Scratch.Set "readingTime" "minutes" }}
+            {{ else }}
+            {{ .Scratch.Set "readingTime" "minute" }}
+            {{ end }}
+            <br>
+            <i class="far fa-clock"></i> Reading Time: {{ .ReadingTime }} {{ .Scratch.Get "readingTime" }}
     </div>
+
+
+
 
     <div align="start" class="content">{{ .Content }}</div>
 
-
-    {{if  (eq .Title "Reading") | or (eq .Title "Research") | or (eq .Title "Judah Newman") }}
-    {{else }}
     {{ partial "comments" . }}
-    {{end}}
 
 
 </main>

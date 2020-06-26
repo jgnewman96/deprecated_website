@@ -2,6 +2,8 @@
 title: 'Judah Newman'
 date: Thu, 25 Jul 2019 18:30:51 +0000
 draft: false
+type: "landing_page"
+layout: "single"
 ---
 <center>
 <img src="/img/me.jpg" width="200">
