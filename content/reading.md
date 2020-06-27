@@ -2,15 +2,19 @@
 title: 'Reading'
 date: Thu, 25 Jul 2019 21:23:30 +0000
 draft: false
+type: "landing_page"
+layout: "single"
 ---
 
 <center>
 
 ### What I am Currently Reading
 
-<img src="/img/GWO.jpg" width="200">
+<img src="/img/color_law.jpg" width="200">
 
 ### Books Recently Read
+
+<img src="/img/GWO.jpg" width="200">
 
 <img src="/img/TandTG.jpg" width="200">
 
@@ -18,7 +22,6 @@ draft: false
 
 <img src="/img/exhalation.jpg" width="200">
 
-<img src="/img/hyperion.jpg" width="200">
 
 
 

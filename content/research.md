@@ -2,6 +2,8 @@
 title: 'Research'
 date: Thu, 25 Jul 2019 18:34:24 +0000
 draft: false
+type: "landing_page"
+layout: "single"
 ---
 
 ### Current Project

@@ -1,5 +1,9 @@
 {{ partial "header" . }}
 
+
+
+
+
 <main>
     <div class="intro">
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
@@ -7,7 +11,15 @@
         <h2>{{ markdownify .Site.Params.Description }}</h2>
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
     </div>
+    <div id="fastSearch">
+        <input id="searchInput" tabindex="0">
+        <ul id="searchResults">
+        </ul>
+    </div>
+    <script src="/js/fuse.js"></script>
+    <script src="/js/fastsearch.js"></script>
 </main>
+
 
 
 {{ partial "footer" . }}
