@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 55px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+main {
+    margin: auto;
+    padding: 25px;
+    flex: 1 0 auto;
+    max-width: 750px;
+}
+
+img {
+    max-width: 100%;
+    border_radius: 25px;
+}
+
+/* Homepage */
+
+.intro {
+    transform: translateY(22vh);
+}
+
+.intro > h1 {
+    color: #212121;
+    font-size: 12vh;
+}
+
+.intro > h2 {
+    color: #757575;
+    font-size: 3vmin;
+}
+
+/* Page content */
+
+.content {
+    padding-top: 20px;
+}
+
+/* Profile picture */
+
+.profile {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+/* Colored links */
+
+a:link, a:visited {
+    color: var(--accent);
+}
+
+a.icon:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent) !important;
+}
+
+/* Copyright message */
+
+.copyright {
+    margin: 15px 0;
+}
+
+/* Paginator */
+
+.pages {
+    padding: 15px 0;
+}
+
+.pages-icon {
+    padding: 0 15px;
+}
+
+/* List item for posts/projects */
+
+.item {
+    padding: 10px 0;
+}
+
+.item-tag {
+    background-color: var(--accent);
+}
+
+/* Navigation icons */
+
+.navbar-icon {
+    font-size: 125%;
+    display: inline-block !important;
+}
+
+/* Colored borders at top/bottom of page */
+
+.navbar.navbar-default {
+    border-top: var(--border-width) solid var(--accent);
+}
+
+footer {
+    border-bottom: var(--border-width) solid var(--accent);
+}
+
+#searchInput{width: 400px;
+             height: 20px;
+             padding: 10px 22px;
+             margin: 0px 0;
+             box-sizing: border-box;
+             background-image: url('/img/search.png');
+             background-position: 0px 0px;
+             background-repeat: no-repeat;
+             background-size: 20px 20px;
+            }
+
+#searchResults li {
+    list-style: none;
+    margin-left: 0em;
+    background-color: rgb(163, 162, 162);
+    border-bottom: 1px dotted #000;
+}
