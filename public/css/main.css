@@ -24,6 +24,7 @@ main {
 
 img {
     max-width: 100%;
+    border_radius: 25px;
 }
 
 /* Homepage */
