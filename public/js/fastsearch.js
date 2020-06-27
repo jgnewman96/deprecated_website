@@ -10,8 +10,11 @@ var resultsAvailable = false; // Did we get any search results?
 
 (function () {
 
+    if (fuse) {
+        alert("GOT THERE");
+    }
+
     loadSearch();
-    document.getElementById("fastSearch").style.visibility = "visible"; // show search box
     document.getElementById("searchInput").focus();
     searchVisible = true;
 })();
@@ -81,7 +84,7 @@ function loadSearch() {
             shouldSort: true,
             location: 0,
             distance: 100,
-            threshold: 0.2,
+            threshold: 0.4,
             minMatchCharLength: 1,
             keys: [
                 'title',
@@ -114,14 +117,17 @@ function executeSearch(term) {
     } else { // build our html
         for (let item in results.slice(0, 5)) { // only show first 5 results
             var content = results[item].item.contents;
-            searchitems = searchitems + '<li><a href="' +
+            var result_str = '<li><a href="' +
                 results[item].item.permalink + '" tabindex="0">' +
                 '<span class="title">' + results[item].item.title +
-                '</span><br /> <span class="sc">' + results[item].item.tags +
-                '</span> — '
+                '</span><br /> <span class="sc"> Topic:' + results[item].item.tags +
+                '</span> '
                 + results[item].item.categories + '</a></li>'
                 + content.substring(0, 400);
-            console.log(results[item])
+
+            if (searchitems.includes(result_str)) { continue; }
+
+            searchitems = searchitems + result_str
         }
 
         resultsAvailable = true;
