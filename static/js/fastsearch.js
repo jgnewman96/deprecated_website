@@ -10,10 +10,6 @@ var resultsAvailable = false; // Did we get any search results?
 
 (function () {
 
-    if (fuse) {
-        alert("GOT THERE");
-    }
-
     loadSearch();
     document.getElementById("searchInput").focus();
     searchVisible = true;
@@ -120,8 +116,8 @@ function executeSearch(term) {
             var result_str = '<li><a href="' +
                 results[item].item.permalink + '" tabindex="0">' +
                 '<span class="title">' + results[item].item.title +
-                '</span><br /> <span class="sc"> Topic:' + results[item].item.tags +
-                '</span> '
+                '</span><br /> <span class="sc"> Topics:' + results[item].item.tags +
+                '</span>   Medium:  '
                 + results[item].item.categories + '</a></li>'
                 + content.substring(0, 400);
 
