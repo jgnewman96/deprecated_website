@@ -10,18 +10,17 @@ layout: "single"
 
 ### What I am Currently Reading
 
-<img src="/img/color_law.jpg" width="200">
+<img src="/img/un_earth.jpg" width="200">
 
 ### Books Recently Read
+
+<img src="/img/OEWBG.jpg" width="200">
+
+<img src="/img/color_law.jpg" width="200">
 
 <img src="/img/GWO.jpg" width="200">
 
 <img src="/img/TandTG.jpg" width="200">
-
-<img src="/img/HTE.jpg" width="200">
-
-<img src="/img/exhalation.jpg" width="200">
-
 
 
 

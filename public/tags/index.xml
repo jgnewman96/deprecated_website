@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2020 10:54:45 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 16:29:41 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Fiction</title>
       <link>https://judahgnewman.netlify.com/tags/fiction/</link>
-      <pubDate>Fri, 19 Jun 2020 10:54:45 -0500</pubDate>
+      <pubDate>Tue, 07 Jul 2020 16:29:41 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://judahgnewman.netlify.com/tags/history/</link>
+      <pubDate>Fri, 26 Jun 2020 09:50:52 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/history/</guid>
       <description></description>
     </item>
     
@@ -35,15 +44,6 @@
       <pubDate>Mon, 08 Jun 2020 13:19:21 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>History</title>
-      <link>https://judahgnewman.netlify.com/tags/history/</link>
-      <pubDate>Sun, 07 Jun 2020 16:31:05 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/history/</guid>
       <description></description>
     </item>
     
