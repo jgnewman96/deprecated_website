@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mostly Harmless Econometrics: Chapter 1 </title>
-        
-        <style>
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mostly Harmless Econometrics: Chapters 1 &amp; 2 </title>
+    
+    <style>
 
     html body {
         font-family: 'Ubuntu', sans-serif;
-        background-color: silver;
+        background-color: white;
     }
 
     :root {
-        --accent: maroon;
+        --accent: Indigo;
         --border-width:  5px ;
     }
 
@@ -52,6 +54,8 @@
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
     <script>hljs.initHighlightingOnLoad();</script>
 
 
@@ -66,114 +70,214 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
-        
+ <meta name="generator" content="Hugo 0.73.0" />
+    
 
-        
+    
 
-        
-            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        
+    
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
 
-        
+    
 
-    </head>
 
-    <body>
-        
+</head>
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Mostly Harmless Econometrics: Chapter 1 </a>
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">Home</a></li>
-                            
-                                <li><a href="/about/">About</a></li>
-                            
-                                <li><a href="/writing/">Writing</a></li>
-                            
-                                <li><a href="/reading/">Reading</a></li>
-                            
-                                <li><a href="/research/">Research</a></li>
-                            
-                        </ul>
-                    
-                    
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
-                            
-                        </ul>
-                    
-                </div>
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Mostly Harmless Econometrics: Chapters 1 &amp; 2 </a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-        </nav>
-
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
 
 <main>
 
     <div>
-        <h2>Mostly Harmless Econometrics: Chapter 1 </h2>
+        <h2>Mostly Harmless Econometrics: Chapters 1 &amp; 2 </h2>
         <h5></h5>
-        
+        <h7 class="section-heading">
+            
 <a href="https://judahgnewman.netlify.com/tags/economics"><kbd class="item-tag">Economics</kbd></a>
 
 
-<a href="https://judahgnewman.netlify.com/categories/text-books"><kbd class="item-category">Text Books</kbd></a>
+<a href="https://judahgnewman.netlify.com/categories/textbooks"><kbd class="item-category">TextBooks</kbd></a>
 
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 4 minutes
     </div>
 
-    <div align="start" class="content"><p>What is the relationship of interest?
-What is the ideal experiment
-identification strategy
-mode of inference</p>
 
-<hr />
 
-<p>descriptive is interesting but we want to learn about cause and effect
-- a causual relationship allows us to think about counterfactuals or how things would have been differdnt in a different state of the world
-- this allows us to think about a change in policy
-- if we just see an association it does not allow us to think about how things change</p>
 
-<hr />
-
-<p>how do we capture the causal effect of interest?
-ideal experiemnts are hypothetical but they are still helpful</p>
-
-<p>if you cant design an experiment in a world where anything goes how could you answer this question</p>
-
-<p>We cant answer questions when too many things are tangeled
-- does starting school later affect test score</p>
-
-<hr />
-
-<p>springly examples through out is so helpful</p>
+    <div align="start" class="content"><h2 id="four-frequently-asked-questions">Four Frequently Asked Questions</h2>
+<p>The authors begin the book by discussing how to formulate research questions. The explain the path to a research questions if by asking four questions.</p>
+<ol>
+<li>
+<p>What is the casual relationship of interest?</p>
+<ul>
+<li>This is not to say you cannot have purely descriptive research but purely descriptive research is a step towards causal research</li>
+<li>Causal research lets us answer questions about counterfactual worlds. A World in which something different has happened</li>
+<li>Casual questions can be asked about any unit of observations. Individuals, schools, firms or even countries.</li>
+</ul>
+</li>
+<li>
+<p>What experiment could ideally be used to capture the causal effect of interest?</p>
+<ul>
+<li>Ideal experiments are almost always hypothetical. While we will not be able to carry them out they help us pick research topics</li>
+<li>A research question that cannot be answered by an experiment is FUQ&rsquo;d, fundamentally unidentified questions.</li>
+<li>Here is an example of a FUQ&rsquo;d question: Would kids be better off starting school later?
+<ul>
+<li>We could randomly select some kids to start at age 6 and some to start at age 5. We then would test the kids when they are in second grade.
+<ul>
+<li>But the 6 year olds will be older in second grade then the 5 year olds.</li>
+<li>But if we tested them at the same age then the kids who started school earlier will have been in school for longer</li>
+</ul>
+</li>
+<li>There is no way to disentangle the start-age effect and the time-in-school effect</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>If you cannot devise an experiment that answers your question in a world where anything goes, then the odds of generating useful results with a modest budget and non-experimental survey data seem pretty slim</p>
+</blockquote>
+<ol start="3">
+<li>
+<p>What is your identification strategy?</p>
+<ul>
+<li>an <strong>identification strategy</strong> is how a researcher uses observational data to approximate a real experiment</li>
+</ul>
+</li>
+<li>
+<p>What is your mode of statistical inference?</p>
+<ul>
+<li>The answer to the above questions contains the following information
+<ul>
+<li>What is the population to be studied?</li>
+<li>What sample are we using?</li>
+<li>What assumptions are made when constructing standard errors?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="the-experiment-ideal">The Experiment Ideal</h3>
+<p>The most <strong>credible</strong> and <strong>influential</strong> research designs use random assignment</p>
+<p>Imagine trying to answer the following question : Do hospitals make people healthier?</p>
+<ul>
+<li>
+<p>We are studying a poor elderly population. Some percentage of people in the hospital waiting room are admitted and some are not. We can compare these two groups.</p>
+</li>
+<li>
+<p>The authors collected data for this example and show that people who spent time in the hospital where sicker than those who did not spend time at the hospital.</p>
+</li>
+<li>
+<p>On face value this data could be used to suggest that hospitals make people sicker.</p>
+</li>
+<li>
+<p>But this comparison should not be taken at face value: people who go to hospitals are less healthy to begin with</p>
+</li>
+<li>
+<p>Lets formalize this with some math. hospital treatment is a binary variable {0, 1}. We are interested if health status is impacted by this variable.</p>
+</li>
+<li>
+<p>For each person there are two potential health values. One if they went to hospital and one if they do not. Ideally we would measure the difference in health values between these two values. But we cannot observe both of these outcomes, we can only see one of them.</p>
+</li>
+<li>
+<p>Because we cannot see both for one individual we must learn by comparing the average health of those who were and those were not hospitalized</p>
+</li>
+<li>
+<p>The difference between those who were hospitalized and those who were not contains selection bias. Since the sick are more likely to seek treatment those who were hospitalized will have worse starting health.</p>
+</li>
+</ul>
+<p>Random assignment solves this <strong>selection</strong> problem The group a person is assigned to is not connected to their starting condition.</p>
+<p>Randomized trials are not problem free, but they do avoid this problem of selection. Here is one question we will still want to ask about randomized trails:
+- Does the randomization successfully balance the subject&rsquo;s characteristics across different treatment groups? We can compare covariates across groups to check this.</p>
+<p>Randomized experiments can be quite costly though so we will often try to answer questions without them. We try to find natural experiments that mimic a randomized trail.</p>
+<hr>
+<p>Regression is a useful tool for the study of causal questions.</p>
+<ul>
+<li>We will often need to control for other factors impacts in our regression</li>
+<li>For example: We often used conditional random assignment rather than pure random assignment
+<ul>
+<li>We might do random assignment within a school but then we will need to control for differences between schools</li>
+</ul>
+</li>
+</ul>
+<h2 id="thoughts">Thoughts</h2>
+<ul>
+<li>
+<p>I love the way this book starts and the focus on how to get a research question. So often we are too focused on niche techniques and algorithms that we forget the core questions we need to ask at the beginning.</p>
+</li>
+<li>
+<p>The chapter does a really good job of using examples to highlight certain points.</p>
+</li>
+</ul>
 </div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
 
 </main>
 
-        <footer>
-            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
-        </footer>
 
-        
 
-        
-    </body>
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
 
 </html>
-

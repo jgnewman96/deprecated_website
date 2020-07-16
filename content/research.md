@@ -19,15 +19,14 @@ Agent Based Simulations
 
 ### Paper Reading
 
-A necessary part of producing quality research is reading lots of other research. Any piece of research is not done in isolation but in dialogue with what came before it. It is not only important to read the research but think about it critically and relate it to your own thoughts. I try to read at least one research paper a week, summarize the paper and write some of my own thoughts about it.  It is important to read research papers from a diverse set of fields. By reading other research papers we also learn what good research looks like and how to best communicate findings. You can view all of the papers that I am reading and my thoughts about them [here]
-(
+A necessary part of producing quality research is reading lots of other research. Any piece of research is not done in isolation but in dialogue with what came before it. It is not only important to read the research but think about it critically and relate it to your own thoughts. I try to read at least one research paper a week, summarize the paper and write some of my own thoughts about it.  It is important to read research papers from a diverse set of fields. By reading other research papers we also learn what good research looks like and how to best communicate findings. You can view all of the papers that I am reading and my thoughts about them [here](
 {{< ref  "/categories/papers"  >}} )
 
 Here are some specific posts where my thoughts about the paper touch on some more general themes:
 
-* [Applying Learnings from other fields] ({{< ref  "/writing/papers/2020/theory_of_writng.md"  >}} )
-* [Academia and Industry] ({{< ref  "/writing/papers/2020/ML_at_booking.md"  >}} )
-* [Bayesian View of Research] (
+* [Applying Learnings from other fields]({{< ref  "/writing/papers/2020/theory_of_writng.md"  >}} )
+* [Academia and Industry]({{< ref  "/writing/papers/2020/ML_at_booking.md"  >}} )
+* [Bayesian View of Research](
                 {{< ref  "/writing/papers/2019/scientific-discovery-in-a-model-centric-framework-reproducibility-innovation-and-epistemic-diversity.md"  >}} )
 
 ### Previous Research

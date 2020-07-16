@@ -70,7 +70,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.73.0" />
     
 
     
@@ -151,63 +151,34 @@
 
 
 
-    <div align="start" class="content">
-
-<h2 id="discrete-distributions">Discrete Distributions</h2>
-
+    <div align="start" class="content"><h2 id="discrete-distributions">Discrete Distributions</h2>
 <p>A discrete distribution on has specified values, such as integers. It has a probability mass function.</p>
-
 <h3 id="poisson">Poisson</h3>
-
 <p>The poisson distribution expresses the probability that a given number of events occur in a time interval. The larger the lambda the more times the event will occur.</p>
-
 <p>$$P(Z=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$</p>
-
 <p>$$ E[Z| \lambda] = \lambda $$</p>
-
 <p>The poisson distribution provides a probability for any positive integer.</p>
-
 <p>A larger lambda gives more to higher values. A smaller lambda gives more probability to smaller values.</p>
-
 <h3 id="bernoulli">Bernoulli</h3>
-
 <p>The bernoulli distribution is for a value that can be either 0 or 1. The parameter p describes the probability the value will be 1 and (p-1) is the probability the value will be 0.</p>
-
 <p>$$P(Z=1) = p $$
 $$E[Z | p] = p $$</p>
-
 <h3 id="binomial">Binomial</h3>
-
 <p>The binomial distribution parametrizes the number of times an event will happen in n tries. It is the extension of the bernoulli distribution from one attempt to n attempts. Each event is independent from every other event in the sequence.</p>
-
 <p>$$ P(Z=k){N \choose k}p^{k}(1-p)^{N-k} $$</p>
-
 <p>$$ E[Z | p, N] = Np $$</p>
-
 <h2 id="continuous-distributions">Continuous Distributions</h2>
-
 <p>Can take on arbitrarily many values. It has a probability density function.</p>
-
 <h3 id="normal-distribution">Normal Distribution</h3>
-
 <p>The normal distribution is one of the most common distributions.</p>
-
 <p>$$ f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} $$</p>
-
 <p>$$ E[x | \mu] = \mu $$</p>
-
 <h3 id="exponential-distribution">Exponential Distribution</h3>
-
 <p>$$f_{z}(z | \lambda) = \lambda e^{- \lambda z} $$</p>
-
 <p>$$ E[z | \lambda] = \frac{1}{\lambda} $$</p>
-
 <p>A smaller lambda gives more density towards higher values.</p>
-
 <h3 id="logistic-function">Logistic Function</h3>
-
 <p>This is a common S shaped curve / function. Its values go from 0 to 1 or from 1 to 0 depending on the sign of beta.</p>
-
 <p>$$ p(t | \beta) = \frac{1}{1 + e^{\beta t}} $$</p>
 </div>
 
@@ -224,7 +195,7 @@ $$E[Z | p] = p $$</p>
 
 <footer>
     <p class="copyright text-muted">
-        &copy; 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
     </p>
 </footer>
 

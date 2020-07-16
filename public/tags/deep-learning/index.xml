@@ -18,7 +18,7 @@
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</guid>
       <description>Talk given by Josh Tobin works at Open Ai and Full stack Deep Learning. Talk Resources
-Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree.</description>
+Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree. Generally, 80-90% of our time goes into debugging and tuning while only 10-20 percent is deriving math or building implemnations.</description>
     </item>
     
     <item>

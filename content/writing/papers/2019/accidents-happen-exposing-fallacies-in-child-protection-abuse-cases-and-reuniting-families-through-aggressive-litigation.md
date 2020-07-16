@@ -2,7 +2,7 @@
 title: 'Accidents Happen: Exposing Fallacies in Child Protection Abuse Cases and Reuniting Families Through Aggressive Litigation'
 date: Fri, 27 Sep 2019 00:18:24 +0000
 draft: false
-tags: ['Policy']
+tags: ['Policy', 'Race']
 categories: ['Papers']
 ---
 

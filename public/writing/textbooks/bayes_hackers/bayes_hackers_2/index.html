@@ -70,7 +70,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.73.0" />
     
 
     
@@ -153,55 +153,44 @@
 
 
 
-    <div align="start" class="content">
-
-<h2 id="notes">Notes</h2>
-
+    <div align="start" class="content"><h2 id="notes">Notes</h2>
 <p>The chapter explains the syntax of pymc3 and how to turn different concepts into pymc3 code. It outlines the difference between a stochastic variable and determinstic variable</p>
-
 <ul>
 <li>A stochastic variable is random. This means even if all the information about the variable is known, we do not know what its value is. Drawing a value from a distribution is a stochastic variable.</li>
 <li>A deterministic variable can be determined from its parameters. Some examples of deterministic variables below
-
 <ul>
 <li>4</li>
 <li>4 + 4</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>There is one tricky piece here. 4 + poisson(4) would be a stochastic variable but the following is a stochastic variable followed by a deterministic one.</p>
-
 <ul>
 <li>x = poisson(4) : stochastic</li>
 <li>4 + x : deterministic</li>
 </ul>
-
-<hr />
-
+<hr>
 <p>The author outlines a process for thinking about modeling when using Bayesian Inference. We should think about our model in the following process.</p>
-
 <p>How is my data generated?</p>
-
 <ol>
 <li>What is the best random variable to describe my data?</li>
 <li>What do we need to know for that distribution?</li>
 <li>How can we calculate what we need to know for that distribution?</li>
 </ol>
-
 <p>This process helps us tell a narrative about our data. There is a story about where our data is coming from and how it is generated. This narrative is desirable because humans understand stories intuitively. It provides a way to explain our data to other people.</p>
-
 <p>This process also makes it trivial to sample / generate data. Once we have created our data generating process we can plug in different parameters and then generate data.</p>
-
 <p>The author then runs through three different examples using this modeling approach and pymc3. Some of my thoughts about these examples can be seen below.</p>
-
 <h2 id="thoughts">Thoughts</h2>
-
 <ul>
-<li><p>Examples are such a powerful way to learn.  Referencing an examples makes it easy to extend an approach to more complicated problems. I really appreciate this book&rsquo;s approach of using examples.</p></li>
-
-<li><p>The author of the book repeatedly bashes frequentist approaches. Before the beginning of the A / B testing example he bashes significance testing. I kind of hate this rhetoric. It does not explore why people like frequentist approaches and what the benefits of a bayesian approach are. In this particular example the frequentist approach is actually very similar to the bayesian approach. The frequentist approach just assumes normality and does not make the assumptions it is using clear. Rather than bashing frequentist approaches the author should highlight how the bayesian approach is more flexible and makes our assumptions more evident.</p></li>
-
-<li><p>In the last example, the author argues that plots should be used to assess goodness of fit for a model. I agree that plots can often add more information then just a metric, but the example that the author uses is poor. Separation plots are difficult to understand and do not add much information. For a logistic problem I would have provided a different plot. We could create a plot that has for each class the predicted probability as a function of the variable. We can then overlay on top of this the true results. This gives us a better sense of when we are predicting the wrong class and where the model has higher confidence.</p></li>
+<li>
+<p>Examples are such a powerful way to learn.  Referencing an examples makes it easy to extend an approach to more complicated problems. I really appreciate this book&rsquo;s approach of using examples.</p>
+</li>
+<li>
+<p>The author of the book repeatedly bashes frequentist approaches. Before the beginning of the A / B testing example he bashes significance testing. I kind of hate this rhetoric. It does not explore why people like frequentist approaches and what the benefits of a bayesian approach are. In this particular example the frequentist approach is actually very similar to the bayesian approach. The frequentist approach just assumes normality and does not make the assumptions it is using clear. Rather than bashing frequentist approaches the author should highlight how the bayesian approach is more flexible and makes our assumptions more evident.</p>
+</li>
+<li>
+<p>In the last example, the author argues that plots should be used to assess goodness of fit for a model. I agree that plots can often add more information then just a metric, but the example that the author uses is poor. Separation plots are difficult to understand and do not add much information. For a logistic problem I would have provided a different plot. We could create a plot that has for each class the predicted probability as a function of the variable. We can then overlay on top of this the true results. This gives us a better sense of when we are predicting the wrong class and where the model has higher confidence.</p>
+</li>
 </ul>
 </div>
 
@@ -218,7 +207,7 @@
 
 <footer>
     <p class="copyright text-muted">
-        &copy; 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
     </p>
 </footer>
 

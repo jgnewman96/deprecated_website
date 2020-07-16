@@ -8,10 +8,32 @@ this is something I need to be acting on
 
 post by erika reinhardt
 
-## Carbon Offsets
+## Personal Energy Usage
 
-I am using wren and getting rid of carbon emissions
+- wren
 - compensaid
 - the gold standard
+- Arcadia
+
+## Organizations
+
+- Sierra Club
+
+- Citizens Climate Lobby
+
+- [Clean Air Task Force](https://www.catf.us/)
+
+- [Environmental Voter Project](https://www.environmentalvoter.org/)
+
+- [The Years Project](https://theyearsproject.com/)
+
+- [League of Conservation Voter](https://www.lcv.org/)
+
+- [Environmental Defense Fund](https://www.edf.org/)
+
+
+- [Climate Justice Resilience Fund](https://www.cjrfund.org/)
+
+- [Natural Resources Defense Council](https://www.nrdc.org/)
 
 organizations I went through and which I picked to be a part of

@@ -29,7 +29,8 @@ The authors highlight some parts of the Machine Learning process that are specif
       
       <guid>https://judahgnewman.netlify.com/writing/papers/2020/silver_bullet/</guid>
       <description>By Fredrick P Brooks
-Summary This paper was published in 1986 examining the difficulties of creating software. Brooks argues that there is no silver bullet to make software development a lot easier. The main things that are making software development hard are part of the essence of software development. Rather than aiming for a silver bullet that will greatly improve software development we should be making smaller iterative improvements.</description>
+Summary This paper was published in 1986 examining the difficulties of creating software. Brooks argues that there is no silver bullet to make software development a lot easier. The main things that are making software development hard are part of the essence of software development. Rather than aiming for a silver bullet that will greatly improve software development we should be making smaller iterative improvements.
+Brooks argues that Moore&amp;rsquo;s Law and a two fold increase in productivity each year is a fools goal for software.</description>
     </item>
     
     <item>
@@ -58,7 +59,7 @@ Summary This paper is a qualitative analysis of thirty interviews with data scie
       
       <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</guid>
       <description>By Mosca, Abigail and Robinson, Shannon and Clarke, Meredith and Redelmeier, Rebecca and Coates, Sebastian and Cashman, Dylan and Chang, Remco
-Summary The authors of this paper use interviews of 14 data scientists to characterize how a data scientist takes business requirements and turns it into a project. The authors call this process of taking a clients needs and turning it into an analysis plan initialization. The authors specifically focus on how data scientists interact with non-technical clients.</description>
+Summary The authors of this paper use interviews of 14 data scientists to characterize how a data scientist takes business requirements and turns it into a project. The authors call this process of taking a clients needs and turning it into an analysis plan **_initialization. _**The authors specifically focus on how data scientists interact with non-technical clients.</description>
     </item>
     
     <item>

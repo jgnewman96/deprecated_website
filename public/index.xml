@@ -6,10 +6,32 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2020 16:29:41 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 17:40:02 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nothing to Add: A Challenge to White Silence in Racial Discussions</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/white_silence/</link>
+      <pubDate>Thu, 16 Jul 2020 17:40:02 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/white_silence/</guid>
+      <description>By Robin DiAngelo
+The paper explores why white people are silent when talking about race. It argues that this silence, &amp;ldquo;White Silence&amp;rdquo; functions to maintain white power and privilege. The goal of the paper is to unsettle the complacency that often surrounds White Silence. TO motivate silent whites to stop being silent.
+Whiteness is dynamic, relational and operating at all times and on myriad levels. It is not something simple and not easy to wrap our heads around.</description>
+    </item>
+    
+    <item>
+      <title>Mostly Harmless Econometrics: Chapters 1 &amp; 2 </title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter1/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter1/</guid>
+      <description>Four Frequently Asked Questions The authors begin the book by discussing how to formulate research questions. The explain the path to a research questions if by asking four questions.
+  What is the casual relationship of interest?
+ This is not to say you cannot have purely descriptive research but purely descriptive research is a step towards causal research Causal research lets us answer questions about counterfactual worlds. A World in which something different has happened Casual questions can be asked about any unit of observations.</description>
+    </item>
     
     <item>
       <title>On Earth We&#39;re Briefly Gorgeous</title>
@@ -299,7 +321,8 @@ I can see why so many different people enjoyed Rooney&amp;rsquo;s writing. She d
       
       <guid>https://judahgnewman.netlify.com/writing/papers/2020/silver_bullet/</guid>
       <description>By Fredrick P Brooks
-Summary This paper was published in 1986 examining the difficulties of creating software. Brooks argues that there is no silver bullet to make software development a lot easier. The main things that are making software development hard are part of the essence of software development. Rather than aiming for a silver bullet that will greatly improve software development we should be making smaller iterative improvements.</description>
+Summary This paper was published in 1986 examining the difficulties of creating software. Brooks argues that there is no silver bullet to make software development a lot easier. The main things that are making software development hard are part of the essence of software development. Rather than aiming for a silver bullet that will greatly improve software development we should be making smaller iterative improvements.
+Brooks argues that Moore&amp;rsquo;s Law and a two fold increase in productivity each year is a fools goal for software.</description>
     </item>
     
     <item>
@@ -480,7 +503,7 @@ Science as an equalizer The book played around a couple of different times with 
       
       <guid>https://judahgnewman.netlify.com/writing/books/2019/omnivore/</guid>
       <description>The Omnivore&amp;rsquo;s Dilemma by Michael Pollan was an absolutely fascinating read. I enjoyed learning more about our food insutry and how the human food chain has developed. The central question of the book was where does our food come from? What seems like such a simple question has become quite complex in our modern society. I learned a lot by watching Michael try to answer this question.
- While this book dealt explicitly with our food chain, it raises a lot of questions about the complexity of our society today.</description>
+  While this book dealt explicitly with our food chain, it raises a lot of questions about the complexity of our society today.</description>
     </item>
     
     <item>
@@ -490,11 +513,10 @@ Science as an equalizer The book played around a couple of different times with 
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</guid>
       <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
-Day 1, Tuesday October 29, 2019 Interpretable Knowledge Discovery Reinforced by Visual Methods
-User-Centric Design for Data Scientists
-ML Flow: Platform for Complete Machine Learning Life Cycle
-Day 2, Wednesday October 30, 2019 Implict Deep Learning
-Towards a Blend of Machine Learning and Microeconomics</description>
+Day 1, Tuesday October 29, 2019 [Interpretable Knowledge Discovery Reinforced by Visual Methods] ( https://judahgnewman.netlify.com/writing/talks/odsc/kdd_odsc/ )
+[User-Centric Design for Data Scientists] ( https://judahgnewman.netlify.com/writing/talks/odsc/user_centeric_design_odsc/ )
+[ML Flow: Platform for Complete Machine Learning Life Cycle] ( https://judahgnewman.netlify.com/writing/talks/odsc/mlflow_odsc/ )
+Day 2, Wednesday October 30, 2019 [Implict Deep Learning] ( https://judahgnewman.</description>
     </item>
     
     <item>
@@ -514,7 +536,7 @@ Motivation So what is declarative data visualization? As programmers we are used
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</guid>
       <description>Talk given by Josh Tobin works at Open Ai and Full stack Deep Learning. Talk Resources
-Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree.</description>
+Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree. Generally, 80-90% of our time goes into debugging and tuning while only 10-20 percent is deriving math or building implemnations.</description>
     </item>
     
     <item>
@@ -578,7 +600,7 @@ Motivation What most practitioners of deep learning do is train models. Training
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</guid>
       <description>Talk given by Jacob Andreas
 Motivation Ideally we have systems that understand us in our natural language and can do things. We are beginning to have autonomous agents in the world around us. Both agents in the virtual world such a personal assistants and agents in the physical world like Roombas. We want to build automated agents that can take actions based on natural language
-How do we design agents?</description>
+How do we design agents? We can break down the agent design problem in the following way.</description>
     </item>
     
     <item>
@@ -646,7 +668,7 @@ He highlighted that the problem with each of these analytical approaches is that
       <description>My friend Hawkins recently sent me the following question:
  How do you work around biased data sets to produce non discriminatory results in ML?
  I ended up writing him a fair amount while I wan on a plane. My response to him is replicated here in full.
-Hey Hawk,
+ Hey Hawk,
 Thanks for asking this question. It is a really important one and it is always nice to think about these problems in a fair amount of depth.</description>
     </item>
     
@@ -713,7 +735,7 @@ Summary This paper is a qualitative analysis of thirty interviews with data scie
       
       <guid>https://judahgnewman.netlify.com/writing/papers/2019/paper-defining-an-analysis-a-study-of-client-facing-data-scientists/</guid>
       <description>By Mosca, Abigail and Robinson, Shannon and Clarke, Meredith and Redelmeier, Rebecca and Coates, Sebastian and Cashman, Dylan and Chang, Remco
-Summary The authors of this paper use interviews of 14 data scientists to characterize how a data scientist takes business requirements and turns it into a project. The authors call this process of taking a clients needs and turning it into an analysis plan initialization. The authors specifically focus on how data scientists interact with non-technical clients.</description>
+Summary The authors of this paper use interviews of 14 data scientists to characterize how a data scientist takes business requirements and turns it into a project. The authors call this process of taking a clients needs and turning it into an analysis plan **_initialization. _**The authors specifically focus on how data scientists interact with non-technical clients.</description>
     </item>
     
     <item>
@@ -781,8 +803,7 @@ Summary This paper by two attorneys at Bronx Defenders argues that quick, decisi
       <pubDate>Thu, 25 Jul 2019 21:23:30 +0000</pubDate>
       
       <guid>https://judahgnewman.netlify.com/reading/</guid>
-      <description>What I am Currently Reading Books Recently Read 
-Good Reads Regular Internet Reading   Stratechery: Ben Thompson ($120 a year) Andrew Gelman The New Yorker ($50 a year) The Atlantic Elliot Morris ($50 a year) Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Tushar Chandra Paul Graham Stephen Wolfram Exponential View: Azeem Azhar ($85 a year) Import AI : Jack Clark Pointer The Morning Paper: Adrian Colyer Matthew Ball  Here is a spreadsheet that records the articles I enjoyed every week.</description>
+      <description>What I am Currently Reading Books Recently Read Good Reads Regular Internet Reading   Stratechery: Ben Thompson ($120 a year) Andrew Gelman The New Yorker ($50 a year) Pointer Julia Evans Will Larson Tushar Chandra Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Wait but Why: Tim Urban Paul Graham Exponential View: Azeem Azhar ($85 a year) The Morning Paper: Adrian Colyer Matthew Ball Elliot Morris ($50 a year)  Here is a spreadsheet that records the articles I enjoyed every week.</description>
     </item>
     
     <item>

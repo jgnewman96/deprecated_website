@@ -117,7 +117,7 @@ function executeSearch(term) {
                 results[item].item.permalink + '" tabindex="0">' +
                 '<span class="title">' + results[item].item.title +
                 '</span><br /> <span class="sc"> Topics:' + results[item].item.tags +
-                '</span>   Medium:  '
+                '</span><br />   Medium:  '
                 + results[item].item.categories + '</a></li>'
                 + content.substring(0, 400);
 

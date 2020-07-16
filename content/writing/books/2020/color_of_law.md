@@ -2,7 +2,7 @@
 title: "The Color of Law: A Forgotten History of How Our Government Segregated America"
 date: 2020-06-26T09:50:52-05:00
 draft: false
-tags: ['History']
+tags: ['History', 'Race']
 categories: ['Books']
 ---
 

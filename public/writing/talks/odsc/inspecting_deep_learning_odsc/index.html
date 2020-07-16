@@ -70,7 +70,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.73.0" />
     
 
     
@@ -151,42 +151,23 @@
 
 
 
-    <div align="start" class="content">
-
-<p>Talk given by <a href="https://www.stat.berkeley.edu/~mmahoney/">Michael Mahoney</a> and <a href="https://www.linkedin.com/in/charlesmartin14">Charles H. Martin</a></p>
-
+    <div align="start" class="content"><p>Talk given by <a href="https://www.stat.berkeley.edu/~mmahoney/">Michael Mahoney</a> and <a href="https://www.linkedin.com/in/charlesmartin14">Charles H. Martin</a></p>
 <p>Talk <a href="https://www.stat.berkeley.edu/~mmahoney/talks/dnn_kdd19_fin.pdf">Slides</a></p>
-
 <p><a href="https://github.com/CalculatedContent/WeightWatcher">Github</a></p>
-
 <h2 id="motivation">Motivation</h2>
-
 <p>What most practitioners of deep learning do is train models. Training models that do something is the easy part. The hard part is actually evaluating and testing those models. Most people evaluate their models by tieing them to a certain set of data and seeing the accuracy on that data. This has problem because it is tied to a given set of data and the potential problems with that data.</p>
-
 <p>The speakers explain a new approach of directly inspecting the weight matrices in deep learning algorithms. Looking directly at this weight matrices could also help with problems of reproducibility. We can analyze these weight matrices to understand what makes a model start of the art and what makes a model generalize well.</p>
-
 <p>Ideally we could develop some sort of theory about these weight matrices that we could use to guide us. We also want to be able to use that theory to help in practice with creating these deep learning models.</p>
-
 <h2 id="methods">Methods</h2>
-
 <p>The speakers demonstrate their approach by examining the weights in state of the art pre-trained models that have been released to the public. We can look at how the weight matrices have changed over time.</p>
-
 <p>the speakers argue for looking at the singular value density for the weight matrices of the matrices. We can examine these histograms of the singular values using Random Matrix Theory (RMT). At the beginning of training we should see a certain pattern that corresponds to a random matrix. As the model gets trained though we see a different pattern emerge.</p>
-
 <p>We see the entropy of this matrix go down over time. This makes sense because maximum entropy means we have a completely random matrix. As the entropy decrease this corresponds to a move away from random structure.</p>
-
 <p>The speakers than examined different models and saw how models changed to develop a theory of what made a good model. What can we see in VGG 19 that makes it better than VGG 11?</p>
-
 <p>Deep learning systems that display longer tails in this singular value histogram also known as empirical spectral density have better performance and are better able to generalize. When we have alphas that are closer to 2 the better the model performs.</p>
-
 <p>Alpha is a parameter value in the <a href="https://en.wikipedia.org/wiki/Marchenko%E2%80%93Pastur_distribution">Marchenko-Pastur</a> bulk decay which is a formula for long tailed random matrices. The speakers have created a tool that examines the singular values and gives a heuristic using this alpka to get a sense if the model is performing well.</p>
-
 <p>The speakers than presented a graph with test accuracy plotted correlated with the alphas and they show the lower the alpha the better the test accuracy.</p>
-
 <h2 id="my-thoughts">My Thoughts</h2>
-
 <p>This talk was really cool and raised a lot of interesting ideas. My notes do not do it justice. I highly recommend checking it out.</p>
-
 <p>One of the things that was cool is both of the speakers come from a none deep learning background. They took what they learned from other backgrounds and applied it here. Having people from other fields and having them apply their knowledge is so helpful. Physics is essentially everything tbh.</p>
 </div>
 
@@ -203,7 +184,7 @@
 
 <footer>
     <p class="copyright text-muted">
-        &copy; 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
     </p>
 </footer>
 

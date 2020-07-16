@@ -37,11 +37,10 @@ Summary Bertrand begins her talk by highlighting that overall gender differences
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/odsc/</guid>
       <description>I attended ODSC (Open Data Science Conference) West in October 2019. Here are the notes that I took from every session that I attended while I was there.
-Day 1, Tuesday October 29, 2019 Interpretable Knowledge Discovery Reinforced by Visual Methods
-User-Centric Design for Data Scientists
-ML Flow: Platform for Complete Machine Learning Life Cycle
-Day 2, Wednesday October 30, 2019 Implict Deep Learning
-Towards a Blend of Machine Learning and Microeconomics</description>
+Day 1, Tuesday October 29, 2019 [Interpretable Knowledge Discovery Reinforced by Visual Methods] ( https://judahgnewman.netlify.com/writing/talks/odsc/kdd_odsc/ )
+[User-Centric Design for Data Scientists] ( https://judahgnewman.netlify.com/writing/talks/odsc/user_centeric_design_odsc/ )
+[ML Flow: Platform for Complete Machine Learning Life Cycle] ( https://judahgnewman.netlify.com/writing/talks/odsc/mlflow_odsc/ )
+Day 2, Wednesday October 30, 2019 [Implict Deep Learning] ( https://judahgnewman.</description>
     </item>
     
     <item>
@@ -61,7 +60,7 @@ Motivation So what is declarative data visualization? As programmers we are used
       
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/troubleshoot_nn_odsc/</guid>
       <description>Talk given by Josh Tobin works at Open Ai and Full stack Deep Learning. Talk Resources
-Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree.</description>
+Motivation Troubleshooting neurel nets is hardest part of building a deep model. Even the best practitioners spend a long time trouble shooting. Josh argues that the vast majority of what the best practitioners do to troubleshoot their models can be broken down to a decision tree. During this talk he presents that decision tree. Generally, 80-90% of our time goes into debugging and tuning while only 10-20 percent is deriving math or building implemnations.</description>
     </item>
     
     <item>
@@ -116,7 +115,7 @@ Motivation What most practitioners of deep learning do is train models. Training
       <guid>https://judahgnewman.netlify.com/writing/talks/odsc/agents_language_odsc/</guid>
       <description>Talk given by Jacob Andreas
 Motivation Ideally we have systems that understand us in our natural language and can do things. We are beginning to have autonomous agents in the world around us. Both agents in the virtual world such a personal assistants and agents in the physical world like Roombas. We want to build automated agents that can take actions based on natural language
-How do we design agents?</description>
+How do we design agents? We can break down the agent design problem in the following way.</description>
     </item>
     
     <item>

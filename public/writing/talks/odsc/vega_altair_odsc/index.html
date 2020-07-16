@@ -70,7 +70,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.59.1" />
+ <meta name="generator" content="Hugo 0.73.0" />
     
 
     
@@ -151,20 +151,12 @@
 
 
 
-    <div align="start" class="content">
-
-<p>Talk given by <a href="https://www.domoritz.de/">Dominik Moritz</a> at Apple/CMU and <a href="https://kanitw.github.io/">Kanit &ldquo;Ham&rdquo; Wongsuphasawat</a> at Apple</p>
-
+    <div align="start" class="content"><p>Talk given by <a href="https://www.domoritz.de/">Dominik Moritz</a> at Apple/CMU and <a href="https://kanitw.github.io/">Kanit &ldquo;Ham&rdquo; Wongsuphasawat</a> at Apple</p>
 <h2 id="motivation">Motivation</h2>
-
 <p>So what is declarative data visualization? As programmers we are used to imperative programming. Imperative programming is specifying how to do a problem. For example you say, put a red circle here and put a blue circle there. It couples the specification with the execution. In declarative programming we only specify what should be done. We would say map x and y to specific position, not how to max x and y. This allows us to separate specification from execution. Now the compiler only handles how to do something, not what to do.</p>
-
 <p>Using this approach allows us to focus on the data and the relationships in the data rather than how to visualize something. The speakers than talked through an example with matplotlib. Making a plot is easy in matplotlib, but once we start wanting to add any form of complexity, it gets really tough. Once we start trying to multiple variables and adding legends or titles, the code becomes quite unruly.</p>
-
 <p>Declarative Data visualization is an alternative to matplotlib that should make it easier to work with data. Declarative data viz is inspired by the work of leland wilkerson, <a href="https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448">the grammar of graphics</a>. But what is a grammar? It simply defines primitive building blocks that can be used to make data visualizations.</p>
-
 <h3 id="data-visualizartion-building-blocks">Data Visualizartion Building Blocks</h3>
-
 <ol>
 <li>Data: The input to the visualization</li>
 <li>Transformations: Different ways to transform the data (eg. filter, aggregation, binning)</li>
@@ -173,15 +165,10 @@
 <li>Scale: Functions that map data values to visual values</li>
 <li>Guides: Axis &amp; legends that help us visualize scale</li>
 </ol>
-
 <p>Using these building blocks the authors have created two libraries Vega-Lite (Javascript) and Altair(Python). These libraries using a grammar of graphics and the above building blocks. These building blocks make it much easier to build powerful and interactive data visualizations. ggplot which many people are already familiar with is a similar style library for R.</p>
-
 <p>The rest of the talk was showing examples of vega and altair. Here is a <a href="vega.github.io/editor">link</a> to web interface for vega-lite and <a href="https://github.com/vega/vega-lite-tutorials">github repo</a> with examples of tutorials. In the tutorials they show how easy it is to do things that are quite hard in matplotlib. The showcase how easy it can be to take an altair visualization and then put it into a webpage. Lastly, they showed how easy it is to layer different plots together.</p>
-
 <h2 id="my-thoughts">My thoughts</h2>
-
 <p>Data Visualization in general is a very difficult task. There are so many different use cases and finding the right level of abstraction is difficult. In the talk they bring up how matplotlib has histogram has a level of abstraction. This is nice because it makes it really easy to create a histogram. But the speakers argued that histogram is the wrong layer of abstraction, it is not a fundamental building block. But instead using fundamental building blocks, it might make one type of graph harder, but it makes the entire eco system easier to interact with. It also makes it easier to build more complex visualizations.</p>
-
 <p>This is a classic example of identifying the right layer of abstraction. Doing user studies can be really difficult because user&rsquo;s might not even know what is possible. If you were trying to design a new visualization tool, studying users might give you only part of the story. This is why it can be important to try and predict what the user would want to do, rather than just observe.</p>
 </div>
 
@@ -198,7 +185,7 @@
 
 <footer>
     <p class="copyright text-muted">
-        &copy; 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
     </p>
 </footer>
 
