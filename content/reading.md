@@ -10,16 +10,24 @@ layout: "single"
 
 ### What I am Currently Reading
 
+![](/img/dharma_bum.jpg)\
+\
+![](/img/effective_python.jpg)\
+\
+![](/img/me_and_WS.jpg)
 
-![](/img/un_earth.jpg)
 
 
 ### Books Recently Read
 
-![](/img/OEWBG.jpg)
-![](/img/color_law.jpg)
+![](/img/un_earth.jpg)\
+\
+![](/img/OEWBG.jpg)\
+\
+![](/img/color_law.jpg)\
+\
 ![](/img/GWO.jpg)
-![](/img/TandTG.jpg)
+
 
 
 

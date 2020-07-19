@@ -1,7 +1,7 @@
 ---
 title: "Bayesian Methods for Hackers: Chapters 4, 5 and 6"
 date: 2020-05-06T13:19:28-05:00
-draft: True
+draft: False
 tags: ['Data Science' , 'Statistics']
 categories: ['TextBooks']
 katex: true

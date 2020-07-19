@@ -6,10 +6,19 @@
     <description>Recent content in Research on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Dec 2019 17:18:01 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 10:52:00 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Fair Algorithm is not sufficient</title>
+      <link>https://judahgnewman.netlify.com/writing/research/fair_ai_is_not_enough/</link>
+      <pubDate>Sun, 19 Jul 2020 10:52:00 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/research/fair_ai_is_not_enough/</guid>
+      <description>For the past two weeks, I have been working through Me &amp;amp; White Supremacy, Layla Saed&amp;rsquo;s month long interrogation of white supremacy. I am reading the book, journaling each day and then meeting with a group of co-workers weekly to discuss our experience. While journaling, I noticed my tendency to gravitate toward simple solutions. The chapters about tone policing and cultural appropriation were quite challenged. I was looking for specific guidelines about what my behavior should look like.</description>
+    </item>
     
     <item>
       <title>Building Models and the Scientific Method</title>

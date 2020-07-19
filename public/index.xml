@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2020 17:40:02 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 10:52:00 -0500</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Fair Algorithm is not sufficient</title>
+      <link>https://judahgnewman.netlify.com/writing/research/fair_ai_is_not_enough/</link>
+      <pubDate>Sun, 19 Jul 2020 10:52:00 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/research/fair_ai_is_not_enough/</guid>
+      <description>For the past two weeks, I have been working through Me &amp;amp; White Supremacy, Layla Saed&amp;rsquo;s month long interrogation of white supremacy. I am reading the book, journaling each day and then meeting with a group of co-workers weekly to discuss our experience. While journaling, I noticed my tendency to gravitate toward simple solutions. The chapters about tone policing and cultural appropriation were quite challenged. I was looking for specific guidelines about what my behavior should look like.</description>
+    </item>
     
     <item>
       <title>Nothing to Add: A Challenge to White Silence in Racial Discussions</title>
@@ -31,6 +40,16 @@ Whiteness is dynamic, relational and operating at all times and on myriad levels
       <description>Four Frequently Asked Questions The authors begin the book by discussing how to formulate research questions. The explain the path to a research questions if by asking four questions.
   What is the casual relationship of interest?
  This is not to say you cannot have purely descriptive research but purely descriptive research is a step towards causal research Causal research lets us answer questions about counterfactual worlds. A World in which something different has happened Casual questions can be asked about any unit of observations.</description>
+    </item>
+    
+    <item>
+      <title>The Uninhabitable Earth</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/unhabit_earth/</link>
+      <pubDate>Tue, 07 Jul 2020 16:29:52 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/unhabit_earth/</guid>
+      <description>Reading Uninhabitable Earth by David Wallace-Wells really lit a fire under me with regard to climate change. Climate Change is something that does not impact my day to day and so it can be easy to not be thinking about it. It is not top of my mind when I am wasting energy or thinking about flying to visit a friend.
+The beginning of the book is extremely powerful. It has a number of different chapters all devoted to the different ways climate change is harming our planet.</description>
     </item>
     
     <item>
@@ -116,6 +135,16 @@ The authors highlight some parts of the Machine Learning process that are specif
       
       <guid>https://judahgnewman.netlify.com/writing/books/2020/hyperion/</guid>
       <description>Hyperion by Dan Simmons is likely to join the group of sci-fi series where I read the first novel in the series and then do not read the others. This in no way means that I did not enjoy the book, but I find the first book in sci-fi series to be the most compelling. The world building and the introduction of characters is so gripping. There are so many books out there that I am compelled to read and so I often do not continue with the series.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Methods for Hackers: Chapters 4, 5 and 6</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_4_5_6/</link>
+      <pubDate>Wed, 06 May 2020 13:19:28 -0500</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/bayes_hackers/bayes_hackers_4_5_6/</guid>
+      <description>I have decided to combine my notes from chapters four, five, and six into one post. These chapters are light on new information and heavier on examples and applications. The power of this book is the number of examples it provides. One way to learn is to look at examples and then adopt them for your own use case. This book is perfect for that type of learning.
+Chapter 4 Chapter four is centered on the law of large numbers.</description>
     </item>
     
     <item>

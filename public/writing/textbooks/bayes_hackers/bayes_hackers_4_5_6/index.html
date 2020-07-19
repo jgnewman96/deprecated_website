@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bayesian Methods for Hackers: Chapters 4, 5 and 6</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: Indigo;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+    
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Bayesian Methods for Hackers: Chapters 4, 5 and 6</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>Bayesian Methods for Hackers: Chapters 4, 5 and 6</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/data-science"><kbd class="item-tag">Data Science</kbd></a>
+
+<a href="https://judahgnewman.netlify.com/tags/statistics"><kbd class="item-tag">Statistics</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/textbooks"><kbd class="item-category">TextBooks</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 4 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p>I have decided to combine my notes from chapters four, five, and six into one post. These chapters are light on new information and heavier on examples and applications. The power of this book is the number of examples it provides. One way to learn is to look at examples and then adopt them for your own use case. This book is perfect for that type of learning.</p>
+<h2 id="chapter-4">Chapter 4</h2>
+<p>Chapter four is centered on the law of large numbers. The author assumes that many people have not heard about law of large numbers but I learned about the law of large numbers many times during undergrad. We had to derive the law in three different classes I was in.</p>
+<p>I believe the author is highlighting the law of large numbers because he believes the application of it is not always intuitive. People understand the law of large numbers really easily when working with simple data sets. But as our data sets become more complicated we forget to think about the law of large numbers.</p>
+<p>Here is an example where I think the author really wants us to think about the law of large numbers. We have a data set that tracks student performance across different schools. We might want to include in our model some impact unique to each school. We have to be careful because it is possible that we do not have a lot of data for some schools. We build one model for all students but we lose track of the fact that our model will be more accurate and less noisy for schools where we have more data.</p>
+<p>THe problem is that we treat all inference the same. Imagine we built a logistic regression model. While logistic regression does have confidence intervals for the learned coefficients, practitioners do not always use them. This is one reason baking uncertainty into all of our models is critical. If we include uncertainty then we will know that our estimate for kids in schools where we have less data is more uncertain than in schools where we have more data.</p>
+<h2 id="chapter-5">Chapter 5</h2>
+<p>Chapter 5 introduces the idea of loss functions. When we are training traditional Machine Learning techniques the loss functions are often directly baked into training. When we train a neural net we have to specify what our loss function is. The author shows how we can use loss functions with models we have trained with pymc3 to make our models flexible to different contexts.</p>
+<p>Incorporating different loss functions is important because it allows us to treat different types of errors differently. Rarely do all types of errors have the same consequence. For example, over predicting might be more dangerous than under predicting. Or under predicting by 2% might be a lot worse right around 0 then it is in other places. Loss functions allow us to tie our models closely to the business context we are using them in.</p>
+<p>The author uses an example of stock market returns. We care about the difference in our prediction from the truth but we also really care about the sign difference. It is much worse for us to get the sign wrong in our error then an equivalent error of the same margin where we do not get the sign wrong.</p>
+<h2 id="chapter-6">Chapter 6</h2>
+<p>Chapter 6 is all about how we pick our priors. The author breaks priors down into two separate categories. One type of prior is an <em>objective</em> prior. Objective priors are ones where we are not including any additional information. Every point in our solution space is equally likely. <em>Subjective</em> priors on the other hand are where we include some information and therefore make certain places in our solution space more likely and others less likely.</p>
+<p>In this chapter the authors explore how to get information from domain experts and to include that in our model through priors. Often domain experts are not statistics experts and so we do not want to ask them to give us a distribution. Instead we want to solicit feedback in a way more native to them and then we can turn their input into a distribution. Earlier this year I read a <a href="https://judahgnewman.netlify.com/writing/papers/2020/eliciting_beliefs/">paper</a> that was a survey of different ways to do this.</p>
+<p>Two useful resources that were linked in this chapter. The chapter mentioned how  it can be helpful it use<a href="https://en.wikipedia.org/wiki/Conjugate_prior#Table_of_conjugate_distributions">Conjuge priors</a> for mathematical simplicity. The chapter also introduced me to the idea of prior distributions over matrices. This is really powerful when we want to predict multiple things that are correlated with each other. The <a href="https://en.wikipedia.org/wiki/Wishart_distribution">Wishart Distribution</a> and the [LKJ distribution] (<a href="http://bois.caltech.edu/distribution_explorer/multivariate_continuous/lkj.html">http://bois.caltech.edu/distribution_explorer/multivariate_continuous/lkj.html</a>) are distributions over matrices.</p>
+<p>At the end of the chapter the author shows my favorite derivation I learned in school. The derivation shows that penalized linear regression is the same as bayesian regression with certain priors. We show that using l1 or l2 norm corresponds to different priors. Understanding regularization as a prior was such a helpful step for me.</p>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css"
+    integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js"
+    integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O"
+    crossorigin="anonymous"></script>
+
+</html>
