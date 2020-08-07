@@ -6,10 +6,21 @@
     <description>Recent content in Design on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 14:16:48 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2020 15:17:42 -0400</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An Experimental Study of Structural Diversity in Social Networks</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/structural_diversity_experiment/</link>
+      <pubDate>Fri, 07 Aug 2020 15:17:42 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/structural_diversity_experiment/</guid>
+      <description>By Jessica Su, Krishna Kamath, Aneesh Sharma, Johan Ugander, and Sharad Goel
+This paper from Twitter and Stanford has the following motivation:
+ The theory of structural diversity predicts that individuals derive increased utility from interacting with people from different parts of their social network. Previous evidence for this theory comes from observational studies which makes it difficult to make any casual statement.  So what is structural diversity? People consider the actions of their social contacts when making decisions.</description>
+    </item>
     
     <item>
       <title>A Cognitive Process Theory of Writing</title>

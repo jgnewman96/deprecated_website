@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An Experimental Study of Structural Diversity in Social Networks</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: Indigo;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">An Experimental Study of Structural Diversity in Social Networks</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>An Experimental Study of Structural Diversity in Social Networks</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/design"><kbd class="item-tag">Design</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 6 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p>By <a href="https://arxiv.org/abs/1909.03543">Jessica Su, Krishna Kamath, Aneesh Sharma, Johan Ugander, and Sharad Goel</a></p>
+<p>This paper from Twitter and Stanford has the following motivation:</p>
+<ul>
+<li>The theory of structural diversity predicts that individuals derive increased utility from interacting with people from different parts of their social network. Previous evidence for this theory comes from observational studies which makes it difficult to make any casual statement.</li>
+</ul>
+<h2 id="so-what-is-structural-diversity">So what is structural diversity?</h2>
+<p>People consider the actions of their social contacts when making decisions. A basic framework is the following: the more people you know who do something, the more likely they are to do it.</p>
+<ul>
+<li>e.g. The more of your friends who ski, the more likely you are to ski</li>
+</ul>
+<p><strong>Structural diversity</strong> extends this framework. It is not simply the number of contacts, but also the network structure of those individuals. You are more likely to do something if your contact who due an activity contain structural diversity. Containing structural diversity means they come from different parts of your social network.</p>
+<ul>
+<li>e.g. A individual is more likely to ski if two work colleagues and two friends do then if four friends do.</li>
+</ul>
+<p>If we accept the the theory of structural diversity we should find that people are more likely to take up an activity if the part of their network that does that activity is structurally diverse.</p>
+<h2 id="the-experiment">The experiment</h2>
+<p>In this paper the authors conduct a randomized controlled experiment on Twitter to evaluate the casual impacts of structural diversity on actions. he authors first show that observational data is consistent with previous findings that structural diversity impacts retention on Twitter. However, in the randomized experiment, there is no difference in retention between the treatment groups with low, medium and high structural diversity. This experiment implies in our context the correlation between structural diversity and retention does not seem to be casual</p>
+<p>The experiment was done on a randomly selected group of the 4.2 million users on Twitter during 2016. The outcome of interest in the paper is 3 month retention. The authors define 3 month retention as going on twitter once in the 30 day period 90-120 days since joining. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The quantitative definition they use for structural diversity is a variant of average pairwise cosine similarity. The lower the level of similarity the higher the diversity.</p>
+<ul>
+<li>sim(v, w) is the similarity for two users v and w</li>
+<li>It is the cosine similarity of the binary incidence vectors for users who follow them. Two users are considered similar if similar users follow them
+<ul>
+<li>Due to twitter&rsquo;s production system can only compute similarity for 40 most similar users and set everyone else to zero. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+</ul>
+</li>
+</ul>
+<p>The key part of the experimental design for this paper is how they go about randomizing structural diversity. During sign up users are prompted to select topics they are interested in and then shown accounts related to those topics. Next users are asked to import contacts from their phone or email. After that users are shown recommended accounts to follow based on their social circle.</p>
+<p>Twitter uses an ML algorithm to provide a ranked list of individuals. This ranked list is bast on how likely they believe the new users are to follow them. New users are shown the top 20 people of this ranked list. The authors manipulate this list of 20 people to divide users into groups of low, medium and high structural diversity.</p>
+<p>For each new user, a similarity graph was created for their contacts. An edge is drawn between two users if they are in each others top 40 most similar users. One section in a users social network is a part of the graph that does not connect to other parts. Users were than eligible to be assigned into one of the random groups if they have one component of size 20, two components of size 10 and three components of size 7. This eligibility requirement is necessary because if they do not have this structure then they cannot be assigned to any of the three groups. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<ul>
+<li>A user is then assigned to one of the groups
+<ul>
+<li>high similarity -&gt; all 20 people are from their largest component</li>
+<li>medium similarity -&gt; 10 people from their largest and 10 people from their second largest</li>
+<li>low similarity -&gt; 7 from the two largest and 6 from the next largest</li>
+<li>control: Twitter&rsquo;s ML algorithm <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
+</ul>
+</li>
+</ul>
+<p>They authors look at the subset of users in their study that decided to select all of the recommended people to follow. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<h2 id="results">Results</h2>
+<p>The authors first show that if you just look at observational data, it does look like there is a correlation between structural diversity and retention. But this difference goes away when you look at the results of their experiment. But, it also turns out that this relationship goes away when you look only at eligible users.</p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<ul>
+<li>
+<p>While the findings of this paper are kind of interesting, the most interesting part of this paper is running a huge experiment on a social network. The authors do a good job enumerating the difficulties of this and it is really cool to see this kind of work happening.</p>
+</li>
+<li>
+<p>While the authors do call out generalizability concerns in the conclusions of the paper, I think the beginning of the paper is overselling the results a little bit. The generalizability of their results is truly quite a narrow group.</p>
+</li>
+<li>
+<p>I wish the authors had focused more on this difference between data for eligible users and non-eligible users. The correlation between diversity and retention disappears when we look at only eligible users. This means that their finding of no effect makes a ton of sense, it is not in disagreement with the observational data. So why did this difference happen between eligible and non-eligible. It seems like eligible users had the a structural diverse network already on twitter whereas non-eligible did not. I really would have loved more discussion of this.</p>
+</li>
+<li>
+<p>I also would have loved to see more discussion of the normative impacts of their findings. How do their findings impact how we think about design in general. One of the reasons experiments is so powerful, is that often we can take the findings in apply it to another use case. There are so many tech companies that use Machine Learning to optimize the design of a system. What I want to see is research about why these design choices are working and therefore these design principles can be applied to other places.</p>
+</li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>It does not make sense to me why the used such a narrow definition of retention / engagement. It seems like they could have used other metrics that were not a binary but rather continuous. Using a continuous variable would make me less concerned about forking paths <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>I would have liked to see some evaluation of how this limitation impacts their results. If this was 20 vs. 60. vs. 100 what would that have looked like. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>We will return to this later, but this eligibility requirement is going to be a big deal. only 500,000 out of 4.2 million were eligible. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>I would be interested to have seen more discussion of twitter&rsquo;s ML algorithm. How does it work and how does the retention rates for control compare to the other groups. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>This diminishes the generalizability of findings to an even smaller sub population. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>

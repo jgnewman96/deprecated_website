@@ -6,10 +6,61 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2020 10:52:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2020 16:11:56 -0400</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Salt Fat Acid Heat</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/salt_fat_acid_heat/</link>
+      <pubDate>Fri, 07 Aug 2020 16:11:56 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/salt_fat_acid_heat/</guid>
+      <description>This book was such a good read, I loved learning the fundamentals of cooking. Most other recipe books give you a bunch of recipes but never explain why something tastes good or why flavors go together. I have been drifting towards this approach to cooking for a while now. I was trying not to follow recipes, but instead use recipes as inspiration. It never felt like following a recipe exactly by the book was sustainable.</description>
+    </item>
+    
+    <item>
+      <title>An Experimental Study of Structural Diversity in Social Networks</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/structural_diversity_experiment/</link>
+      <pubDate>Fri, 07 Aug 2020 15:17:42 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/structural_diversity_experiment/</guid>
+      <description>By Jessica Su, Krishna Kamath, Aneesh Sharma, Johan Ugander, and Sharad Goel
+This paper from Twitter and Stanford has the following motivation:
+ The theory of structural diversity predicts that individuals derive increased utility from interacting with people from different parts of their social network. Previous evidence for this theory comes from observational studies which makes it difficult to make any casual statement.  So what is structural diversity? People consider the actions of their social contacts when making decisions.</description>
+    </item>
+    
+    <item>
+      <title>Generative Models for Effective Machine Learning On Private, Decentralized Datasets</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/generative_models_privacy/</link>
+      <pubDate>Sun, 02 Aug 2020 11:37:47 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/generative_models_privacy/</guid>
+      <description>Paper by Augenstein et al.
+I have stared a weekly reading group with my friend and former co-worker Tushar Chandra. Our format is that one person proposes a set of papers, and then the other picks a paper for the week.
+Summary The authors motivate their paper with the following logical steps.
+ Manual data inspection is a key part of the machine learning workflow There are occasions when manual data inspection is either undesirable or infeasible (privacy requirements, or federated learning where data is stored at the edge).</description>
+    </item>
+    
+    <item>
+      <title>A Difficulty in the Concept of Social Welfare</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/difficulty_welfare/</link>
+      <pubDate>Mon, 27 Jul 2020 11:59:27 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/difficulty_welfare/</guid>
+      <description>I had waited to read this classic paper By Kenneth Arrow for a long time now. Since I started working in the political sphere I have been interested in how to best represents people&amp;rsquo;s opinions and how to aggregate them. This paper is so impressive because it works directly from first principles and makes all of its assumptions quite clear.
+Arrow begins by asserting there are two methods by which social choices can be made in a democracy.</description>
+    </item>
+    
+    <item>
+      <title>Mostly Harmless Econometrics Chapter 3.1</title>
+      <link>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter3-1/</link>
+      <pubDate>Mon, 27 Jul 2020 11:58:30 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter3-1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Fair Algorithm is not sufficient</title>

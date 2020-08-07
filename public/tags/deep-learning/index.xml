@@ -6,10 +6,22 @@
     <description>Recent content in Deep Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2019 11:51:11 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2020 11:37:47 -0400</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generative Models for Effective Machine Learning On Private, Decentralized Datasets</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/generative_models_privacy/</link>
+      <pubDate>Sun, 02 Aug 2020 11:37:47 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/generative_models_privacy/</guid>
+      <description>Paper by Augenstein et al.
+I have stared a weekly reading group with my friend and former co-worker Tushar Chandra. Our format is that one person proposes a set of papers, and then the other picks a paper for the week.
+Summary The authors motivate their paper with the following logical steps.
+ Manual data inspection is a key part of the machine learning workflow There are occasions when manual data inspection is either undesirable or infeasible (privacy requirements, or federated learning where data is stored at the edge).</description>
+    </item>
     
     <item>
       <title>Trouble shooting Deep Neural Networks</title>

@@ -131,3 +131,8 @@ footer {
     background-color: rgb(163, 162, 162);
     border-bottom: 1px dotted #000;
 }
+
+img[src$="centerme"] {
+    display:block;
+    margin: 0 auto;
+  }

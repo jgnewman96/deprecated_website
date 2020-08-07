@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generative Models for Effective Machine Learning On Private, Decentralized Datasets</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: Indigo;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Generative Models for Effective Machine Learning On Private, Decentralized Datasets</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>Generative Models for Effective Machine Learning On Private, Decentralized Datasets</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/deep-learning"><kbd class="item-tag">Deep Learning</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 7 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p><a href="https://arxiv.org/pdf/1911.06679.pdf">Paper by Augenstein et al.</a></p>
+<p>I have stared a weekly reading group with my friend and former co-worker <a href="https://tusharc.dev/">Tushar Chandra</a>. Our format is that one person proposes a set of papers, and then the other picks a paper for the week.</p>
+<h2 id="summary">Summary</h2>
+<p>The authors motivate their paper with the following logical steps.</p>
+<ol>
+<li>Manual data inspection is a key part of the machine learning workflow</li>
+<li>There are occasions when manual data inspection is either undesirable or infeasible (privacy requirements, or federated learning where data is stored at the edge).</li>
+<li>When data inspection is infeasible, generative models trained with federated methods can be a substitute for the role of manual data inspection.</li>
+</ol>
+<p>The authors point out a <strong>trade-off</strong> between good data stewardship and the needs of a modeler. Good data stewardship can make modelers lives more difficulty. This work is driven by maintaining good data stewardship and not make a modelers life worse off.</p>
+<p>The paper outlines six tasks where a modeler generally needs access to raw data</p>
+<ol>
+<li>Sanity Checking Data</li>
+<li>Debugging Mistakes</li>
+<li>Debugging unknown labels/classes</li>
+<li>Debugging poor performance on specific slice of data</li>
+<li>Human labeling of additional data</li>
+<li>Detecting bias in the training data</li>
+</ol>
+<p>From my experience 2 through 4 are essentially the same thing. When you are debugging you do not know what the issue is until you identify it. This means the requirements for 2-4 are the same, because we are taking the same approach to debugging.</p>
+<p>The authors argue that practitioners can use generative models instead of data inspection.</p>
+<blockquote
+    style="background-color: lightgoldenrodyellow;  border-width: 1px; border-style: solid; border-left: 1px solid;">
+    <p>
+
+Generative models will have a fundamental role to play in enabling the widespread us of privacy-preserving ML workflows
+
+
+</blockquote>
+<hr>
+<h4 id="differentially-private-federated-generative-models">Differentially Private Federated Generative Models</h4>
+<p>The types of models proposed in the paper are a combination of three different technologies: generative models, federated learning and differential privacy</p>
+<p><strong>Generative Models</strong> are a class of models that can synthesize new examples.</p>
+<ul>
+<li>An example of a generative model is a Variational Auto Encoder or a GAN. A generative model takes data in a different latent space and maps it to the space our data resides in.</li>
+<li>For example, a VAE works in the following way.
+<ul>
+<li>There is an Encoder network and a Decoder Network. The Encoder network takes data examples, (images, text etc..) and maps them to a latent space. The Decoder network takes that latent space as input and maps it back to our original space. To train a model, we minimize the difference between the original data example and the output of passing that example through the Encoder and then out the Decoder.</li>
+<li>Once we have trained the Decoder, we can use the Decoder to create new data examples by sampling from the latent space that the Encoder maps too.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Federated Learning</strong> is the processing of training and evaluating against distributed data</p>
+<ul>
+<li>The most common cases of federated learning are when working with mobile or IOT devices. Raw user data never leaves the edge device</li>
+<li>We train a model by randomly choosing a subset of devices to download the current model. Each device then locally computes a model update based on its data. The device then sends updates back to the coordinating server where they are aggregated to make a global update</li>
+</ul>
+<p><strong>Differential Privacy</strong> is a privacy guarantee for data that gets used to train the algorithm. The goal is that a model and its parameters can be released and yet information about any individual in the training data can not be reverse engineered. One way I have seen differential privacy formulated is the following: Adding or subtract an individual data point from the training data cannot have a meaningful impact on the model.</p>
+<p>Differential privacy and federated learning together afford user privacy protections. While generative models often memorize certain examples leaking privacy, differential privacy will not allow a model to be published that displays this behavior.</p>
+<hr>
+<p>The paper next discusses two case studies for how to use their proposed approach.</p>
+<p>Differentially Private Federated RNNS for text</p>
+<ul>
+<li>
+<p>An RNN works by taking a sequence of tokens as input and then outputting the probability of the next token. Tokens could be characters, words or sets of words depending on how you set up your task. We can frame an RNN as a generative model by sampling from that output distribution to generate many different sentences.</p>
+</li>
+<li>
+<p>Experiment: We have a keyboard app that uses a word level language model to offer next-word prediction (eg. gmail). Our goal is to detect a bug in the training model pipeline</p>
+</li>
+<li>
+<p>We have introduced a bug by incorrectly concatenating the first two tokens of every sentence. All of these incorrectly concatenated tokens will show up as out side of our vocabulary</p>
+</li>
+<li>
+<p>Our model is a word level model but we can also use a character level model for debugging. We can use these models to spot the bug. We observe that our OOV happens at the beginning of the sentence and contains a space.</p>
+</li>
+</ul>
+<p>Differential Private Federated GANs for images</p>
+<ul>
+<li>
+<p>A GAN (generative adversarial network) works by training two models. One is a generator which maps a random input in a low dimensional space to a high dimensional space like an image. The other is a discriminator which judges whether an input is real or created by the generator. The two models are trained by trying to defeat the other one.</p>
+</li>
+<li>
+<p>Experiment: on-device handwriting classification → A bank app that scans a check and needs to process text. We introduce a new bug that flips pixel intensities. We see that more people start correcting the model output but we do not know why. We cannot inspect the data itself, but still need to find the source of the bug.</p>
+</li>
+<li>
+<p>We can do this by training two new models. One on data where we are performing the best and one where we performing the worst. We can contrast the images synthesized by the two GANs to identify the bug.</p>
+</li>
+</ul>
+<hr>
+<p>The authors conclude the paper with some current limitations.
+1. federated generative models should require little parameter tuning. Currently training a model requires a lot of parameter tuning and this can make using these types of models quite difficult.
+2. The fewer examples a bug shows up in, the harder it is to spot. It will be particularly tricky to spot bugs using generative models if they do not show up very often.</p>
+<h2 id="ending-thoughts">Ending Thoughts</h2>
+<ul>
+<li>
+<p>I really enjoyed reading this paper. When I first started reading the paper I thought they were going to be introducing a new algorithm. But really what they are introducing is a framework or approach. You cannot blindly adopt this approach and get good performance and security. The practitioner needs to still be quite creative about debugging. But that is actually why I like this paper so much! The case studies show ways to be creative about debugging. These approaches could be really helpful even in a setting where you did not need to use federated learning.</p>
+</li>
+<li>
+<p>The paper does a really good job of using an appendix. There is so much content here that most of the results and the details of the experiments have to go in the appendix. This allows the main paper to be an easy read and do a very good explanation job. If you want to dig into the details, you can refer to the appendix.</p>
+</li>
+<li>
+<p>I have a particular affinity for papers that lay our future areas of research. They directly call out that while this work is very promising, it is still in its beginning and there are so many further avenues for research.</p>
+</li>
+<li>
+<p>Both of the examples in the paper assumed we had a trained model that worked and then a bug was introduced. I would bet that a much harder domain is when we are building a model for the very first time. Maybe it is unrealistic to say we will need to build a model without ever seeing any data. The more realistic approach is that once we put the model into action we will not see new users data. The task of trying to build a model without seeing data would be an interesting project though.</p>
+</li>
+<li>
+<p>It is interesting to me that the authors assert there are situations where we will not be able to see data. My experience with data stewardship has been that often raw data cannot be seen, but some version of de-anonymized data and with certain attributes hidden can be seen. I am having trouble imagining a scenario where no version of the data can be seen by the model builder. But it might just be something to aim for. I can understand how if you can guarantee users that data will never leave the device that is a pretty great privacy guarantee.</p>
+</li>
+</ul>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>
