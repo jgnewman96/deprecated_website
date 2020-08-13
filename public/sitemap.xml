@@ -3,13 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
-    <lastmod>2020-08-07T16:11:56-04:00</lastmod>
+    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/</loc>
-    <lastmod>2020-08-07T16:11:56-04:00</lastmod>
+    <loc>https://judahgnewman.netlify.com/tags/deep-learning/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/rethinking_generalization/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
+    <lastmod>2020-08-10T17:41:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/fiction/</loc>
+    <lastmod>2020-08-10T17:41:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/books/2020/unaccustomed_earth/</loc>
+    <lastmod>2020-08-10T17:41:07-04:00</lastmod>
   </url>
   
   <url>
@@ -23,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2020-08-07T16:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2020-08-07T16:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/</loc>
-    <lastmod>2020-08-07T16:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/papers/2020/structural_diversity_experiment/</loc>
     <lastmod>2020-08-07T15:17:42-04:00</lastmod>
   </url>
@@ -45,16 +70,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/tags/design/</loc>
     <lastmod>2020-08-07T15:17:42-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
-    <lastmod>2020-08-07T15:17:42-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/deep-learning/</loc>
-    <lastmod>2020-08-02T11:37:47-04:00</lastmod>
   </url>
   
   <url>
@@ -130,11 +145,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2020/unhabit_earth/</loc>
     <lastmod>2020-07-07T16:29:52-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/fiction/</loc>
-    <lastmod>2020-07-07T16:29:41-05:00</lastmod>
   </url>
   
   <url>

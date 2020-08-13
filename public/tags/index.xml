@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2020 16:11:56 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 17:39:34 -0400</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://judahgnewman.netlify.com/tags/deep-learning/</link>
+      <pubDate>Thu, 13 Aug 2020 17:39:34 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiction</title>
+      <link>https://judahgnewman.netlify.com/tags/fiction/</link>
+      <pubDate>Mon, 10 Aug 2020 17:41:07 -0400</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Non-Fiction</title>
@@ -26,15 +44,6 @@
       <pubDate>Fri, 07 Aug 2020 15:17:42 -0400</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://judahgnewman.netlify.com/tags/deep-learning/</link>
-      <pubDate>Sun, 02 Aug 2020 11:37:47 -0400</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -89,15 +98,6 @@
       <pubDate>Tue, 07 Jul 2020 16:29:52 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fiction</title>
-      <link>https://judahgnewman.netlify.com/tags/fiction/</link>
-      <pubDate>Tue, 07 Jul 2020 16:29:41 -0500</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
       <description></description>
     </item>
     

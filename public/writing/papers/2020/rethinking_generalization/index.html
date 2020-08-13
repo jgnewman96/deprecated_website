@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Understanding Deep Learning Requires Re-thinking Generalization</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: Indigo;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Understanding Deep Learning Requires Re-thinking Generalization</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>Understanding Deep Learning Requires Re-thinking Generalization</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/deep-learning"><kbd class="item-tag">Deep Learning</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 6 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p>By <a href="https://arxiv.org/abs/1611.03530">Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals</a></p>
+<h3 id="papers-motivation">Papers Motivation</h3>
+<p>The authors note that successful deep learning models often exhibit small differences between training and test performance. This is generally attributed to modeling techniques that are supposed to achieve generalization, such as regularization.</p>
+<h3 id="papers-contribution">Papers Contribution</h3>
+<p>Using many experiments, the authors show that these traditional approaches do not provide a satisfactory answers for why deep learning generalizes well. Regularization is not what leads to good generalization, and state of the art deep learning can successfully fit random noise.</p>
+<h3 id="background">Background</h3>
+<p>Neural networks often have more parameters than the number of data examples they are trained on. Yet these models do not exhibit overfitting. We observe a “small&rdquo; generalization error (the difference between training and test error)</p>
+<p>So why do some neural networks generalize well and others that don&rsquo;t?. The traditional view of generalization is unable to distinguish between neural networks that generalize well and those that do not.</p>
+<h3 id="randomization-tests">Randomization Tests</h3>
+<p>The authors ran an experiment where the true labels for a data set are replaced with random ones. The goal of this test is to understand the model capacity of a neural network. Even with random labels the neural networks achieve 0 training error. This means test error is equivalent to the results of a random guess because there is no correlation between the training data and the test data. As a result of changing our data, generalization error has gone up a lot without changing anything about the model. This may be a surprising result because if there is no signal in the data we would expect the network would struggle to learn anything.</p>
+<p>The authors ran experiments on the continuum from no randomization to full randomization. Here are the six different experiments they ran</p>
+<ul>
+<li>Train with the True Labels</li>
+<li>Train with Partially corrupted labels, The label is corrupted with probability p</li>
+<li>Train with Random labels</li>
+<li>Train with Shuffled Pixels: A random permutation of pixels is chosen and then that permutation is applied to all images</li>
+<li>Train with Random Pixels: A different random permutation is applied to each image</li>
+<li>Train with data from a Gaussian: A Gaussian distribution is used to generate random pixels for each image</li>
+</ul>
+<p>For every single one of these experiments the neural network is still able to converge</p>
+<h3 id="implications-of-randomization-tests">Implications of randomization tests</h3>
+<p>This result proposes challenges for traditional methods of thinking about generalization</p>
+<ol>
+<li>A neural network has the ability to memorize the entire data set</li>
+<li>Optimization on random labels is still an easy problem</li>
+<li>This experiment rules out VC-dimension, Rademacher complexity and uniform stability as possible explanations for generalization</li>
+</ol>
+<h3 id="explicit-regularization">Explicit regularization</h3>
+<p>In the above experiments explicit regularization was not used. Regularizes are the standard tool to mitigate overfitting. <strong>Explicit regularization is supposed to confine the solution space to one that should generalize well</strong>.</p>
+<p>To better understand the role of regularization the authors compare what happens when neural networks are trained with and without regularization. The authors look at three regularizes:</p>
+<ul>
+<li>Data augmentation: For example for image data, changing the brightness or saturation</li>
+<li>Weight Decay: Equivalent to an l2 regularizer on the weights. Essentially push the weights closer to zero</li>
+<li>Dropout: Mask out each element of a layer output randomly with a given dropout probability</li>
+</ul>
+<p>The authors find the regularized neural networks do tend to generalize better, but even with all the regularizers turned off, the models generalize well. Data augmentation seems the be the most powerful regularizer and the other two do not make as much of a difference.</p>
+<blockquote
+    style="background-color: lightgoldenrodyellow;  border-width: 1px; border-style: solid; border-left: 1px solid;">
+    <p>
+It is difficult to say that the regularizers count as a fundamental phase change in the generalization capability of
+
+</blockquote>
+<h3 id="finite-sample-expressivity">Finite sample expressivity</h3>
+<p>Previous work on expressivity has looked at the “population level“: What functions of the entire solution space, can or cannot be represented?. The authors argue that a more relevant question is what is the expressive power of a neural network on data of size n. When the number of parameters p of a network is greater than n, even just a simple two-layer neural network can represent any function of the input sample.</p>
+<h3 id="implicit-regularization">Implicit regularization</h3>
+<p>Early stopping could help with generalization but it does not have overwhelming benefits. Batch normalization has been found to improve generalization performance. To test the impact of batch normalization they train the inception model without batch normalization. The impact on generalization is only about 3 to 4 percent.</p>
+<h3 id="can-linear-models-help-us-understand-nn">Can Linear Models help us Understand NN</h3>
+<p>If the number of dimensions is greater than the number of data points, we can fit any labeling. But can we generalize well with a rich model and no regularization? Do all solutions generalize equally well? Will one solution generalize better than others?</p>
+<p>SGD finds a very specific solution to this problem based on how it makes updates. SGD find the minimum l2-norm solution to the problem. Said another way “out of all models that exactly fit the data, SGD will often converge to the solution with the minimum norm“. This minimum norm helps provide some guidance but it does not have full explanatory power</p>
+<h3 id="my-closing-thoughts">My Closing Thoughts</h3>
+<p>This paper is written quite well and is approachable. It covers some dense topics but is the main body of the paper is readable. I have noticed that using the appendix well is an important part of making a paper approachable.</p>
+<p>This paper also really drives home the importance of mixing theory with experimentation. They show that theory we have traditionally used, might not apply anymore. It is important to be constantly testing theory and aligning our theory with practice.</p>
+<p>Recently, I have enjoyed reading papers less for their findings and more for lessons on experimental design. One of the nicest parts of this paper is how they set up their experiments.</p>
+<p>Two thoughts on the actual contents of the paper.</p>
+<ol>
+<li>In the one quote I have above, the authors use the term &ldquo;phase change&rdquo;. I imagine what they mean using that term is that regularization is not something that brings you from non-generalization to generalization. But what determines generalization or non-generalization. I would have liked clearer definitions of those terms. Does a 5 percent difference in accuracy represent a phase change? what about 10%?</li>
+<li>It is interesting that the authors think about generalization solely in terms of model properties. When I think about generalization I am often thinking about the properties of my data. To me generalization is not just fitting unseen data, but fitting unseen data that might have some distribution shift or a be generated in a different way. If the unseen data is exactly the same as the seen data, then a model which fits the data well will of course generalize.</li>
+</ol>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>
