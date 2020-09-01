@@ -6,10 +6,21 @@
     <description>Recent content in Design on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2020 15:17:42 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 14:37:40 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is Ai Literacy? Competencies and Design Considerations</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/ai_literacy/</link>
+      <pubDate>Mon, 24 Aug 2020 14:37:40 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/ai_literacy/</guid>
+      <description>By Duri Long and Brian Magerko
+Paper Motivation Artificial Intelligence is increasingly integrated into user-facing technology but public understanding is limited. We need more research investigating what users need to effectively interact with AI and how to design learner centered AI technologies that increase user understanding.
+Paper Contribution This paper formally defines AI literacy based on other existing research. The authors synthesize interdisciplinary research into a set of core competencies. They also make design suggestions for creating learner centered AI</description>
+    </item>
     
     <item>
       <title>An Experimental Study of Structural Diversity in Social Networks</title>

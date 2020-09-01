@@ -82,7 +82,9 @@ This paper also really drives home the importance of mixing theory with experime
 Recently, I have enjoyed reading papers less for their findings and more for lessons on experimental design. One of the nicest parts of this paper is how they set up their experiments.
 
 Two thoughts on the actual contents of the paper.
+
 1. In the one quote I have above, the authors use the term "phase change". I imagine what they mean using that term is that regularization is not something that brings you from non-generalization to generalization. But what determines generalization or non-generalization. I would have liked clearer definitions of those terms. Does a 5 percent difference in accuracy represent a phase change? what about 10%?
+
 2. It is interesting that the authors think about generalization solely in terms of model properties. When I think about generalization I am often thinking about the properties of my data. To me generalization is not just fitting unseen data, but fitting unseen data that might have some distribution shift or a be generated in a different way. If the unseen data is exactly the same as the seen data, then a model which fits the data well will of course generalize.
 
 

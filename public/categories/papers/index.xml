@@ -6,10 +6,31 @@
     <description>Recent content in Papers on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 17:39:34 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 11:23:08 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Equality of Opportunity in Supervised Learning</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/equalized_odds_supervised_learning/</link>
+      <pubDate>Fri, 28 Aug 2020 11:23:08 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/equalized_odds_supervised_learning/</guid>
+      <description>Paper Motivation Model builders may want to ensure their model is fair with regard to a protected attribute. (E.g. Wanting to make sure our model is not discriminating against people because of their race). Previous research has shown that quantifying a model&amp;rsquo;s fairness is not straight forward. Even if the protected attribute is not an input to the model it is still possible that the model is discriminatory.
+Paper Contribution The authors present a methodology of adjusting a learned predictor to remove discrimination according to their definition of discrimination.</description>
+    </item>
+    
+    <item>
+      <title>What is Ai Literacy? Competencies and Design Considerations</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/ai_literacy/</link>
+      <pubDate>Mon, 24 Aug 2020 14:37:40 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/ai_literacy/</guid>
+      <description>By Duri Long and Brian Magerko
+Paper Motivation Artificial Intelligence is increasingly integrated into user-facing technology but public understanding is limited. We need more research investigating what users need to effectively interact with AI and how to design learner centered AI technologies that increase user understanding.
+Paper Contribution This paper formally defines AI literacy based on other existing research. The authors synthesize interdisciplinary research into a set of core competencies. They also make design suggestions for creating learner centered AI</description>
+    </item>
     
     <item>
       <title>Understanding Deep Learning Requires Re-thinking Generalization</title>
