@@ -6,10 +6,21 @@
     <description>Recent content in Design on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 14:37:40 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 11:31:51 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WES: Agent-based User Interaction Simulation on Real Infrastructure</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/wes/</link>
+      <pubDate>Sun, 06 Sep 2020 11:31:51 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/wes/</guid>
+      <description>By Facebook Research
+Papers Motivation Large distributed software systems with many users interacting are difficult to fully test. There are large numbers of edge cases which are difficult to identify ahead of time. Lots of bugs arise from complex interactions between users and the software that only occur at scale.
+Papers Contribution This paper outlines the general principles of web enabled simulations (WES). The development of Facebook&amp;rsquo;s WW simulation is used to guide a discussion of WES in general.</description>
+    </item>
     
     <item>
       <title>What is Ai Literacy? Competencies and Design Considerations</title>

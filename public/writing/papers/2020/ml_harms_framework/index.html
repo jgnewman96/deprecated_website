@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Framework for Understanding Unintended Consequences of Machine Learning</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: azure;
+    }
+
+    :root {
+        --accent: darkolivegreen;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">A Framework for Understanding Unintended Consequences of Machine Learning</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>A Framework for Understanding Unintended Consequences of Machine Learning</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/machine-learning"><kbd class="item-tag">Machine Learning</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 7 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p>By <a href="https://arxiv.org/abs/1901.10002">Harini Suresh and John Guttag</a></p>
+<h3 id="paper-motivation">Paper Motivation</h3>
+<p>We need a better understanding of the potential unwanted consequences from machine learning. We often hear about “biased data“ but this term has become a catch all that prevents nuanced understanding.</p>
+<h3 id="paper-contribution">Paper Contribution</h3>
+<p>The authors propose a framework that partitions harms from machine learning into six different categories. The paper covers what contributes to each harm and how to remedy them. The authors argue it is critical that the solutions we develop are from application specific understandings rather than abstract notions of fairness. This framework aims to develop a vocabulary which can be used to clearly state what the problems are and make practitioners assumptions immediately understandable.</p>
+<h3 id="background">Background</h3>
+<p>Machine Learning models learn from historical data and generalize to unseen data. In recent years we have seen the mindless application of ML lead to problems with predictive policing and facial recognition. Discussions of problems with ML focus on “biased data“ but biased data can mean many different things. Biased data is an imprecise term that does not provide direction about how to mitigate its consequences or prevent harm.  There are many other factors besides issues with data that can lead to machine learning causing harm.</p>
+<p>To provide a richer framework of potential harms from ML, the authors break down a machine learning process into the following steps</p>
+<ol>
+<li>Data Collection</li>
+<li>Data Preparation</li>
+<li>Model Development</li>
+<li>Model Evaluation</li>
+<li>Model Postprocessing</li>
+<li>Model Deployment <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ol>
+<h2 id="sources-of-bias">Sources of Bias</h2>
+<p><strong>Historical Bias</strong>: When there is misalignment between the world and the values and objectives in the model</p>
+<ul>
+<li>Example: In 2018 5% of Fortune 500 CEOs were Women. Should a search for photos of CEOs represent that?</li>
+</ul>
+<p><strong>Representation Bias</strong>: When the population used to train the model is not representative of the population we apply the model to. This is often caused by our training sample containing too few people from certain populations. Fixing representation bias could come from changing the data collection phase or the model deployment phase.</p>
+<ul>
+<li>Example: ImageNet is a commonly used dataset to train computer vision systems. The majority of the images in it are from the U.S. This leads to models trained on ImageNet having poor performance on photos taken outside of the U.S. We could either collect more photos from outside the U.S. or not deploy systems trained on ImageNet for non-US use cases.</li>
+</ul>
+<p><strong>Measurement Bias</strong>: The set of features and labels that we use leave out information or introduce noise</p>
+<ul>
+<li>Example: Arrest rate is a proxy for crime. Not everyone who gets arrested commits a crime and plenty of people who commit a crime do not get arrested. Further, it is possible that the record keeping of arrest rates is noisy or biased. Certain regions might keeper tighter records or more detailed records are kept when the person arrested is a minority.</li>
+<li>Example: Often we use a measure that is a simplification of our outcome of interest. In lots of places income is used as quantitative measure of success. But success can mean a lot of different things besides income.</li>
+<li>Example: Minorities are more heavily policed and therefore more likely to be arrested. This means our model would predict minorities are more likely to commit crime. Minorities are predicted as having a higher chance to commit a crime because they are getting policed more to start, not because ethnicity is actually a predictor of how likely one is to commit a crime.</li>
+</ul>
+<p><strong>Aggregation bias</strong>: When different populations are combined and treated as homogenous. This can be seen when certain variables mean something different for different sub groups. Our model will fit the dominant population and then have a large error on non-dominant populations.</p>
+<ul>
+<li>Example: Diabetes is experienced differently for different ethnicities. HBA1C is a value that is used to measure how likely it is a patient has diabetes. The same level of HBA1C for one ethnicity means something very different for another ethnicity.</li>
+</ul>
+<p><strong>Evaluation Bias</strong>: When the way we are evaluating does not equally consider different populations. When we use metrics that are not representative of the way the model will be deployed</p>
+<ul>
+<li>Example: Facial recognition performs a lot worse on dark-skinned females. If dark-skinned females make up a small part of our data than wrong predictions for that population will not have a large impact on our accuracy metrics.</li>
+</ul>
+<p><strong>Deployment Bias</strong>: When a system is used or interpreted in inappropriate way. Models are deployed in a complex system with a lot of different actors using them in different ways. Often the people acting on the model score did not contribute to building the model.</p>
+<ul>
+<li>Example: Judges using risk assessment models to determine length of appropriate sentence.</li>
+</ul>
+<h2 id="my-closing-thoughts">My Closing Thoughts</h2>
+<p>While I might not agree with all parts of the authors framework, I really appreciate them putting this framework on paper. It gives us all a more nuanced place to start the discussion. Once something is on paper we then have the opportunity to refine it and improve on it.</p>
+<p>The paper touched on this briefly, but I want to see more discussion about how we have to build for the world we want, not the one we have. This is the fundamental way I think about historical bias. Every dataset we encounter is going to have biases of our society ingrained. I find a helpful starting place is identifying what the world we want looks like. Then we can begin to understand what is preventing us from being in that world.</p>
+<p>In deployment bias the authors did not talk as much about how different stages in the ML lifecycle will often be completed by different people. It might be a different person in charge of deploying the model then the person who built the model. Having different people in charge of different sections can lead to a lose of information which can introduce misuse.</p>
+<p>The formalizations and mitigations section of the paper is nice in theory but I felt it was kind of weak. The case studies at the end also seemed like they were rushed. Because space in a paper is limited it can be difficult to do certain sections full justice when they have to be short. I was reflecting on how it is very important to nail down the identity of your paper and then strip away sections that do not contribute to that identity. The paper might have been stronger by deleting those two sections, or just deleting one and fleshing out the other more.</p>
+<p>Similarly, the related works section took up a lot of space in this paper. I personally really enjoyed the related works section, it gave me a lot of other papers that I want to read. But this was not a survey paper. All of the space taken up by the related work section took away from developing some of the ideas in the paper more fully.</p>
+<p>All of the recent reading I have done about fair AI and ML makes me think about how important transparency is. By transparency I do not mean model transparency but process transparency. There is an entire system that has nothing to with ML that goes into building a model. There are organizations and actors, all which have flaws and blindspots. We should mandate more transparency into all of the different steps that went into building a model. People will always miss certain assumptions or practices that have the potential to be harmful. If we have transparency though we can collectively identify those dangers and then work to mitigate them.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This list makes the process seems like a straightforward and linear one. From my experience the process does not always happen in this order and it is hardly linear. There will often be cycles in the process and things will often happen concurrently. Itemizing these steps is a useful beginning and helps ground the conversation. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>

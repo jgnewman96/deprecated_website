@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2020 11:23:08 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2020 15:20:03 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>Machine Learning</title>
       <link>https://judahgnewman.netlify.com/tags/machine-learning/</link>
-      <pubDate>Fri, 28 Aug 2020 11:23:08 -0700</pubDate>
+      <pubDate>Sun, 13 Sep 2020 15:20:03 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mindfulness</title>
+      <link>https://judahgnewman.netlify.com/tags/mindfulness/</link>
+      <pubDate>Sun, 06 Sep 2020 11:32:24 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/mindfulness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-Fiction</title>
+      <link>https://judahgnewman.netlify.com/tags/non-fiction/</link>
+      <pubDate>Sun, 06 Sep 2020 11:32:24 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/non-fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://judahgnewman.netlify.com/tags/design/</link>
+      <pubDate>Sun, 06 Sep 2020 11:31:51 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
       <description></description>
     </item>
     
@@ -26,15 +53,6 @@
       <pubDate>Fri, 28 Aug 2020 11:23:08 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/policy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://judahgnewman.netlify.com/tags/design/</link>
-      <pubDate>Mon, 24 Aug 2020 14:37:40 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
       <description></description>
     </item>
     
@@ -53,15 +71,6 @@
       <pubDate>Mon, 24 Aug 2020 14:37:05 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-Fiction</title>
-      <link>https://judahgnewman.netlify.com/tags/non-fiction/</link>
-      <pubDate>Mon, 24 Aug 2020 14:36:35 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/non-fiction/</guid>
       <description></description>
     </item>
     
@@ -152,15 +161,6 @@
       <pubDate>Wed, 06 May 2020 13:19:28 -0500</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mindfulness</title>
-      <link>https://judahgnewman.netlify.com/tags/mindfulness/</link>
-      <pubDate>Mon, 24 Feb 2020 09:12:23 -0800</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/mindfulness/</guid>
       <description></description>
     </item>
     

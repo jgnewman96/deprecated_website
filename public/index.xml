@@ -6,10 +6,41 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2020 11:23:08 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2020 15:20:03 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Framework for Understanding Unintended Consequences of Machine Learning</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/ml_harms_framework/</link>
+      <pubDate>Sun, 13 Sep 2020 15:20:03 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/ml_harms_framework/</guid>
+      <description>By Harini Suresh and John Guttag
+Paper Motivation We need a better understanding of the potential unwanted consequences from machine learning. We often hear about “biased data“ but this term has become a catch all that prevents nuanced understanding.
+Paper Contribution The authors propose a framework that partitions harms from machine learning into six different categories. The paper covers what contributes to each harm and how to remedy them. The authors argue it is critical that the solutions we develop are from application specific understandings rather than abstract notions of fairness.</description>
+    </item>
+    
+    <item>
+      <title>How to Do Nothing</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/do_nothing/</link>
+      <pubDate>Sun, 06 Sep 2020 11:32:24 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/do_nothing/</guid>
+      <description>How to Do Nothing By Jenny Odell is a meandering book focused on how to change our relationship with technology and those around us. While it would be easy to classify this book as self-help, it does not feel as sure of itself as other self-help books. Self help books often are written from the perspective of an all knowing author who has everything figured out and wants to share their knowledge with the feeble reader.</description>
+    </item>
+    
+    <item>
+      <title>WES: Agent-based User Interaction Simulation on Real Infrastructure</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/wes/</link>
+      <pubDate>Sun, 06 Sep 2020 11:31:51 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/wes/</guid>
+      <description>By Facebook Research
+Papers Motivation Large distributed software systems with many users interacting are difficult to fully test. There are large numbers of edge cases which are difficult to identify ahead of time. Lots of bugs arise from complex interactions between users and the software that only occur at scale.
+Papers Contribution This paper outlines the general principles of web enabled simulations (WES). The development of Facebook&amp;rsquo;s WW simulation is used to guide a discussion of WES in general.</description>
+    </item>
     
     <item>
       <title>Equality of Opportunity in Supervised Learning</title>
