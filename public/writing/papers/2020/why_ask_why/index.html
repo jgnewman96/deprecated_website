@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why Ask Why?: Forward Causal Inference and Reverse Causal Questions</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: azure;
+    }
+
+    :root {
+        --accent: darkolivegreen;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Why Ask Why?: Forward Causal Inference and Reverse Causal Questions</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>Why Ask Why?: Forward Causal Inference and Reverse Causal Questions</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/statistics"><kbd class="item-tag">Statistics</kbd></a>
+
+<a href="https://judahgnewman.netlify.com/tags/economics"><kbd class="item-tag">Economics</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 5 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p><a href="http://www.stat.columbia.edu/~gelman/research/unpublished/reversecausal_13oct05.pdf">By Andrew Gelman and Guido Imbens</a></p>
+<h3 id="paper-motivation">Paper Motivation</h3>
+<p>Most statistics and economics literature focuses on the effect of a treatment not what caused an outcome.</p>
+<h3 id="paper-contribution">Paper Contribution</h3>
+<p>The authors argue that the search for a cause can be understood in a traditional statistical framework. We can think about identifying causes using model checking and hypothesis generation.</p>
+<h2 id="background">Background</h2>
+<p>A map shows a high density of cancers in a small geographic region. This immediately leads to some questions → What is going on here? why are there so many cancers?</p>
+<p>If we successfully answer these questions, depending on the answer, we might be able to prevent a similar thing from happening again. If we find that the cancers were caused by some agent in this region, we would then stop using that agent and make sure others do not use it as well. We would then be creating a policy that reduces cancer.</p>
+<p>The purpose of this paper is show how these type of questions are still in the field of causal inference</p>
+<h2 id="forward-and-reverse-causal-questions">Forward and reverse causal questions</h2>
+<p><strong>Forward causal questions</strong>: What would happen if we do X?
+- e.g. What is the effect of smoking on health? schooling on earnings?
+<strong>Reverse causal inference</strong>: What causes Y?
+- e.g. Why does per capita income vary so much by county? Why did the economy collapse?</p>
+<p>Generally researchers focus on the first type of questions and not the second type. They ask &ldquo;What if?&rdquo; questions rather than &ldquo;Why?&rdquo; questions.</p>
+<blockquote
+    style="background-color: lightgoldenrodyellow;  border-width: 1px; border-style: solid; border-left: 1px solid;">
+    <p>
+Forward causal inference is about estimation; reverse causal questions. are about model checking and hypothesis generation
+
+</blockquote>
+<p>To put it another way, the why questions are what motivate us to study what if questions. These what if questions can be studied using traditional statistical methods</p>
+<p>The authors are not using reverse and forward in reference to time. We can ask forward causal questions about the past. For example, asking if a country was more democratic would it have had more economic growth is a forward causal question about something in the past.</p>
+<h3 id="example">Example</h3>
+<p><strong>What is the effect of money on elections?</strong></p>
+<p>The question above is too ill-defined to answer. If we narrow the question slightly it becomes answerable. What would the effect have been on the election if candidate A had gotten 1000 more dollars?</p>
+<p>Here is a reverse causal question: Why do incumbents running for re-election get so much more funding than challengers? We have to reframe this question into a forward casual one to be able to answer it. Once we have formed a hypothesis about this question we can then test it out.</p>
+<p>Reverse casual questions in this way lead to model checking and hypothesis forming. When we have a reverse casual question it means our current model of the world is not complete. There is a phenomenon that needs an explanation. Often these models are implicit and not clearly stated. In the above example, our model was that all candidates would receive the same amount of funding. We form a hypothesis, update our model and then check if that model does a good job fitting what we are seeing.</p>
+<h3 id="mathematical-formulation">Mathematical formulation</h3>
+<p>Let Y_i denote an outcome of interest for unit i. Let W_i be features we observe about unit i. Let Z_i be characteristics of i that we do not believe impact Y. So in units that have the same W, they should have the same Y.</p>
+<p>But what if our data rejects this hypothesis? We see that even after controlling for W, differences in Z do lead to differences in Y?</p>
+<p>There are two explanations that are still consistent with our original hypothesis that Z has no impact on Y</p>
+<ol>
+<li>We omitted an important attribute, V. If we included this attribute the relationship would disappear</li>
+<li>There might be something else that is actually causing Y. Y might be a function of some value X that we had not considered.</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>A key difference this paper highlights is that of casual questions and causal statements. <strong>Even if a question can not be directly answered, it does not mean that asking the question is useless</strong>.Asking reverse casual questions can highlight anomalies and provides an opportunity for model improvement.
+<blockquote
+    style="background-color: lightgoldenrodyellow;  border-width: 1px; border-style: solid; border-left: 1px solid;">
+    <p>
+By formalizing reverse casual reasoning within the process of data analysis, we hope to make a step toward connecting our statistical reasoning to the ways that we naturally think and talk about causality.
+
+</blockquote></p>
+<h3 id="my-closing-thoughts">My Closing Thoughts</h3>
+<ul>
+<li>
+<p>This paper reminds me of an idea in engineering &ldquo;the importance of getting your abstraction right&rdquo;. While it is easy to dismiss this and say these kind of distinctions are trivial, I believe they are truly important. &ldquo;getting the right <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">abstraction</a>&rdquo; allows us to focus on the details that are important and not get caught up in minutia.  he type of abstraction we have and how well it fits our problem changes our thinking. Similarly, understanding casual questions in this light changes the whole process of doing research. It brings these why questions into the research process rather than saying they are not scientific.</p>
+</li>
+<li>
+<p>Part of what this paper is doing, is making something that is implicit, explicit. We are asking these why questions all the time. We might not have considered them part of our research in the past but they were. We just were not documenting them. By making it explicit there are less unsaid assumptions and more information is revealed.</p>
+</li>
+<li>
+<p>There has been a lot of pop science books written about how we can make our minds work in a more statistical way. That we have to train ourselves to think statistically. While this paper does not invalidate any of that, it kind of does the reverse. It shows how the ways we normally think are actually in line with statistical thinking. It broadens what we mean when we say statistical thinking to include questions we ask very naturally.</p>
+</li>
+</ul>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>

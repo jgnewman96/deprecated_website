@@ -6,10 +6,21 @@
     <description>Recent content in Deep Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 17:39:34 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 16:02:40 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Towards Fine-grained Flow Forecasting: A Graph Attention Approach for Bike Sharing Systems</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/bike_share_forecasting/</link>
+      <pubDate>Thu, 24 Sep 2020 16:02:40 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/bike_share_forecasting/</guid>
+      <description>By Suining He and Kang Shin
+Paper Motivation Accurate bike-flow prediction at the station level is important for a bike sharing service&amp;rsquo;s success. Existing methods are not successful at predicting fine-grained bike flow.
+Paper Contribution The authors remedy this problem by proposing a spatiotemporal graph attention CNN for station-level flow prediction. Each bike station is a node and bike rides are edges on a graph. Their network captures differing station-to-station correlations.</description>
+    </item>
     
     <item>
       <title>Understanding Deep Learning Requires Re-thinking Generalization</title>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2020 15:20:03 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 16:03:09 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,54 @@
     <item>
       <title>Machine Learning</title>
       <link>https://judahgnewman.netlify.com/tags/machine-learning/</link>
-      <pubDate>Sun, 13 Sep 2020 15:20:03 -0700</pubDate>
+      <pubDate>Thu, 24 Sep 2020 16:03:09 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>https://judahgnewman.netlify.com/tags/economics/</link>
+      <pubDate>Thu, 24 Sep 2020 16:02:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://judahgnewman.netlify.com/tags/statistics/</link>
+      <pubDate>Thu, 24 Sep 2020 16:02:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://judahgnewman.netlify.com/tags/deep-learning/</link>
+      <pubDate>Thu, 24 Sep 2020 16:02:40 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy</title>
+      <link>https://judahgnewman.netlify.com/tags/policy/</link>
+      <pubDate>Thu, 24 Sep 2020 16:02:40 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiction</title>
+      <link>https://judahgnewman.netlify.com/tags/fiction/</link>
+      <pubDate>Thu, 24 Sep 2020 16:01:51 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
       <description></description>
     </item>
     
@@ -48,56 +93,11 @@
     </item>
     
     <item>
-      <title>Policy</title>
-      <link>https://judahgnewman.netlify.com/tags/policy/</link>
-      <pubDate>Fri, 28 Aug 2020 11:23:08 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/policy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Software Engineering</title>
       <link>https://judahgnewman.netlify.com/tags/software-engineering/</link>
       <pubDate>Mon, 24 Aug 2020 14:37:40 -0700</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fiction</title>
-      <link>https://judahgnewman.netlify.com/tags/fiction/</link>
-      <pubDate>Mon, 24 Aug 2020 14:37:05 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/fiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://judahgnewman.netlify.com/tags/deep-learning/</link>
-      <pubDate>Thu, 13 Aug 2020 17:39:34 -0400</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Economics</title>
-      <link>https://judahgnewman.netlify.com/tags/economics/</link>
-      <pubDate>Mon, 27 Jul 2020 11:59:27 -0400</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>https://judahgnewman.netlify.com/tags/statistics/</link>
-      <pubDate>Mon, 27 Jul 2020 11:58:30 -0400</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/statistics/</guid>
       <description></description>
     </item>
     

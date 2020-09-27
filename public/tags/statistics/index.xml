@@ -6,10 +6,22 @@
     <description>Recent content in Statistics on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2020 11:58:30 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 16:02:58 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why Ask Why?: Forward Causal Inference and Reverse Causal Questions</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/why_ask_why/</link>
+      <pubDate>Thu, 24 Sep 2020 16:02:58 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/why_ask_why/</guid>
+      <description>By Andrew Gelman and Guido Imbens
+Paper Motivation Most statistics and economics literature focuses on the effect of a treatment not what caused an outcome.
+Paper Contribution The authors argue that the search for a cause can be understood in a traditional statistical framework. We can think about identifying causes using model checking and hypothesis generation.
+Background A map shows a high density of cancers in a small geographic region. This immediately leads to some questions → What is going on here?</description>
+    </item>
     
     <item>
       <title>Mostly Harmless Econometrics Chapter 3.1</title>

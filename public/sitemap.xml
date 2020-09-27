@@ -3,43 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://judahgnewman.netlify.com/writing/papers/2020/ml_harms_framework/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/categories/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/tags/machine-learning/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/reliance_on_metrics/</loc>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/</loc>
-    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
+    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/economics/</loc>
+    <lastmod>2020-09-24T16:02:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
+    <lastmod>2020-09-24T16:02:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/why_ask_why/</loc>
+    <lastmod>2020-09-24T16:02:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/deep-learning/</loc>
+    <lastmod>2020-09-24T16:02:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/policy/</loc>
+    <lastmod>2020-09-24T16:02:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/bike_share_forecasting/</loc>
+    <lastmod>2020-09-24T16:02:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/books/2020/beloved/</loc>
+    <lastmod>2020-09-24T16:01:51-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/categories/books/</loc>
-    <lastmod>2020-09-06T11:32:24-07:00</lastmod>
+    <lastmod>2020-09-24T16:01:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/fiction/</loc>
+    <lastmod>2020-09-24T16:01:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/ml_harms_framework/</loc>
+    <lastmod>2020-09-13T15:20:03-07:00</lastmod>
   </url>
   
   <url>
@@ -73,11 +118,6 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/policy/</loc>
-    <lastmod>2020-08-28T11:23:08-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/tags/software-engineering/</loc>
     <lastmod>2020-08-24T14:37:40-07:00</lastmod>
   </url>
@@ -88,11 +128,6 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/fiction/</loc>
-    <lastmod>2020-08-24T14:37:05-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2020/color_purple/</loc>
     <lastmod>2020-08-24T14:37:05-07:00</lastmod>
   </url>
@@ -100,11 +135,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2020/being_mortal/</loc>
     <lastmod>2020-08-24T14:36:35-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/deep-learning/</loc>
-    <lastmod>2020-08-13T17:39:34-04:00</lastmod>
   </url>
   
   <url>
@@ -138,22 +168,12 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/economics/</loc>
-    <lastmod>2020-07-27T11:59:27-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/categories/textbooks/</loc>
     <lastmod>2020-07-27T11:59:27-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/textbooks/harmless_econ/chapter3-1/</loc>
-    <lastmod>2020-07-27T11:58:30-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/statistics/</loc>
     <lastmod>2020-07-27T11:58:30-04:00</lastmod>
   </url>
   

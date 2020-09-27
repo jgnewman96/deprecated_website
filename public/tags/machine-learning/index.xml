@@ -6,10 +6,22 @@
     <description>Recent content in Machine Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2020 15:20:03 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 16:03:09 -0700</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reliance on Metrics is a Fundamental Challenge for AI</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/reliance_on_metrics/</link>
+      <pubDate>Thu, 24 Sep 2020 16:03:09 -0700</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/reliance_on_metrics/</guid>
+      <description>By Rachel Thomas and David Uminsky
+Paper Motivation Optimizing a metric is central to current AI approaches. Metrics can lead to a myopic focus on short term goals leading to unexpected negative consequences. This reliance on metrics is a fundamental challenge of modern AI
+Paper Contribution The paper reviews current examples of metrics gone wrong. The authors find the following problematic aspects of metrics
+ Any metric is just a proxy for what we really care about Metrics can, and will be gamed Metrics tend to overemphasize short-term concerns Many online metrics are gathered in highly addictive environments  The authors create a framework to mitigate the harms of overemphasizing metrics by suggesting</description>
+    </item>
     
     <item>
       <title>A Framework for Understanding Unintended Consequences of Machine Learning</title>

@@ -11,7 +11,7 @@ layout: "single"
 What I am Currently Reading
 {{< /center >}}
 
-![](/img/beloved.jpg?style=centerme)\
+![](/img/stories_of_your_life.jpg?style=centerme)\
 \
 ![](/img/effective_python.jpg?style=centerme)
 
@@ -22,13 +22,15 @@ Books Recently Read
 
 {{< /center >}}
 
+
+![](/img/GG_housing.jpg?style=centerme)\
+\
+![](/img/beloved.jpg?style=centerme)\
+\
 ![](/img/do_nothing.jpg?style=centerme)\
 \
-![](/img/color_purple.jpg?style=centerme)\
-\
-![](/img/being_mortal.jpg?style=centerme)\
-\
-![](/img/unaccostmed_earth.jpg?style=centerme)
+![](/img/color_purple.jpg?style=centerme)
+
 
 
 
