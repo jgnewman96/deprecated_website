@@ -11,13 +11,15 @@ layout: "single"
 I have found it hard to execute on independent research projects while working full time. Currently the way I interact with researcher is mostly as a consumer. My recent reading and thinking has been in the space of fair AI.
 
 Recently read papers about fair AI
-- [What is AI Literacy? Competencies and Design Considerations]({{< ref  "/writing/papers/2020/AI_literacy"  >}})
-- [Equality of Opportunity in Supervised Learning]({{< ref  "/writing/papers/2020/equalized_odds_supervised_learning"  >}})
-- [A Framework for Understanding Unintended Consequences of Machine Learning]({{< ref  "/writing/papers/2020/ML_harms_framework"  >}})
-- [Reliance on Metrics is a Fundamental Challenge for AI]({{< ref  "/writing/papers/2020/reliance_on_metrics"  >}})
+
+* [What is AI Literacy? Competencies and Design Considerations]({{< ref  "/writing/papers/2020/AI_literacy"  >}})
+* [Equality of Opportunity in Supervised Learning]({{< ref  "/writing/papers/2020/equalized_odds_supervised_learning"  >}})
+* [A Framework for Understanding Unintended Consequences of Machine Learning]({{< ref  "/writing/papers/2020/ML_harms_framework"  >}})
+* [Reliance on Metrics is a Fundamental Challenge for AI]({{< ref  "/writing/papers/2020/reliance_on_metrics"  >}})
 
 Writing about fair AI
-- [A Fair Algorithm is not Sufficient]({{< ref "writing/research/fair_ai_is_not_enough/" >}})
+
+* [A Fair Algorithm is not Sufficient]({{< ref "writing/research/fair_ai_is_not_enough/" >}})
 
 
 
