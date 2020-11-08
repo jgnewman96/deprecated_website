@@ -1,5 +1,5 @@
 ---
-title: "A Fair Algorithm is not sufficient"
+title: "A Fair Algorithm is not Sufficient"
 date: 2020-07-19T10:52:00-05:00
 draft: False
 tags: ['Reflections', 'Machine Learning']

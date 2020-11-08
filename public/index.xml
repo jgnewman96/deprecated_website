@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 16:03:09 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 16:06:28 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reflections On Election Season</title>
+      <link>https://judahgnewman.netlify.com/writing/industry/cr/reflections_on_election_season/</link>
+      <pubDate>Sun, 08 Nov 2020 16:06:28 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/industry/cr/reflections_on_election_season/</guid>
+      <description>Woof&amp;hellip;&amp;hellip; The past couple of months have been such a whirlwind. It has both been quite long and quite short. I guess that is just the way it goes. I have done a bad job of taking time to do personal work. You might have noticed the lack of posts since the end of September. That doesn&amp;rsquo;t mean I have not been reading or writing. But, I have not set aside the time to take what I have been doing and put it on this website.</description>
+    </item>
     
     <item>
       <title>Reliance on Metrics is a Fundamental Challenge for AI</title>
@@ -199,7 +208,7 @@ Arrow begins by asserting there are two methods by which social choices can be m
     </item>
     
     <item>
-      <title>A Fair Algorithm is not sufficient</title>
+      <title>A Fair Algorithm is not Sufficient</title>
       <link>https://judahgnewman.netlify.com/writing/research/fair_ai_is_not_enough/</link>
       <pubDate>Sun, 19 Jul 2020 10:52:00 -0500</pubDate>
       
@@ -1020,10 +1029,8 @@ Summary This paper by two attorneys at Bronx Defenders argues that quick, decisi
       
       <guid>https://judahgnewman.netlify.com/reading/</guid>
       <description>What I am Currently Reading  Books Recently Read  Good Reads Regular Internet Reading  Business
- Stratechery: Ben Thompson ($120 a year) Matthew Ball Eugene Wei Exponential View: Azeem Azhar ($85 a year)  Tech
- Pointer Julia Evans Will Larson Tushar Chandra Fast AI : Rachel Thomas &amp;amp; Jeremy Howard  Research
- Andrew Gelman The Morning Paper: Adrian Colyer  Essays
- The New Yorker ($50 a year) Wait but Why: Tim Urban Paul Graham  Here is a spreadsheet that records the articles I enjoyed every week.</description>
+ Stratechery: Ben Thompson ($120 a year) Matthew Ball Eugene Wei Exponential View: Azeem Azhar ($85 a year) Casey Newton ($100 a year)  Tech
+ Pointer Julia Evans Will Larson Tushar Chandra Fast AI : Rachel Thomas &amp;amp; Jeremy Howard Lenny Rachitsky ($150 a year) Zeynep Tufekci ($100 a year)  Research</description>
     </item>
     
     <item>
@@ -1042,8 +1049,9 @@ A lot has happened over the past year. In 2018, I graduated college and started 
       <pubDate>Thu, 25 Jul 2019 18:34:24 +0000</pubDate>
       
       <guid>https://judahgnewman.netlify.com/research/</guid>
-      <description>Current Project Agent Based Simulations
-Research Interests  Applied AI and ML Tech regulation The structure of intelligence Climate Change, Inequality / Poverty / Health  Paper Reading A necessary part of producing quality research is reading lots of other research. Any piece of research is not done in isolation but in dialogue with what came before it. It is not only important to read the research but think about it critically and relate it to your own thoughts.</description>
+      <description>Current Project I have found it hard to execute on independent research projects while working full time. Currently the way I interact with researcher is mostly as a consumer. My recent reading and thinking has been in the space of fair AI.
+Recently read papers about fair AI
+ What is AI Literacy? Competencies and Design Considerations Equality of Opportunity in Supervised Learning A Framework for Understanding Unintended Consequences of Machine Learning Reliance on Metrics is a Fundamental Challenge for AI  Writing about fair AI</description>
     </item>
     
     <item>
