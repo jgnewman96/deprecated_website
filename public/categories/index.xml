@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2020 16:06:28 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 10:30:42 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Papers</title>
+      <link>https://judahgnewman.netlify.com/categories/papers/</link>
+      <pubDate>Sun, 15 Nov 2020 10:30:42 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/categories/papers/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Industry</title>
@@ -17,15 +26,6 @@
       <pubDate>Sun, 08 Nov 2020 16:06:28 -0600</pubDate>
       
       <guid>https://judahgnewman.netlify.com/categories/industry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Papers</title>
-      <link>https://judahgnewman.netlify.com/categories/papers/</link>
-      <pubDate>Thu, 24 Sep 2020 16:03:09 -0700</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/categories/papers/</guid>
       <description></description>
     </item>
     

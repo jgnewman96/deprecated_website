@@ -6,10 +6,22 @@
     <description>Recent content in Policy on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 16:02:40 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 10:30:42 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/policy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data and Power: Archival Appraisal Theory as a Framework for Data Preservation</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/archival_theory_data/</link>
+      <pubDate>Sun, 15 Nov 2020 10:30:42 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/archival_theory_data/</guid>
+      <description>By Sarita Schoenbeck and Paul Conway
+Paper Link
+Paper Motivation Data is being collected ubiquitously. Tech companies are “moving fast and breaking“ things rather than thinking carefully about data storage
+Paper Contribution The paper calls upon archival theory to understand control, power, subjectivity and emotion in computing practices related to data storage. The authors test their framework with an interview study. They end by sketching the implications of their framework and suggest having data management practices that focus on legacy, life transitions and control</description>
+    </item>
     
     <item>
       <title>Towards Fine-grained Flow Forecasting: A Graph Attention Approach for Bike Sharing Systems</title>
