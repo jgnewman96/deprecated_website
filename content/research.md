@@ -16,6 +16,7 @@ Recently read papers about fair AI
 * [Equality of Opportunity in Supervised Learning]({{< ref  "/writing/papers/2020/equalized_odds_supervised_learning"  >}})
 * [A Framework for Understanding Unintended Consequences of Machine Learning]({{< ref  "/writing/papers/2020/ML_harms_framework"  >}})
 * [Reliance on Metrics is a Fundamental Challenge for AI]({{< ref  "/writing/papers/2020/reliance_on_metrics"  >}})
+* [Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence]({{< ref  "/writing/papers/2020/decolonial_ai"  >}})
 
 Writing about fair AI
 

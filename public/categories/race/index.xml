@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Race on Welcome</title>
+    <link>https://judahgnewman.netlify.com/categories/race/</link>
+    <description>Recent content in Race on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Nov 2020 12:45:03 -0600</lastBuildDate>
+    
+	<atom:link href="https://judahgnewman.netlify.com/categories/race/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/decolonial_ai/</link>
+      <pubDate>Sun, 22 Nov 2020 12:45:03 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/decolonial_ai/</guid>
+      <description>By Shakir Mohamed, Marie-Therese Png, and William Isaac
+Paper Link
+Paper Motivation Artificial Intelligence has the potential to re-shape our society. These changes could be broadly beneficial but aslo have the potential to be dangerous for vulnerable peoples. To understand the impacts of AI we need to think about values and power. It is the responsibility of the AI community to have ethical foresight and involve many different perspectives.
+Paper Contribution The paper explores using post-colonial and decolonial theories to understand advances in AI.</description>
+    </item>
+    
+  </channel>
+</rss>
