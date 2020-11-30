@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: azure;
+    }
+
+    :root {
+        --accent: darkolivegreen;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.73.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/policy"><kbd class="item-tag">Policy</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 6 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p>By <a href="https://www.guyaridor.net/">Guy Aridor</a>, <a href="https://duartegoncalves.com/">Duarte Goncalves</a>, <a href="https://www.linkedin.com/in/shan-sikdar-0b53785a">Shan Sikdar</a></p>
+<p><a href="https://arxiv.org/pdf/1904.10527.pdf">Paper Link</a></p>
+<h2 id="paper-motivation">Paper Motivation</h2>
+<p>There is a common theory that recommender systems lead to user consuming more similar content over time. This kind of affect is called a filter bubble where each user or group of users ends up in their own little bubble.</p>
+<h2 id="paper-contribution">Paper Contribution</h2>
+<p>The paper finds that recommendation can alleviate natural-filter bubble effects, but it also leads to more homogeneity across users. There is a trade off between homogenizing between user consumption and diversifying within user consumption. The authors argue that filter bubbling happens without recommendation systems and that recommendation systems will decrease the impact of filter bubbles.</p>
+<p>The authors find that a more diverse set of consumed items does not always lead to greater consumer welfare. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> The authors assert that the benefit of a recommender system is the marginal welfare a user gains from having the recommender system versus not having it.</p>
+<h3 id="background">Background</h3>
+<p>Recommender systems are critical when users face a really large decision pool. Users are not aware of most items and so need some way to sift through the available items. 75% of movies watched on Netflix and 35% of page views on amazon coming from recommendations. Recently there are worries about the unintended consequences of these systems. Could they lead to filter bubbles where users are not exposed to a diverse set of content or view points</p>
+<p>Understanding the impacts of RS (recommender systems) is critical for designing systems that we want in our society</p>
+<p><strong>Model of User Choice</strong></p>
+<ol>
+<li>User sequentially choose items and face large choice sets. Consumers are long lived but consume a small portion of the choice set</li>
+<li>Users are uncertain about how much value they will get from consuming the product.</li>
+<li>Consumption of an item provides the user with more knowledge about their own preferences</li>
+<li>a RS gives a user some signal about if they will enjoy a product. This can be broken up into user specific level impacts and based on data of other users</li>
+</ol>
+<p><strong>Problem set up</strong></p>
+<ul>
+<li>There are n items in a product space T. We have a set of users I which face decisions about which n to consume.</li>
+<li>We can assign a monetary equivalent for each user for consuming an item, Before consuming an item the user does not know what that monetary value is. There evaluation before hand might be different than the actual monetary value they receive.</li>
+<li>P denotes the belief that a user has about how much they will enjoy an object n</li>
+<li>The realized value for consuming a good x can be decomposed into two parts. A users idiosyncratic taste. a common value component</li>
+<li>Consuming an item lets users learn more about related items</li>
+</ul>
+<p>Rather than modeling how RS work the authors think about RS as giving users more information about how they will value a product</p>
+<h3 id="results">Results</h3>
+<p>The authors look at three situations. For each situation they compare simulation results. The three situations are:</p>
+<ol>
+<li>no RS</li>
+<li>perfect RS</li>
+<li>imperfect RS</li>
+</ol>
+<p>We can also look at simulations results with different parameters. We can see how risk-aversion levels impact users behavior and how product correlation impacts users selections.</p>
+<p><strong>Finding 1</strong>: RS decrease local consumption because they recommend based on others taste
+- When users are more risk averse then they tend towards more local consumption.
+- When consuming an item tells you more about similar products that also leads to more local consumption.
+- recommendation decreases local consumption by providing information outside of your local space.</p>
+<p><strong>Finding 2</strong>: Converse of 1, RS increase diversity in consumption
+<strong>Finding 3</strong>: The welfare gap between recommendation and no recommendation decreases as how much you learn about other products from one consumption choice increases
+<strong>Finding 4</strong>: With no recommendations: diversity and welfare are negatively correlated with users have no risk aversion. They are uncorrelated when users have high levels of risk version.
+<strong>Finding 5</strong>: Recommendation increases homogeneity across users</p>
+<h2 id="discussion">Discussion</h2>
+<p>A recommender system should give users information they might not have.Rather than recommending a movie the user might know they will like, it should recommend a movie the user will like but that the user does not know about.
+These findings Suggest an RS should collect more information about user beliefs and not only user experience! It also suggests a new way to formulate the problem of an RS: Predict what a user would consume with no recommendation, then give them something better than that.</p>
+<h2 id="my-closing-thoughts">My Closing Thoughts</h2>
+<p>I really appreciated this research, but I think the framing should be switched. The abstract and introduction misrepresent the major contributions of this research. The findings from these simulations are not the major contributions. They are interesting, but it is hard to know how many situations they extend to. The main contribution of this research is that it provides a vocabulary and a structure to think about recommender systems. By providing this structure, it makes it easy for other researchers to extend this framework or build upon it. This structure provides a common vocabulary for us to examine RS.</p>
+<p>Another novel contribution of this paper, is that it focuses on properties of the people. A RS will have a different outcome for different populations of interest. This broadens the scope of how we think about recommender systems. We cannot only focus on properties of the technology but must also reflect on properties of the people who are interacting with the technology.</p>
+<p>A lot of these findings are probably dependent on the type of recommender system we are looking at. Different recommender systems will have different impacts and push people in different directions. I would be excited to see work looking at differences in recommender systems.</p>
+<p>In this paper, they focus on comparisons between a world with RS and a world without RS. But that seems like a faulty comparison to me. There is not actually a world with no RS. Netflix is always going to present you with some choices. I guess it could only provide you with a search bar and that is the only way to interact with the platform but that seems like an unrealistic comparison.</p>
+<p>I would be really really interested in a paper that builds upon this by trying to find some of the parameters from this model for an actual RS. Could we find values for some of these parameters for Youtube or Netflix&rsquo;s RS.</p>
+<p>I wish this paper included some discussion of what we are trying to design for. Why is a filter bubble bad? Why is diversity in consumption good? This paper explicitly only focuses on individual consumer welfare, but most of the way I think about the potential impacts of RS is through societal welfare. How is society negatively impacted when everyone is consuming different content?</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>But what about social welfare? This paper does not have any mention of that. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>

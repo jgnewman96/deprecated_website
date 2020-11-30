@@ -6,10 +6,70 @@
     <description>Recent content in Papers on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2020 10:30:42 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 15:47:47 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/deconstructing_filter_bubble/</link>
+      <pubDate>Thu, 26 Nov 2020 15:47:47 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/deconstructing_filter_bubble/</guid>
+      <description>By Guy Aridor, Duarte Goncalves, Shan Sikdar
+Paper Link
+Paper Motivation There is a common theory that recommender systems lead to user consuming more similar content over time. This kind of affect is called a filter bubble where each user or group of users ends up in their own little bubble.
+Paper Contribution The paper finds that recommendation can alleviate natural-filter bubble effects, but it also leads to more homogeneity across users.</description>
+    </item>
+    
+    <item>
+      <title>Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/fairness_practitioners_needs/</link>
+      <pubDate>Thu, 26 Nov 2020 15:42:48 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/fairness_practitioners_needs/</guid>
+      <description>By Kenneth Holsten, Jennifer Wortman Vaughn, Hal Daume III, Miroslav Dudik and Hanna Wallach
+Paper Link
+Paper Motivation There has been a recent surge in research developing tools to mitigate harms of machine learning. For these tools to have an impact they must actually meet industry practitioners needs
+Paper Contribution The paper outlines commercial teams‘ challenges and needs when developing fairer ML systems. The authors outline where there is disconnect between the current research and what people actually need.</description>
+    </item>
+    
+    <item>
+      <title>“Data Strikes”: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/data_strikes/</link>
+      <pubDate>Thu, 26 Nov 2020 15:32:49 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/data_strikes/</guid>
+      <description>By Nicholas Vincent, Brent Hecht, Shilad Sen
+Paper Link
+Paper Motivation There have been some calls for “data strikes“ in response to worries about the power of large technology companies. These strikes aim to starve business plans predicated on collecting large amounts of user data. Little is known about how a data strike would work or if it would even be effective.
+Paper Contribution Focusing on recommender systems, the authors simulate data strikes under many conditions.</description>
+    </item>
+    
+    <item>
+      <title>The Hardware Lottery</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/hardware_lottery/</link>
+      <pubDate>Thu, 26 Nov 2020 15:32:23 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/hardware_lottery/</guid>
+      <description>By Sara Hooker
+Paper Link
+Paper Motivation Through out history we have seen different research ideas win and lose. Why do some win and others lose? Do the superior ideas always win out?
+Paper Contribution This paper introduces the term hardware lottery to explain how some research ideas win out because they are best fit to the current state of hardware. It does not win out because the idea is superior to other research directionsThe author uses examples from early computer science research to show how the hardware lottery can delay research progress.</description>
+    </item>
+    
+    <item>
+      <title>Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/decolonial_ai/</link>
+      <pubDate>Sun, 22 Nov 2020 12:45:03 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/decolonial_ai/</guid>
+      <description>By Shakir Mohamed, Marie-Therese Png, and William Isaac
+Paper Link
+Paper Motivation Artificial Intelligence has the potential to re-shape our society. These changes could be broadly beneficial but aslo have the potential to be dangerous for vulnerable peoples. To understand the impacts of AI we need to think about values and power. It is the responsibility of the AI community to have ethical foresight and involve many different perspectives.
+Paper Contribution The paper explores using post-colonial and decolonial theories to understand advances in AI.</description>
+    </item>
     
     <item>
       <title>Data and Power: Archival Appraisal Theory as a Framework for Data Preservation</title>

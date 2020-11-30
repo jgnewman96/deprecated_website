@@ -2,8 +2,8 @@
 title: "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence"
 date: 2020-11-22T12:45:03-06:00
 draft: False
-tags: ['Papers']
-categories: ['Policy', 'Race']
+tags: ['Policy', 'Race']
+categories: ['Papers']
 ---
 
 By [Shakir Mohamed](https://www.shakirm.com/), [Marie-Therese Png](https://www.oii.ox.ac.uk/people/marie-therese-png/), and [William Isaac](https://wsisaac.com/#)

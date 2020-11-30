@@ -6,10 +6,115 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 12:45:03 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 16:04:02 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Hidden Girl and Other Stories</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/hidden_girl/</link>
+      <pubDate>Thu, 26 Nov 2020 16:04:02 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/hidden_girl/</guid>
+      <description>The Hidden Girl and Other Stories by Ken Liu us a book of short science fiction stories. There is one set of stories that is a trilogy but otherwise each story is a standalone.
+There were a lot of stories in this collection and I found most of them to be a little underwhelming. There was one story though that I thought was very powerful. The story was about charitable giving and how we think about our own impacts on the world.</description>
+    </item>
+    
+    <item>
+      <title>Ursula K. Le Guin: Conversations on Writing</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/uklg_writing/</link>
+      <pubDate>Thu, 26 Nov 2020 16:03:45 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/uklg_writing/</guid>
+      <description>Conversations on Writing is a short book of three conversations between Ursula K. Le Guin and David Naimon about writing. One conversation is about fiction, one is on poetry and the last is on non-fiction. This conversations are quite in depth and show how Le Guin thinks about writing. Le Guin has published some of my favorite books so it was an absolute pleasure to hear about her creative process and how she sees the world.</description>
+    </item>
+    
+    <item>
+      <title>The Memory Police</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/memory_police/</link>
+      <pubDate>Thu, 26 Nov 2020 16:01:18 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/memory_police/</guid>
+      <description>The Memory Police By Yoko Ogawa is a very slow paced unnerving science-fiction novel. The novel takes place on an island where objects are slowly disappearing from people&amp;rsquo;s memory. One day everyone wakes up and they no longer have the memory about a certain object. They proceed to destroy all instances of that object. This forgetfulness does not impact everyone on the island though. There are some people who do not forget.</description>
+    </item>
+    
+    <item>
+      <title>Men We Reaped: A Memoir</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/men_we_reaped/</link>
+      <pubDate>Thu, 26 Nov 2020 15:58:34 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/men_we_reaped/</guid>
+      <description>Men We Reaped By Jesmyn Ward is an incredibly powerful and moving book. Ward tells a story of growing up in Mississippi and the impact it had on her community. The story looks specifically at the death of five men who were quite close to her. She tells the story from both sides. She has chapters that start at the present and work there ways backwards and chapters that start at her birth and work forwards.</description>
+    </item>
+    
+    <item>
+      <title>Stories of Your Life and Others</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/ted_chiang_story_of_your_life/</link>
+      <pubDate>Thu, 26 Nov 2020 15:55:55 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/ted_chiang_story_of_your_life/</guid>
+      <description>Stories of Your Life and Others is a book of science fiction short stories by Ted Chiang. Chiang is one of my favorite writers. I love the way he brings real science into his science fiction. He is not writing about completely fictional worlds. He uses science fiction to force us to think about our own world and our own science in a different way.
+This book is for sure weaker than his other book of short stories Exhalation.</description>
+    </item>
+    
+    <item>
+      <title>Golden Gates: Fighting for Housing in America</title>
+      <link>https://judahgnewman.netlify.com/writing/books/2020/golden_gates/</link>
+      <pubDate>Thu, 26 Nov 2020 15:52:02 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/books/2020/golden_gates/</guid>
+      <description>Golden Gates by Conor Daugherty tells a meandering story of housing in the Bay Area. It combines individual stories focused on specific actors with a larger look at housing policy. We hear about community activists, politicians and people being forced from their homes. It combines a larger argument about problems with housing with an in depth looking at how the housing crisis impacts individual people.
+Reading The Color of Law by Richard Rothstein gave me a sense of historical patterns and how the housing market has become so inequitable.</description>
+    </item>
+    
+    <item>
+      <title>Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/deconstructing_filter_bubble/</link>
+      <pubDate>Thu, 26 Nov 2020 15:47:47 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/deconstructing_filter_bubble/</guid>
+      <description>By Guy Aridor, Duarte Goncalves, Shan Sikdar
+Paper Link
+Paper Motivation There is a common theory that recommender systems lead to user consuming more similar content over time. This kind of affect is called a filter bubble where each user or group of users ends up in their own little bubble.
+Paper Contribution The paper finds that recommendation can alleviate natural-filter bubble effects, but it also leads to more homogeneity across users.</description>
+    </item>
+    
+    <item>
+      <title>Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/fairness_practitioners_needs/</link>
+      <pubDate>Thu, 26 Nov 2020 15:42:48 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/fairness_practitioners_needs/</guid>
+      <description>By Kenneth Holsten, Jennifer Wortman Vaughn, Hal Daume III, Miroslav Dudik and Hanna Wallach
+Paper Link
+Paper Motivation There has been a recent surge in research developing tools to mitigate harms of machine learning. For these tools to have an impact they must actually meet industry practitioners needs
+Paper Contribution The paper outlines commercial teams‘ challenges and needs when developing fairer ML systems. The authors outline where there is disconnect between the current research and what people actually need.</description>
+    </item>
+    
+    <item>
+      <title>“Data Strikes”: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/data_strikes/</link>
+      <pubDate>Thu, 26 Nov 2020 15:32:49 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/data_strikes/</guid>
+      <description>By Nicholas Vincent, Brent Hecht, Shilad Sen
+Paper Link
+Paper Motivation There have been some calls for “data strikes“ in response to worries about the power of large technology companies. These strikes aim to starve business plans predicated on collecting large amounts of user data. Little is known about how a data strike would work or if it would even be effective.
+Paper Contribution Focusing on recommender systems, the authors simulate data strikes under many conditions.</description>
+    </item>
+    
+    <item>
+      <title>The Hardware Lottery</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/hardware_lottery/</link>
+      <pubDate>Thu, 26 Nov 2020 15:32:23 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/hardware_lottery/</guid>
+      <description>By Sara Hooker
+Paper Link
+Paper Motivation Through out history we have seen different research ideas win and lose. Why do some win and others lose? Do the superior ideas always win out?
+Paper Contribution This paper introduces the term hardware lottery to explain how some research ideas win out because they are best fit to the current state of hardware. It does not win out because the idea is superior to other research directionsThe author uses examples from early computer science research to show how the hardware lottery can delay research progress.</description>
+    </item>
     
     <item>
       <title>Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence</title>
@@ -1075,7 +1180,7 @@ A lot has happened over the past year. In 2018, I graduated college and started 
       <guid>https://judahgnewman.netlify.com/research/</guid>
       <description>Current Project I have found it hard to execute on independent research projects while working full time. Currently the way I interact with researcher is mostly as a consumer. My recent reading and thinking has been in the space of fair AI.
 Recently read papers about fair AI
- What is AI Literacy? Competencies and Design Considerations Equality of Opportunity in Supervised Learning A Framework for Understanding Unintended Consequences of Machine Learning Reliance on Metrics is a Fundamental Challenge for AI Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence  Writing about fair AI</description>
+ What is AI Literacy? Competencies and Design Considerations Equality of Opportunity in Supervised Learning A Framework for Understanding Unintended Consequences of Machine Learning Reliance on Metrics is a Fundamental Challenge for AI Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?</description>
     </item>
     
     <item>

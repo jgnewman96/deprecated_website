@@ -17,6 +17,7 @@ Recently read papers about fair AI
 * [A Framework for Understanding Unintended Consequences of Machine Learning]({{< ref  "/writing/papers/2020/ML_harms_framework"  >}})
 * [Reliance on Metrics is a Fundamental Challenge for AI]({{< ref  "/writing/papers/2020/reliance_on_metrics"  >}})
 * [Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence]({{< ref  "/writing/papers/2020/decolonial_ai"  >}})
+* [Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?]({{< ref  "/writing/papers/2020/fairness_practitioners_needs"  >}})
 
 Writing about fair AI
 
