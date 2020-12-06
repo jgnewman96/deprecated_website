@@ -6,10 +6,22 @@
     <description>Recent content in Writings on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2020 16:04:02 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 06 Dec 2020 15:43:44 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Principles and Practices of Explainable Machine Learning</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/principles_xai/</link>
+      <pubDate>Sun, 06 Dec 2020 15:43:44 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/principles_xai/</guid>
+      <description>By Vaishak Belle and Papantonis Ioannis
+Paper Link
+Paper Motivation Artificial intelligence has the potential for a large positive impact. Introducing AI will result in significant change in complex systems. There has been a growing concern about how to trust and understand AI. Current practitioners may not be aware of approaches emerging from academic literature about how to better understand models.
+Paper Contribution This paper is a survey to help practitioners understand the field of explainable machine learning and know which are the right tools to apply.</description>
+    </item>
     
     <item>
       <title>The Hidden Girl and Other Stories</title>

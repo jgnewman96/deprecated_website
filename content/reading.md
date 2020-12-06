@@ -70,6 +70,7 @@ Regular Internet Reading 
 * [Wait but Why](https://waitbutwhy.com/): Tim Urban
 * [Paul Graham](http://paulgraham.com/index.html)
 * [The Long Form](https://longform.org/)
+* [Matthew Yglesias](https://www.slowboring.com/) ($80 a year)
 
 
 [Here](https://docs.google.com/spreadsheets/d/1LJM3EJrV8Gx8W0Hk-_i2BhHy1QEer_wZ91dlC22D7a8/edit?usp=sharing) is a spreadsheet that contains the most insightful articles I read every week

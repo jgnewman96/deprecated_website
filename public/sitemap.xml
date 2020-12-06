@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
-    <lastmod>2020-11-26T16:04:02-06:00</lastmod>
+    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/categories/</loc>
+    <loc>https://judahgnewman.netlify.com/tags/machine-learning/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/papers/2020/principles_xai/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/tags/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/writing/</loc>
+    <lastmod>2020-12-06T15:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://judahgnewman.netlify.com/categories/books/</loc>
     <lastmod>2020-11-26T16:04:02-06:00</lastmod>
   </url>
   
@@ -18,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://judahgnewman.netlify.com/tags/</loc>
-    <lastmod>2020-11-26T16:04:02-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://judahgnewman.netlify.com/writing/books/2020/hidden_girl/</loc>
-    <lastmod>2020-11-26T16:04:02-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/</loc>
-    <lastmod>2020-11-26T16:04:02-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/writing/</loc>
     <lastmod>2020-11-26T16:04:02-06:00</lastmod>
   </url>
   
@@ -84,11 +99,6 @@
   
   <url>
     <loc>https://judahgnewman.netlify.com/writing/papers/2020/deconstructing_filter_bubble/</loc>
-    <lastmod>2020-11-26T15:47:47-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/categories/papers/</loc>
     <lastmod>2020-11-26T15:47:47-06:00</lastmod>
   </url>
   
@@ -145,11 +155,6 @@
   <url>
     <loc>https://judahgnewman.netlify.com/writing/industry/cr/reflections_on_election_season/</loc>
     <lastmod>2020-11-08T16:06:28-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://judahgnewman.netlify.com/tags/machine-learning/</loc>
-    <lastmod>2020-09-24T16:03:09-07:00</lastmod>
   </url>
   
   <url>

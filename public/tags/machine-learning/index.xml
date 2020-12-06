@@ -6,10 +6,22 @@
     <description>Recent content in Machine Learning on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 16:03:09 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 06 Dec 2020 15:43:44 -0600</lastBuildDate>
     
 	<atom:link href="https://judahgnewman.netlify.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Principles and Practices of Explainable Machine Learning</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/principles_xai/</link>
+      <pubDate>Sun, 06 Dec 2020 15:43:44 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/principles_xai/</guid>
+      <description>By Vaishak Belle and Papantonis Ioannis
+Paper Link
+Paper Motivation Artificial intelligence has the potential for a large positive impact. Introducing AI will result in significant change in complex systems. There has been a growing concern about how to trust and understand AI. Current practitioners may not be aware of approaches emerging from academic literature about how to better understand models.
+Paper Contribution This paper is a survey to help practitioners understand the field of explainable machine learning and know which are the right tools to apply.</description>
+    </item>
     
     <item>
       <title>Reliance on Metrics is a Fundamental Challenge for AI</title>
