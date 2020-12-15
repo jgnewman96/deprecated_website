@@ -11,7 +11,7 @@ layout: "single"
 What I am Currently Reading
 {{< /center >}}
 
-![](/img/seeing_like_a_state.jpg?style=centerme)\
+![](/img/design_everyday_things.jpg?style=centerme)\
 \
 ![](/img/effective_python.jpg?style=centerme)
 
@@ -22,14 +22,13 @@ Books Recently Read
 
 {{< /center >}}
 
-
+![](/img/transcendent_kingodm.jpg?style=centerme)\
+\
+![](/img/seeing_like_a_state.jpg?style=centerme)\
+\
 ![](/img/hidden_girl.jpg?style=centerme)\
 \
-![](/img/UKL_writing.jpg?style=centerme)\
-\
-![](/img/memory_police.jpg?style=centerme)\
-\
-![](/img/men_we_reaped.jpg?style=centerme)
+![](/img/UKL_writing.jpg?style=centerme)
 
 
 
