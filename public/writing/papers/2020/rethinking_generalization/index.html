@@ -70,7 +70,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.73.0" />
+ <meta name="generator" content="Hugo 0.80.0" />
     
 
     
@@ -153,7 +153,7 @@
 <h3 id="papers-contribution">Papers Contribution</h3>
 <p>Using many experiments, the authors show that these traditional approaches do not provide a satisfactory answers for why deep learning generalizes well. Regularization is not what leads to good generalization, and state of the art deep learning can successfully fit random noise.</p>
 <h3 id="background">Background</h3>
-<p>Neural networks often have more parameters than the number of data examples they are trained on. Yet these models do not exhibit overfitting. We observe a “small&rdquo; generalization error (the difference between training and test error)</p>
+<p>Neural networks often have more parameters than the number of data examples they are trained on. Yet these models do not exhibit overfitting. We observe a “small&quot; generalization error (the difference between training and test error)</p>
 <p>So why do some neural networks generalize well and others that don&rsquo;t?. The traditional view of generalization is unable to distinguish between neural networks that generalize well and those that do not.</p>
 <h3 id="randomization-tests">Randomization Tests</h3>
 <p>The authors ran an experiment where the true labels for a data set are replaced with random ones. The goal of this test is to understand the model capacity of a neural network. Even with random labels the neural networks achieve 0 training error. This means test error is equivalent to the results of a random guess because there is no correlation between the training data and the test data. As a result of changing our data, generalization error has gone up a lot without changing anything about the model. This may be a surprising result because if there is no signal in the data we would expect the network would struggle to learn anything.</p>

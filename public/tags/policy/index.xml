@@ -6,10 +6,18 @@
     <description>Recent content in Policy on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2020 15:47:47 -0600</lastBuildDate>
-    
-	<atom:link href="https://judahgnewman.netlify.com/tags/policy/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 11 Jan 2021 12:49:56 -0600</lastBuildDate><atom:link href="https://judahgnewman.netlify.com/tags/policy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On the Legal Compatibility of Fairness Definitions</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2021/legal_compatability_fairness/</link>
+      <pubDate>Mon, 11 Jan 2021 12:49:56 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2021/legal_compatability_fairness/</guid>
+      <description>Paper Link
+By Alice Xiang: Linkedin, Twitter and Inioluwa Deborah Raji: Linkedin, Twitter
+Paper Motivation There has be a lot of literature that demonstrates gaps in machine learning fairness definitions.
+Paper Contribution This paper shows that current fairness definitions misunderstand the legal terminology they claim to be derived from. These definitions are inappropriately co-opting legal language. This paper shows examples of this misalignment and explains what we can learn from these differences.</description>
+    </item>
     
     <item>
       <title>Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>

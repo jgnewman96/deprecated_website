@@ -6,10 +6,24 @@
     <description>Recent content in Tags on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Dec 2020 17:04:43 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jan 2021 12:49:56 -0600</lastBuildDate><atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Policy</title>
+      <link>https://judahgnewman.netlify.com/tags/policy/</link>
+      <pubDate>Mon, 11 Jan 2021 12:49:56 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/policy/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://judahgnewman.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Design</title>
+      <link>https://judahgnewman.netlify.com/tags/design/</link>
+      <pubDate>Mon, 11 Jan 2021 12:12:35 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fiction</title>
@@ -57,15 +71,6 @@
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://judahgnewman.netlify.com/tags/design/</link>
-      <pubDate>Thu, 26 Nov 2020 16:03:45 -0600</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Non-Fiction</title>
       <link>https://judahgnewman.netlify.com/tags/non-fiction/</link>
       <pubDate>Thu, 26 Nov 2020 16:03:45 -0600</pubDate>
@@ -80,15 +85,6 @@
       <pubDate>Thu, 26 Nov 2020 15:58:34 -0600</pubDate>
       
       <guid>https://judahgnewman.netlify.com/tags/race/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Policy</title>
-      <link>https://judahgnewman.netlify.com/tags/policy/</link>
-      <pubDate>Thu, 26 Nov 2020 15:47:47 -0600</pubDate>
-      
-      <guid>https://judahgnewman.netlify.com/tags/policy/</guid>
       <description></description>
     </item>
     

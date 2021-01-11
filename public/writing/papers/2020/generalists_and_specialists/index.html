@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
+    
+    <style>
+
+    html body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: azure;
+    }
+
+    :root {
+        --accent: darkolivegreen;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://judahgnewman.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.80.0" />
+    
+
+    
+
+
+    
+
+
+</head>
+
+<body>
+    
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="/">Home</a></li>
+                    
+                    <li><a href="/about/">About</a></li>
+                    
+                    <li><a href="/writing/">Writing</a></li>
+                    
+                    <li><a href="/reading/">Reading</a></li>
+                    
+                    <li><a href="/research/">Research</a></li>
+                    
+                </ul>
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="navbar-icon"><a href="mailto:judah.newman@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://github.com/jgnewman96/"><i class="fa fa-github"></i></a></li>
+                    
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/jgnewman96/"><i class="fa fa-linkedin"></i></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+<main>
+
+    <div>
+        <h2>Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</h2>
+        <h5></h5>
+        <h7 class="section-heading">
+            
+<a href="https://judahgnewman.netlify.com/tags/design"><kbd class="item-tag">Design</kbd></a>
+
+
+<a href="https://judahgnewman.netlify.com/categories/papers"><kbd class="item-category">Papers</kbd></a>
+
+            
+            
+            
+            <br>
+            <i class="far fa-clock"></i> Reading Time: 6 minutes
+    </div>
+
+
+
+
+    <div align="start" class="content"><p><a href="https://dl.acm.org/doi/10.1145/3308558.3313729">Paper Link</a></p>
+<p>By <a href="https://waller.is/">Isaac Waller</a> and <a href="http://www.cs.toronto.edu/~ashton/">Ashton Anderson</a></p>
+<h3 id="paper-motivation">Paper Motivation</h3>
+<p>In most spheres individuals are phased with the tradeoff between being a generalist or a specialist. Online platforms are no different. The authors wanted to explore if users concentrate deeply with a narrow focus or apply themselves less deeply but more broadly</p>
+<h3 id="paper-contribution">Paper Contribution</h3>
+<p>The authors define a measure of how generalist or specialist a user. The authors do so by creating community embeddings that represent communities in a high-dimensional space. Using their metrics the authors find online platforms contain a lot of diversity including extreme specialists and extreme generalists. The authors observe behavior on both Reddit and Github.</p>
+<p>The authors find some behavior to be more common of specialists or generalists. Specialists stay in communities they contribute to where as generalists are more likely to stay on the platform as a whole. Generalists also engage with more diverse sets of users than specialists.</p>
+<h3 id="background">Background</h3>
+<p>The specialist versus generalist framework is common across many different domains. It is a trade-off between breadth and depth. Viewing social networks through this lens elicits a number of questions.</p>
+<ul>
+<li>How connected is a platform on a global level? If almost all users are specialists then the platform is probably made up of isolated communities.</li>
+<li>Are users behavior patterns a result of their nature or based on the incentives of the platform itself?</li>
+<li>There has been much discussion in other realms about whether being a specialist or generalist leads to more success. Could we look at onlike platform through a similar light?</li>
+</ul>
+<p>There are many real challenges in studying users diversity in actions. Measuring similarity between different types of activities is difficult. Previous researchers have used entropy as a measure of similarity. Entropy does not recognize the similarity in different communities though.</p>
+<h4 id="community-embeddings">Community Embeddings</h4>
+<p>The authors present a new methodology to study generalists and specialists. In Reddit the authors are interested in the diversity of subreddits that users participate in. On GitHub the authors look at the different code repositories that users interact with.</p>
+<p>The authors adopt <a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a> to create a vector for each community.  They treat users in a community as the context for that community. Two communities are similar if the same users frequently comment in both of them.To measure the quality of their embeddings the authors perform a similar analogy task to what is done with word embeddings.  With good word embeddings if you subtract man from king and add women you should get queen. The authors adopt this process for their community embeddings. The authors use these vectors to define a similarity between any two communities using cosine similarity.To get the best possible community embeddings the authors performed a grid search over hyper parameters. Finding the right hyper parameters lead to a large increase in performance. Small changes in hyper parameters can lead to a sharp decline in performance.</p>
+<p>A user&rsquo;s activity can now be represented as a distribution over the points in this vector space of communities. A specialists distribution would be very concentrated while a generalists would be quite diffuse. The authors define A <strong>Generalists-Specialist Score</strong> or GS-Score as the weighted difference between the centroid of their distribution and all their other activity. GS-Score can range from -1 to 1 where -1 is an extreme generalist and 1 is a specialist. The authors validate there GS-Score by running an online quiz and showing people users behavior. They ask users to rank people in terms of specialist and generalist.</p>
+<h4 id="results">Results</h4>
+<p>The results from the paper can be divided into two categories. Users and community.
+<strong>users</strong></p>
+<ul>
+<li>There exists both extreme generalists and extreme specialists with most people lying with a score of between 0.5 and 1.</li>
+<li>On Reddit specialists comments average more upvotes than generalists</li>
+<li>The finding that specialists and generalists stay on the platform in different ways has interesting design implications. Platform designers might want to encourage exploration where community managers might want to seek out specialists.</li>
+<li>Generalists interact with a more diverse set of users than specialists</li>
+</ul>
+<p><strong>communties</strong></p>
+<ul>
+<li>The authors define the activity diversity of a community as the average activity diversity of its users.</li>
+<li>The authors use their community embeddings to generate community reccomendations based on similarity in their vector space. It performs just as well aa state of the art collaborative filtering.</li>
+<li>The GS Score can also be helpful in predicting user retention. The authors train a simple logistic regression model using comment count, entropy and GS-score as features. GS-score is a really helpful feature.</li>
+</ul>
+<h2 id="my-closing-thoughts">My Closing Thoughts</h2>
+<p>I thought this was a really solid paper. It takes a framework from another discipline and then applies that to study social networks. The paper does a good job of outlining why the specialist and generalist framework is helpful and quantifying it in this new space. I personally found the results from their experiments less interesting, but for those designing social networks this provides a very insightful way to do research about your platform. I would be suprised if a lot of social networks are not all ready doing this.</p>
+<p>One thing I have trouble wrapping my head around is how much performance depends on finding the correct hyper parameters. Such depedence on hyper parameters makes me uncomfortable because it feels like the model is not robust. Hyper parameters are especially difficult when I am unable to wrap my head around why certain ones are better. With my most hyper parameters we can intuitively understand what the impact of increasing or decreasing the value is. But when there are a lot of hyper parameters and they interact in complex ways that can be quite difficult.</p>
+<p>I felt the reccomendation part of the paper was not very strong. They framed reccomendation as trying to predict which communities a user will join in the next six months. I think having a stronger framework for a reccomendation task can be really important. I really enjoyed this <a href="https://judahgnewman.netlify.com/writing/papers/2020/deconstructing_filter_bubble/">paper</a> that I read earlier this year that has a really strong framework for reccomendation. One idea from this paper that is worth further exploration is that recommendations are more important for specialists then they are for generalists.</p>
+<p>This paper had a slightly different structure than a lot of the other academic papers I read. The related work section was at the end and the introduction was a lot longer. The introduction was packed with a ton of really good information. A helpful framework to think about organizing a paper might be thinking in terms of drop off. The highest number of people are going to read your abstract. Some percentage of users will drop off after the abstract. If we want to maximize engangement with our paper then we should try and put as much up front to get people to keep reading.</p>
+</div>
+
+    <script src="https://utteranc.es/client.js" repo="jgnewman96/website" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+
+
+</main>
+
+
+
+
+
+<footer>
+    <p class="copyright text-muted">
+        © 2019 - 2020 Judah Newman,  All opinions are my own. Theme adopted from <a href="https://themes.gohugo.io/minimal/">Minimal</a>. Powered by <a href="https://gohugo.io">Hugo</a>
+    </p>
+</footer>
+
+
+
+</body>
+
+
+</html>

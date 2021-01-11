@@ -6,11 +6,7 @@
     <description>Recent content in Data Science on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2020 15:42:48 -0600</lastBuildDate>
-    
-	<atom:link href="https://judahgnewman.netlify.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Nov 2020 15:42:48 -0600</lastBuildDate><atom:link href="https://judahgnewman.netlify.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?</title>
       <link>https://judahgnewman.netlify.com/writing/papers/2020/fairness_practitioners_needs/</link>

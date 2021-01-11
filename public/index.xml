@@ -6,10 +6,30 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Dec 2020 17:04:43 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jan 2021 12:49:56 -0600</lastBuildDate><atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On the Legal Compatibility of Fairness Definitions</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2021/legal_compatability_fairness/</link>
+      <pubDate>Mon, 11 Jan 2021 12:49:56 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2021/legal_compatability_fairness/</guid>
+      <description>Paper Link
+By Alice Xiang: Linkedin, Twitter and Inioluwa Deborah Raji: Linkedin, Twitter
+Paper Motivation There has be a lot of literature that demonstrates gaps in machine learning fairness definitions.
+Paper Contribution This paper shows that current fairness definitions misunderstand the legal terminology they claim to be derived from. These definitions are inappropriately co-opting legal language. This paper shows examples of this misalignment and explains what we can learn from these differences.</description>
+    </item>
     
-	<atom:link href="https://judahgnewman.netlify.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/generalists_and_specialists/</link>
+      <pubDate>Mon, 11 Jan 2021 12:12:35 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/generalists_and_specialists/</guid>
+      <description>Paper Link
+By Isaac Waller and Ashton Anderson
+Paper Motivation In most spheres individuals are phased with the tradeoff between being a generalist or a specialist. Online platforms are no different. The authors wanted to explore if users concentrate deeply with a narrow focus or apply themselves less deeply but more broadly
+Paper Contribution The authors define a measure of how generalist or specialist a user. The authors do so by creating community embeddings that represent communities in a high-dimensional space.</description>
+    </item>
     
     <item>
       <title>Transcendent Kingdom</title>

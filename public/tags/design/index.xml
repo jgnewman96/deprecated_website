@@ -6,10 +6,18 @@
     <description>Recent content in Design on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2020 16:03:45 -0600</lastBuildDate>
-    
-	<atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 11 Jan 2021 12:12:35 -0600</lastBuildDate><atom:link href="https://judahgnewman.netlify.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
+      <link>https://judahgnewman.netlify.com/writing/papers/2020/generalists_and_specialists/</link>
+      <pubDate>Mon, 11 Jan 2021 12:12:35 -0600</pubDate>
+      
+      <guid>https://judahgnewman.netlify.com/writing/papers/2020/generalists_and_specialists/</guid>
+      <description>Paper Link
+By Isaac Waller and Ashton Anderson
+Paper Motivation In most spheres individuals are phased with the tradeoff between being a generalist or a specialist. Online platforms are no different. The authors wanted to explore if users concentrate deeply with a narrow focus or apply themselves less deeply but more broadly
+Paper Contribution The authors define a measure of how generalist or specialist a user. The authors do so by creating community embeddings that represent communities in a high-dimensional space.</description>
+    </item>
     
     <item>
       <title>Ursula K. Le Guin: Conversations on Writing</title>
